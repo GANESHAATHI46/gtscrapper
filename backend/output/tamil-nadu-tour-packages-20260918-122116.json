@@ -1,0 +1,378 @@
+{
+  "source": "GT Holidays",
+  "listing_url": "https://www.gtholidays.in/packages/india/south-india/tamil-nadu-tour-packages/",
+  "page_title": "Tamil Nadu Tour Packages",
+  "country": "India",
+  "region": "South India",
+  "destination": "Tamil Nadu",
+  "total_packages": 5,
+  "success_count": 5,
+  "failed_count": 0,
+  "scraped_at": "2026-09-18T12:21:16.478465+05:30",
+  "packages": [
+    {
+      "name": "Exciting Special Hill Tour Package",
+      "slug": "exciting-special-hill-tour-package",
+      "source_url": "https://www.gtholidays.in/package/hill-station-tour-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Bangalore – Mysore – Ooty – Kodaikanal",
+      "destinations": [
+        "Bangalore",
+        "Mysore",
+        "Ooty",
+        "Kodaikanal"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Of the many hill stations in Tamil Nadu, Ooty and Kodaikanal are definitely special. While both are part of the Western Ghats, the two are distinct in terms of outdoor activities offered and natural attractions. We’ve made it easy for you to appreciate both places with our Tamil Nadu hill station tour package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Bangalore – Mysore",
+          "description": "Upon arrival in Bangalore, our tour manager will welcome and travel with you to Mysore. The journey takes around 3 hours by road and is beautiful thanks to the scenic villages and numerous streetside restaurants selling delicious thatte idli. On the way to the city, you will visit the Chamundi Hills, Mysore Zoo, Brindavan Gardens, Mysore Lake, and the St Philomena Church. Check into a comfortable hotel and spend the night in Mysore."
+        },
+        {
+          "day": 2,
+          "title": "Mysore – Ooty",
+          "description": "After a sumptuous breakfast, head for a scenic road drive to Ooty. It takes about 4 hours to reach Ooty, the Queen of Hill Stations. Check in to your hotel and spend the rest of the evening relaxing or enjoying a night tour of the Ooty Lake. You can also visit the Botanical Gardens. Spend the night at a luxury hotel in Ooty."
+        },
+        {
+          "day": 3,
+          "title": "Ooty",
+          "description": "After a sumptuous breakfast, head out to explore Ooty. You will cover the Dodabetta Peak, the Botanical Garden, Ooty Lake, Lamb’s Rock, the Rose Garden, the Tea Factory, the Mudumalai Tiger Reserve, and the Pykara Waterfalls. Spend the night at a hotel in Ooty."
+        },
+        {
+          "day": 4,
+          "title": "Ooty – Kodaikanal",
+          "description": "After breakfast, check out of your hotel and head to Kodaikanal. The beautiful journey takes around 6 hours, with winding roads meandering through lush forests. Check into the hotel and spend the rest of the day relaxing and enjoying the places around it. Spend the night in Kodaikanal."
+        },
+        {
+          "day": 5,
+          "title": "Kodaikanal",
+          "description": "After a sumptuous breakfast, head to explore Kodaikanal town. Some famous tourist attractions you will cover include Coaker’s Walk, Green Valley View, Byrant Park, Pillars Rock, Kodai Lake, and Kurinji Andavar Temple. Return to the hotel to spend the rest of the evening exploring the nearby carrot and potato farms."
+        },
+        {
+          "day": 6,
+          "title": "Kodaikanal – Bangalore",
+          "description": "Today is the last day of your hill station tour package. After breakfast, check out of the hotel and head to Bangalore by car."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Lal-Bagh-glass-house-tour-packages-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Lal-Bagh-glass-house-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Mysore-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/St.-Patricks-Cathedrel-famaliy-trip-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Mysore-palace-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Mysore-zoo-holiday-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kovalam-summer-vacation-packages-870x555.jpg"
+      ],
+      "location": "Bangalore – Mysore – Ooty – Kodaikanal",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:21:10.874336+05:30"
+    },
+    {
+      "name": "Exotic Tamil Nadu Travel Package",
+      "slug": "exotic-tamil-nadu-travel-package",
+      "source_url": "https://www.gtholidays.in/package/tamilnadu-tour-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Madurai – Kodaikanal – Rameshwaram – Kanyakumari – Trivandrum",
+      "destinations": [
+        "Madurai",
+        "Kodaikanal",
+        "Rameshwaram",
+        "Kanyakumari",
+        "Trivandrum"
+      ],
+      "duration": "6 Nights 7 Days",
+      "nights": 6,
+      "days": 7,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "The state of Tamil Nadu offers a potpourri of destinations for visitors to explore. From the serenity of beaches and temples to the rich cultural history of world heritage sites, there are no limitations to the gems you can uncover. If you want to travel to Tamil Nadu, then do check out our Tamil Nadu tour package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Madurai",
+          "description": "Upon arriving in Madurai, our tour representatives will greet you and help you get to your hotel. Once the check-in formalities are complete, head out to explore the city of Madurai. Start off with the Arulmigu Meenakshi Sundareswarar Temple. Also known as Arulmigu Meenakshi Amman Thirukkovil, the temple is dedicated to the goddess Meenakshi Amman Nayak. Visit Teppakulam and enjoy a light and sound show at Thirumalai Nayak Palace before going back to your hotel for the night."
+        },
+        {
+          "day": 2,
+          "title": "Madurai - Kodaikanal",
+          "description": "Leave for the hill station of Kodaikanal on this day. After checking-in to your hotel, head out to Bryant Park, which is home to a wide variety of plants and shrubs. Return to your hotel for the night."
+        },
+        {
+          "day": 3,
+          "title": "Kodaikanal",
+          "description": "Dedicate this day to exploring all the popular sightseeing spots in Kodaikanal. You will be taken to places such as Green Valley View Point, Coaker's Walk, Pillar Rocks, Shenbaganur Museum, Chettiar Park, and the many waterfalls that Kodaikanal is home to."
+        },
+        {
+          "day": 4,
+          "title": "Kodaikanal - Madurai",
+          "description": "Make your way back to Madurai from Kodaikanal. Experience the beauty of Alagar Kovil and peruse through the Gandhi Memorial Museum before getting back to your hotel in Madurai."
+        },
+        {
+          "day": 5,
+          "title": "Madurai – Rameshwaram",
+          "description": "Today, you will be moving to Rameshwaram, which is revered to be one of the holiest destinations in India. After reaching your hotel and freshening up, leave at noon to uncover the famous attractions of Rameshwaram. Visit the Ramjharoka Temple, Sri Arulmigu Ramanathaswamy Temple, Agnitheertham, Dhanushkodi, and Adam's Bridge. Spend the night at your hotel in Rameshwaram."
+        },
+        {
+          "day": 6,
+          "title": "Rameshwaram - Kanyakumari",
+          "description": "Make your way from Rameshwaram to Kanyakumari in the morning. Situated in the southernmost region of India, Kanyakumari is home to a range of culturally and historically important spots. Our tour representatives will take you to the Kumari Amman Temple, Suchindram Theroor Bird Sanctuary, Vivekananda Rock Memorial, Triveni Sangamam, and Gandhi Memorial. Breathe in the view of a gorgeous sunset at Kanyakumari Beach before heading back to your hotel."
+        },
+        {
+          "day": 7,
+          "title": "Kanyakumari – Trivandrum – Depart Trivandrum",
+          "description": "On the last day of your trip, you will be driven to Trivandrum. Stop by the Padmanabhapuram Palace on your way. The capital of Kerala has much to offer in terms of sightseeing. Make sure to visit the Sree Padmanabhaswamy Temple and the Government Secretariat. Later on, leave for the airport or railway station to board your flight or train back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Vivekananda-rock-summer-packages-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Vivekananda-rock-summer-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/kanyakumari-vacvation-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Gandhi-Museum-Madurai-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Bryant-Park-Kodaikanal-holiday-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Boating-in-Kodaikanal-lake-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kodaikanal-lake-870x555.jpg"
+      ],
+      "location": "Madurai – Kodaikanal – Rameshwaram – Kanyakumari – Trivandrum",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:21:12.358192+05:30"
+    },
+    {
+      "name": "Scenic Madurai Kodaikanal Tour Package",
+      "slug": "scenic-madurai-kodaikanal-tour-package",
+      "source_url": "https://www.gtholidays.in/package/madurai-kodaikanal-tour-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Madurai – Kodaikanal",
+      "destinations": [
+        "Madurai",
+        "Kodaikanal"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Tamil Nadu has such an eclectic bunch of marvels to present to tourists worldwide. There is Madurai with its temples and holy sites, and Kodaikanal with its forests and beaches that will leave you mesmerised. If you wish to explore these gems of Tamil Nadu, then check out our Madurai Kodaikanal tour package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Madurai",
+          "description": "Upon your arrival in Madurai, our tour representatives will greet you and help you transfer to your hotel. After completing the check-in formalities, freshen up and relax for a while before leaving for a delightful day of sightseeing. Some of the spots you will be visiting are Meenakshi Amman Temple, Thiruparankundram Murugan Temple, Pazhamudhir Solai, and Teppakulam. Later in the day, enjoy a light and sound show at Thirumalai Nayak Palace. Stay overnight at your hotel in Madurai."
+        },
+        {
+          "day": 2,
+          "title": "Madurai - Kodaikanal",
+          "description": "In the morning, have your breakfast and check out from your hotel in Madurai to leave for Kodaikanal. After getting to Kodaikanal, check-in to your hotel and get some rest. Once you feel well-rested, venture out to head to Bryant Park, where you can partake in thrilling activities such as boating, horse riding, and cycling. Return to your hotel to get a good night’s sleep."
+        },
+        {
+          "day": 3,
+          "title": "Kodaikanal",
+          "description": "Popular for being ‘the princess of hill stations’, today you will be exploring the beauty of Kodaikanal. After having a delicious breakfast, you will be taken to the most beloved spots in this delightful hill station. The first spot will be Coaker's Walk, a manmade bridge that offers you a fabulous panoramic view of Kodaikanal. You will then be visiting Pillar Rocks, Chettiar Park, Green Valley View Point, and the many waterfalls that Kodaikanal is home to."
+        },
+        {
+          "day": 4,
+          "title": "Depart Madurai",
+          "description": "Have a filling breakfast and leave Kodaikanal to head to Madurai. You will then be leaving for the airport or railway station in Madurai to get back to your hometown."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Madurai-family-tour-packages-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Madurai-family-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Columns-rocks-travel-pacakges-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Pillar-Rocks-Kodaikanal-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kodaikanal-honeymoon-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Silver-falls-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Meenakshiamman-temple-tour-packages-870x555.jpg"
+      ],
+      "location": "Madurai – Kodaikanal",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:21:14.221566+05:30"
+    },
+    {
+      "name": "South Pilgrimage Tour Package",
+      "slug": "south-pilgrimage-tour-package",
+      "source_url": "https://www.gtholidays.in/package/pilgrimage-tour-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Madurai – Rameshwaram – Kanyakumari – Trivandrum",
+      "destinations": [
+        "Madurai",
+        "Rameshwaram",
+        "Kanyakumari",
+        "Trivandrum"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "A pilgrimage rejuvenates the body and soul and helps connect with oneself. Tamil Nadu, known as the Land of Temples, is an ideal pilgrimage destination for spiritual seekers. If you’d like to explore the many temples of South Tamil Nadu, check our pilgrimage tour package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Madurai",
+          "description": "Upon your arrival at Madurai Railway Station or Airport, our tour representatives will greet you and help you get to your hotel. After completing the check-in formalities, freshen up and relax in your room for a while. Later in the day, head out to explore the city of Madurai. Start off with Meenakshi Amman Temple which was built to celebrate the union of Lord Shiva and Goddess Parvati. Proceed to visit the Thiruparankundram Murugan Temple, which was built during the Pandya empire in the 8th century. Next, you will be taken to the Thirumalai Nayakkar Palace, which was built by King Tirumala Nayaka in 1636. Finish off the day by visiting the Gandhi Memorial Museum and Alagar Kovil."
+        },
+        {
+          "day": 2,
+          "title": "Madurai - Rameshwaram",
+          "description": "In the morning, check out of your hotel in Madurai and journey towards Rameshwaram. After you get done with the check-in process at your hotel, freshen up and head out to experience the many holy places in Rameshwaram. The first place you will be taken to is the Sri Ramanathaswamy Temple. Made up of towers, corridors, and intricate details, this temple is one among the 12 Jyotirlingas in India. Head over to Agnitheertham, which is situated on the eastern beach corner of Sri Ramanathaswamy Temple. The other places you will be exploring are Dhanushkodi, Ramar Padam, and Adam's Bridge."
+        },
+        {
+          "day": 3,
+          "title": "Rameshwaram - Kanyakumari",
+          "description": "Check out from your lodging after having your breakfast, from where you will be driven to Kanyakumari. Situated in the southernmost tip of India, Kanyakumari is a major pilgrimage centre. Upon reaching the coastal town, you can check-in to your hotel and then freshen up to explore the popular tourist spots in Kanyakumari. Experience the Vivekananda Rock Memorial which was built in honour of Swami Vivekananda. Offer your prayers at the Kumari Amman Temple, one of the 108 Shakti Peethas which is home to a statue of Goddess Devi Kanya Kumari. The other spots you will be taken to in Kanyakumari are Suchindram Temple, Gandhi Mandapam, and Triveni Sangamam."
+        },
+        {
+          "day": 4,
+          "title": "Kanyakumari – Trivandrum - Depart Trivandrum",
+          "description": "Enjoy a delicious breakfast in the morning and then leave Kanyakumari to move to Trivandrum. Upon reaching the capital city of Kerala, explore its many tourist attractions. These will include Sree Padmanabhaswamy Temple, Padmanabhapuram Palace, the Government Secretariat, and the Museum of History and Heritage. Later in the day, leave for the airport or railway station to go back to your hometown."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Kanyakumari-thiruvalluvar-statue-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kanyakumari-thiruvalluvar-statue-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kanyakumari-3-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/kanyakumari-vacvation-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Gandhismrithi-kanyakumari-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Rameswaram_temple-2-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Dhanushkodi-church-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Adam_s-scaffold-Rameswaram-tour-packages-870x555.jpg"
+      ],
+      "location": "Madurai – Rameshwaram – Kanyakumari – Trivandrum",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:21:15.355922+05:30"
+    },
+    {
+      "name": "Spiritual South India Tour",
+      "slug": "spiritual-south-india-tour",
+      "source_url": "https://www.gtholidays.in/package/spiritual-tour-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Tirupati – Bangalore – Mysore – Ooty – Madurai – Rameswaram – Kanyakumari",
+      "destinations": [
+        "Tirupati",
+        "Bangalore",
+        "Mysore",
+        "Ooty",
+        "Madurai",
+        "Rameswaram",
+        "Kanyakumari"
+      ],
+      "duration": "9 Nights 10 Days",
+      "nights": 9,
+      "days": 10,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "South India is home to some of the country’s most beautiful temples. These temples are not only religiously significant but also places of art and architecture and help preserve Indian cultural heritage. To explore these temples, check the South India spiritual tour package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Tirupathi",
+          "description": "You will arrive in Tirupathi by train/air to begin your pilgrimage tour. Our tour manager will guide you to the hotel and complete check-in formalities. Spend some time relaxing in the hotel. In the evening, get ready for an optional sightseeing tour of Tirupathi. Spend the night at a hotel in Tirupathi."
+        },
+        {
+          "day": 2,
+          "title": "Tirupathi – Bangalore",
+          "description": "After breakfast, prepare for a darshan of the Sri Venkateshwara Swami Temple and the Padmavati Ammavari Temple in Tiruchanur. While the temple of Lord Srinivasa is atop the seven hills at Tirumala, the temple dedicated to Goddess Padmavathi is at Tirupati. It is believed that devotees must first visit Tirupati before seeking blessings from her consort, Lord Balaji. After darshan and lunch, head to Bangalore to continue with your South India spiritual tour package. The journey takes around 6 hours by train and around 4.5 hours by road. Check into the hotel and spend the rest of the day exploring places around it. Spend the night in Bangalore."
+        },
+        {
+          "day": 3,
+          "title": "Bangalore – Mysore",
+          "description": "After a hearty South Indian breakfast, head out for a city tour. Bangalore, or Bengaluru, is the capital of Karnataka. It was founded around 500 years ago by Kempe Gowda I, a Governor under the Vijayanagara Empire. While the old areas of the city included the neighbourhoods of Ulsoor, Malleshwaram, Basavanagudi, and Shivajinagar, Bangalore grew around these places over time. You will visit Cubbon Park, Tippu Sultan’s Summer Palace, The Mayo Hall, Attara Katcheri, Bangalore Palace, and the famous Bull Temple in Basavanagudi. Later, check out of your hotel and head to Mysore for an overnight stay. The journey takes around 2.5 hours by road. Check into the hotel to spend the night in Sandalwood City."
+        },
+        {
+          "day": 4,
+          "title": "Mysore – Ooty",
+          "description": "Mysore is Bangalore’s second-most populous city. It was founded in 1399 by two brothers, Yaduraya and Krishnaraya. The town gets its name from the demon Mahishashura, who is believed to have ruled the area and was killed by the Goddess Chamundeshwari. After breakfast, head out for a tour of Mysore City. You will visit Mysore Palace, Chamundeshwari Temple, Somnathapura Temple, Jagmohan Palace and Art Gallery, Lalitha Mahal, Sri Chamarajendra Zoological Gardens, and Brindavan Gardens. Later, check out of the hotel and head to Ooty. The journey takes around 3.5 hours by road. Check into the hotel and spend the night at a luxury hotel in Ooty."
+        },
+        {
+          "day": 5,
+          "title": "Ooty",
+          "description": "Ooty, or Uthagamandalam, is part of the Western Ghats and is often described as the Queen of Hills. The town is famous for its toy trains, scenic views of the surrounding mountains, lakes, gardens, and wildlife. After breakfast, you will explore some of Ooty’s top attractions, including the Botanical Gardens, Rose Garden, Doddabetta, Mudumalai Tiger Reserve, Pykara Falls, Avalance Lake, and Tea Factory. Spend the night in Ooty."
+        },
+        {
+          "day": 6,
+          "title": "Ooty to Madurai",
+          "description": "After a hearty breakfast, head to Madurai for your temple tour. The journey takes around 7 hours on the way, you will visit Dolphin’s Nose in Coonoor. Check into a hotel and freshen up. Later in the evening, visit the Madurai Meenakshi Amman Temple. After Darshan, go shopping at the stalls around the temple before heading to the temple. Spend the night at a luxury hotel in Madurai."
+        },
+        {
+          "day": 7,
+          "title": "Madurai",
+          "description": "After a breakfast buffet, head out for a sightseeing tour of Temple City. You will visit the Gandhi Museum, Tirumalai Nayakar Palace, Vandiyur Mariamman Teppakulam, Rajaji Park, and Alagarkoil. After shopping and sampling some of Madurai’s famous street foods, spend the night at a luxury hotel in Madurai."
+        },
+        {
+          "day": 8,
+          "title": "Rameswaram",
+          "description": "After breakfast, head to Rameswaram for a pilgrimage to the Ramanathaswamy Temple. Check into the hotel and spend some time relaxing. Later, you can go on a sightseeing tour of Rameswaram. You will visit the Pamban Bridge, the many Agraharams around the temple, Dhanushkodi, and the Dr A. P. J Abdul Kalam Memorial. Spend the night in Rameswaram."
+        },
+        {
+          "day": 9,
+          "title": "Rameswaram – Kanyakumari",
+          "description": "After breakfast, head to Kanyakumari for the final leg of your South India spiritual tour package. The journey takes 5.5 hours. Check into a hotel and spend the rest of the day enjoying places around it. You will visit the Gandhi Memorial, the Thiruvalluvar Statue, and the sunset. Spend the night in Kanyakumari."
+        },
+        {
+          "day": 10,
+          "title": "Departure",
+          "description": "Today, you will experience the mesmerising sunrise and darshan of the Bhagavathiamman Temple. You will also visit Suchindrum Temple, Thiruvattar Adi Kesava Perumal Temple, and the Padmanabhapuram Palace. Check out of the hotel and head to Coimbatore as your South India spiritual tour package ends."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Dhanushkodi-church-tour-packages-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Dhanushkodi-church-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Vivekananda-rock-summer-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Adam_s-scaffold-Rameswaram-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Meenakshiamman-temple-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Bangalore-holiday-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/ooty-tea-estate-870x555.jpg"
+      ],
+      "location": "Tirupati – Bangalore – Mysore – Ooty – Madurai – Rameswaram – Kanyakumari",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:21:16.475785+05:30"
+    }
+  ],
+  "errors": []
+}

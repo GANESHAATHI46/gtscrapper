@@ -1,0 +1,609 @@
+{
+  "source": "GT Holidays",
+  "listing_url": "https://www.gtholidays.in/packages/india/north-east/gangtok-tour-packages/",
+  "page_title": "Gangtok Tour Packages",
+  "country": "India",
+  "region": "North East",
+  "destination": "Gangtok",
+  "total_packages": 9,
+  "success_count": 9,
+  "failed_count": 0,
+  "scraped_at": "2026-09-18T12:06:48.768689+05:30",
+  "packages": [
+    {
+      "name": "Amazing Gangtok Darjeeling Tour",
+      "slug": "amazing-gangtok-darjeeling-tour",
+      "source_url": "https://www.gtholidays.in/package/darjeeling-tour-package/",
+      "country": "India",
+      "region": "North East",
+      "destination": "Gangtok – Darjeeling",
+      "destinations": [
+        "Gangtok",
+        "Darjeeling"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Darjeeling is undoubtedly the Queen of Hill Stations. It is home to verdant tea plantations, beautiful scenery, and the world-famous Darjeeling tea. To explore this picturesque hill station, check the Darjeeling tour package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive In Gangtok",
+          "description": "As you arrive at Bagdogra Airport, our tour manager will welcome you and help you transfer to Gangtok. The scenic journey takes 4 to 5 hours. Check into your hotel and spend the rest of the day enjoying the area around it."
+        },
+        {
+          "day": 2,
+          "title": "Gangtok Full Day Tour",
+          "description": "Today, after breakfast, you will explore places around the hotel. Some iconic attractions you will cover include Hanuman Tok, Ban Jhakri Falls, Sikkim Himalayan Zoological Park, Ganesh Tok, Enchey Monastery, Do Drul Chorten, and the Bakthang Waterfall. Don’t miss the ropeway ride to enjoy a panoramic view of Gangtok City."
+        },
+        {
+          "day": 3,
+          "title": "Gangtok - Darjeeling",
+          "description": "After breakfast, check out of the hotel and head to Darjeeling. On the way, you will cover the places you missed yesterday. Check into the hotel and head out to cover tourist attractions in Darjeeling. You will visit Tiger Hills, Tenzing Rock, Peace Pagoda, Padmaja Naidu Himalayan Zoological Park, Tibetan Refugee Self-Help Centre, and Batasia Loop. Spend the night in Darjeeling."
+        },
+        {
+          "day": 4,
+          "title": "Depart Darjeeling",
+          "description": "Today, you will check out of the hotel and head to the Bagdogra Airport to catch your flight home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Gangtok-family-travel-package-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Gangtok-family-travel-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Darjeeling-holiday-trip-package-870x555.jpeg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Gangtok-travel-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Darjeeling-family-trip-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kalimpong-tour-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Ghoom-Monastery-Darjeeling-870x555.jpg"
+      ],
+      "location": "Gangtok – Darjeeling",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:06:42.527726+05:30"
+    },
+    {
+      "name": "Best of Eastern Hill Tour",
+      "slug": "best-of-eastern-hill-tour",
+      "source_url": "https://www.gtholidays.in/package/east-india-hill-station-tour-package/",
+      "country": "India",
+      "region": "North East",
+      "destination": "Gangtok – Darjeeling",
+      "destinations": [
+        "Gangtok",
+        "Darjeeling"
+      ],
+      "duration": "4 Nights 5 Days",
+      "nights": 4,
+      "days": 5,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Northeast India feels like a whole new country with its verdant greenery, clean cities, and amazing wildlife. To explore these states, check our East India Hill Station Trip Package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Gangtok",
+          "description": "Upon your arrival at the Bagdogra Airport in Siliguri, our tour manager will welcome you and help you transfer to Gangtok. The journey takes 4 to 5 hours and offers a panoramic view of the Kanchenjunga Mountains. Check in to your hotel and spend the rest of the day relaxing or exploring places around your hotel."
+        },
+        {
+          "day": 2,
+          "title": "Gangtok Full Day Tour",
+          "description": "Start your day with a delectable breakfast before heading out for a full-day tour of Gangtok City. This picturesque city is famous for its monasteries, scenic beauty, and snow-laden mountains. Some places you will cover include – Hanuman Tok, Ganesh Tok, Rumtek Dharma Chakra Centre, and the Sikkim Himalayan Zoological Park. Return to your hotel in the evening to spend the night in Gangtok."
+        },
+        {
+          "day": 3,
+          "title": "Gangtok - Darjeeling",
+          "description": "After breakfast, check out of the hotel to continue touring attractions you missed yesterday. You will cover the Ban Jhakri Falls, Tsongmo Lake, Do Drul Chorten and the Enchey Monastery. Later in the day, head to Darjeeling to continue with the next leg of your journey. Check into the hotel and spend the rest of the day relaxing and exploring places around the hotel."
+        },
+        {
+          "day": 4,
+          "title": "Darjeeling",
+          "description": "Today, you will explore Darjeeling, including Tiger Hills, Batasia Loop, Japanese Peace Pagoda, Sandakphu, the Padmaja Naidu Himalayan Zoological Park, Rock Garden, and the Tea Garden Viewpoint. Don’t miss Tenzing Rock and the ropeway ride across tea plantations. Return to your hotel to spend the night in Darjeeling."
+        },
+        {
+          "day": 5,
+          "title": "Depart Darjeeling",
+          "description": "After breakfast, check out of the hotel and head to the Bagdogra Airport to catch your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Gangtok-travel-package-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Gangtok-travel-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/gankot-holiday-trip-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/best-darjeeling-trip-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Darjeeling-family-trip-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kalimpong-tour-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Gangtok-family-travel-package-870x555.jpg"
+      ],
+      "location": "Gangtok – Darjeeling",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:06:43.225580+05:30"
+    },
+    {
+      "name": "Discover Darjeeling and Gangtok Tour",
+      "slug": "discover-darjeeling-and-gangtok-tour",
+      "source_url": "https://www.gtholidays.in/package/gangtok-tour-package/",
+      "country": "India",
+      "region": "North East",
+      "destination": "Gangtok – Darjeeling",
+      "destinations": [
+        "Gangtok",
+        "Darjeeling"
+      ],
+      "duration": "4 Nights 5 Days",
+      "nights": 4,
+      "days": 5,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Gangtok is a beautiful city and the capital of Sikkim. The city is a must-visit for nature lovers, with the Kanchenjunga Mountains in the backdrop and beautiful monasteries dotting the landscape. Check the Gangtok trip package itinerary from GT Holidays if you’d like to explore the Northeast.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive In Bagdogra Airport",
+          "description": "Upon your arrival at the Bagdogra Airport in Siliguri, our tour manager will welcome you and help you transfer to Gangtok. The journey takes 4 to 5 hours and offers a panoramic view of the Kanchenjunga Mountains. Check in to your hotel and spend the rest of the day exploring places around your hotel."
+        },
+        {
+          "day": 2,
+          "title": "Gangtok Full Day Tour",
+          "description": "After breakfast, head out for a full-day tour of Gangtok. You will visit the Baba Mandir, Tshangu Lake, Hanuman Tok, Ganesh Tok, and the Sikkim Himalayan Zoological Park. Spend the evening shopping and enjoying local food before returning to your hotel."
+        },
+        {
+          "day": 3,
+          "title": "Gangtok Tour Day 2",
+          "description": "Today, you will cover attractions left out on Day 1. These include Ban Jhakri Falls, Do Drul Chorten, Pal Karma Zurmang Shedup Chokor Ling Lingdum Monastery and Enchey Monastery. Don’t miss riding the Gangtok ropeway for a panoramic view of the Gangtok City."
+        },
+        {
+          "day": 4,
+          "title": "Gangtok – Kalimpong",
+          "description": "After breakfast today, you will head to Kalimpong. You will visit Delo Park, Mangal Dham Temple, Kalimpong Science Centre, Pine View Nursery, Geden Tharpa Choling Monastery, Lepcha Museum, and the Zang Dhok Palri Monastery."
+        },
+        {
+          "day": 5,
+          "title": "Depart Gangtok",
+          "description": "After breakfast, check out of the hotel and head to Bagdogra Airport to catch your return flight home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Darjeeling-tea-estate-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Darjeeling-tea-estate-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Darjeeling-family-trip-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kalimpong-tour-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Gangtok-travel-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Ghoom-Monastery-Darjeeling-870x555.jpg"
+      ],
+      "location": "Gangtok – Darjeeling",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:06:43.949395+05:30"
+    },
+    {
+      "name": "Eastern Triangle Tour Package",
+      "slug": "eastern-triangle-tour-package",
+      "source_url": "https://www.gtholidays.in/package/eastern-triangle-tour-package/",
+      "country": "India",
+      "region": "North East",
+      "destination": "Gangtok – Kalimpong – Darjeeling",
+      "destinations": [
+        "Gangtok",
+        "Kalimpong",
+        "Darjeeling"
+      ],
+      "duration": "6 Nights 7 Days",
+      "nights": 6,
+      "days": 7,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Darjeeling is often called the Queen of the Hills in Northeast India. The city is famous for its tea plantations, which produce the legendary Darjeeling tea. If you’d like to explore the beauty of Northeast India, check out the Darjeeling travel package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Gangtok",
+          "description": "Upon arriving at the Bagdogra Airport, our tour manager will welcome you and help you transfer to Gangtok. The journey takes around 5 hours and is incredibly scenic. Check in to your hotel and spend some time relaxing and exploring places around the neighbourhood. Spend the night in Gangtok."
+        },
+        {
+          "day": 2,
+          "title": "Gangtok Day Tour",
+          "description": "After breakfast, head out to explore the city. Some of the places you will explore today include Tsongmo Lake, Hanuman Tok, Ganesh Tok, Do Drul Chorten, Sikkim Himalayan Zoological Park, Enchey Monastery, and the Pal Karma Zurmang Shedup Chokhor Ling Lingdum Monastery. Return to your hotel in the evening to spend the night in Gangtok."
+        },
+        {
+          "day": 3,
+          "title": "Gangtok - Kalimpong",
+          "description": "After breakfast, you will head to Banjhakri Falls and Energy Park. Water falls from over 40 feet, cascading down with a lot of force, bringing water from the mountains higher up. Some places you will explore include the Research Institute of Tibetology, the Flower Exhibition Centre, the Directorate of Handicraft and Handloom, and the many flea markets. Later, check out of the hotel and head to Kalimpong. Check in to your hotel and spend the night in Kalimpong."
+        },
+        {
+          "day": 4,
+          "title": "Kalimpong - Darjeeling",
+          "description": "Today, spend the day exploring Kalimpong. Some of the attractions you will visit include Delo Park, Kalimpong Science Centre, Mangal Dham Temple, Pine View Nursery, Geden Tharpa Choling Monastery, Lepcha Museum, the Zang Dhok Palri Monastery, and the Durpin Monastery. Later in the evening, head to Darjeeling. Check in to the hotel and spend the night in Darjeeling."
+        },
+        {
+          "day": 5,
+          "title": "Darjeeling",
+          "description": "Today, you will explore Darjeeling. Some of the places you will explore include the Kanchendzonga Peak, Ghoom Monastery, Batasia Loop, the Padmaja Naidu Himalayan Zoological Park, the Japanese Temple, the Himalayan Mountaineering Institute, Tenzing, and Gombu Rock. Don’t miss riding the Darjeeling ropeway and the toy train to local places like Siliguri and Pankhabari. Spend the night in Darjeeling."
+        },
+        {
+          "day": 6,
+          "title": "Darjeeling Day 2",
+          "description": "After breakfast, head to the Mirik Lake, a beautiful lake with the enormous Kanchenjunga mountains in the backdrop. Spend time shopping in Pashupati Nagar and horse riding along Mirik Lake. Get back to Darjeeling to spend the night at the hotel."
+        },
+        {
+          "day": 7,
+          "title": "Depart Darjeeling",
+          "description": "Today, check out of the hotel and head to Bagdogra Airport to catch your flight home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Padmaja-Himalayan-Zoological-Park-Sikkim-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Padmaja-Himalayan-Zoological-Park-Sikkim-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Padmaja-Naidu-Himalayan-Zoological-Park-India-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Tenzing-Rock-Darjeeling-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kalimpong-tour-package-870x555.jpg"
+      ],
+      "location": "Gangtok – Kalimpong – Darjeeling",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:06:44.704464+05:30"
+    },
+    {
+      "name": "Himalayan Golden Triangle Holiday Package",
+      "slug": "himalayan-golden-triangle-holiday-package",
+      "source_url": "https://www.gtholidays.in/package/himalayan-golden-holiday-package/",
+      "country": "India",
+      "region": "North East",
+      "destination": "Gangtok – Kalimpong – Darjeeling",
+      "destinations": [
+        "Gangtok",
+        "Kalimpong",
+        "Darjeeling"
+      ],
+      "duration": "6 Nights 7 Days",
+      "nights": 6,
+      "days": 7,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Northeast India is famous for its beautiful flora and fauna. It is home to several wildlife sanctuaries, monasteries, and an interesting food culture. To experience this beautiful culture, check out the Himalayan Golden Holiday Package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive In Gangtok",
+          "description": "Upon your arrival at the Bagdogra Airport in Siliguri, our tour manager will welcome you and help you transfer to Gangtok via road. The journey takes over 4 to 5 hours and is beautiful, offering a panoramic view of the majestic Kanchenjunga Mountain range. Check in to your hotel and spend the rest of the evening exploring places around your neighbourhood. Spend the night in Gangtok."
+        },
+        {
+          "day": 2,
+          "title": "Gangtok Day Tour",
+          "description": "After breakfast, you will head to explore Gangtok, the capital of Sikkim. Established as a Buddhist pilgrimage site in the 1840s, the city is famous for its breathtaking views of the Kanchenjunga. You will cover Tsomgo Lake, the Sikkim Himalayan Zoological Park, Ganesh Tok, Do Drul Chorten, and Enchey Monastery. Don’t miss riding the Gangtok Ropeway. Spend the night in Gangtok."
+        },
+        {
+          "day": 3,
+          "title": "Gangtok - Kalimpong",
+          "description": "Today, after breakfast, you will visit the Banjhakri Falls, a popular waterfall that drops from over 100 feet. The water is sourced from freshwater springs higher up in the mountains. Some other attractions include the Research Institute of Tibetology, the Directorate of Handicrafts and Handloom, and the Flower Exhibition Centre. Laer, check out of the hotel and head to Kalimpong. Check into the hotel and spend the night in Kalimpong."
+        },
+        {
+          "day": 4,
+          "title": "Kalimpong Day Tour",
+          "description": "Kalimpong is a picturesque town famous for its monasteries, Tibetan handicrafts, churches, and beautiful views of the Teesta River. Some of the places you will cover on your day tour include Delo Park, Mangal Dham Temple, Pine View Nursery, Geden Tharpa Choling Monastery, Lepcha Museum, Durpin Monastery, and Neora Valley. Later in the evening, you will check out of the hotel and head to Darjeeling."
+        },
+        {
+          "day": 5,
+          "title": "Kalimpong - Darjeeling",
+          "description": "Today, after breakfast, check out from the hotel and head out shopping. Later in the afternoon, you will head to Darjeeling."
+        },
+        {
+          "day": 6,
+          "title": "Darjeeling Day Tour",
+          "description": "Darjeeling is a town in West Bengal and is fondly called the Queen of the Hills in Northeast India. It is popular for its namesake tea – the Darjeeling tea which is loved for its flavour and taste. Some of the places you will visit include Kanchendzonga Peak, Ghoom Monastery, Batasia Loop, and Peace Pagoda. After lunch, you will visit the Padmaja Naidu Himalayan Zoological Park, the Japanese Temple, the Himalayan Mountaineering Institute, the Darjeeling Ropeway Ride, Tenzing, and Gombu Rock. Don’t miss the Tibetan Refugee Self-Help Center and the surrounding tea estate. Spend the night in Darjeeling."
+        },
+        {
+          "day": 7,
+          "title": "Depart Darjeeling",
+          "description": "After breakfast, check out of your hotel and head to the Bagdogra Airport to return home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Himalaya-Mountain-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Himalaya-Mountain-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Ban-Jhakri-Falls-Gangtok-Sikkim-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Gangtok-travel-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Zang-Dhok-Palri-Phodang-870x555.jpg"
+      ],
+      "location": "Gangtok – Kalimpong – Darjeeling",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:06:45.520647+05:30"
+    },
+    {
+      "name": "Himalayan Tranquility",
+      "slug": "himalayan-tranquility",
+      "source_url": "https://www.gtholidays.in/package/himalayan-tranquility-tour-package/",
+      "country": "India",
+      "region": "North East",
+      "destination": "Gangtok – Kalimpong – Darjeeling",
+      "destinations": [
+        "Gangtok",
+        "Kalimpong",
+        "Darjeeling"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "If you’d like to experience a whole new India within the country, you must visit Northeast India. It is home to unique wildlife, unspoilt nature, a laidback attitude, and clean, plastic-free cities. Check the Himalayas trip package itinerary from GT Holidays to experience some of Northeast India’s beautiful cities.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Gangtok",
+          "description": "Upon arriving at Bagdogra Airport, our tour manager will welcome you and help you transfer to Gangtok. The journey is marked by beautiful scenery, including a panoramic view of the Kanchenjunga Mountains. Check in to your hotel and spend the night in Gangtok."
+        },
+        {
+          "day": 2,
+          "title": "Gangtok Day Tour",
+          "description": "After breakfast, get ready for a full-day tour of Gangtok. Some places you will visit include Baba Mandir, Hanuman Tok, Sikkim Himalayan Zoological Park, and Tshangu Lake. Return to your hotel to spend the night in Gangtok."
+        },
+        {
+          "day": 3,
+          "title": "Gangtok - Kalimpong",
+          "description": "Today, you will cover the remaining tourist attractions in Gangtok, including the Banjhakri Waterfalls, Do Drul Chorten, Ganesh Tok, Enchey Monastery, and the Namgyal Institute of Tibetology. Don’t miss riding the Gangtok ropeway. Later, check out of your hotel to proceed to Kalimpong. Check in to your hotel and spend the night in Kalimpong."
+        },
+        {
+          "day": 4,
+          "title": "Kalimpong - Darjeeling",
+          "description": "After breakfast, head out to explore Kalimpong. Some of the places you will explore today include the Delo Park, Kalimpong Science Centre, Mangal Dham Temple, Pine View Nursery, Geden Tharpa Choling Monastery, Lepcha Museum, and the Zang Dhok Palri Monastery. Later, check out of the hotel and head to Darjeeling. Spend the night at a luxury hotel in Darjeeling."
+        },
+        {
+          "day": 5,
+          "title": "Darjeeling",
+          "description": "Today, you will explore Darjeeling. Some of the places you will explore today include Kanchendzonga Peak, Ghoom Monastery, Batasia Loop, Peace Pagoda, the Padmaja Naidu Himalayan Zoological Park, Japanese Temple, Tenzing, Gombu Rock, Tibetan Refugee Self-Help Centre, and a tour of the surrounding tea plantations. Don’t miss the ropeway ride in Darjeeling. Return to the hotel to spend the night in Darjeeling."
+        },
+        {
+          "day": 6,
+          "title": "Depart Darjeeling",
+          "description": "After breakfast, check out of the hotel and head to the Bagdogra Airport to catch the flight home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Dzuluk-trip-package-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Dzuluk-trip-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Ban-Jhakri-Falls-Gangtok-Sikkim-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Himalaya-travel-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Himalaya-family-trip-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Zang-Dhok-Palri-Phodang-870x555.jpg"
+      ],
+      "location": "Gangtok – Kalimpong – Darjeeling",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:06:46.246418+05:30"
+    },
+    {
+      "name": "Honeymoon in Himalayas",
+      "slug": "honeymoon-in-himalayas",
+      "source_url": "https://www.gtholidays.in/package/himalayan-honeymoon-package/",
+      "country": "India",
+      "region": "North East",
+      "destination": "Bagdogra – Gangtok – Darjeeling",
+      "destinations": [
+        "Bagdogra",
+        "Gangtok",
+        "Darjeeling"
+      ],
+      "duration": "4 Nights 5 Days",
+      "nights": 4,
+      "days": 5,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "When we plan a romantic trip with our partner, what are the things we look for? A romantic atmosphere, calmness, soothing locations, and delicious food? Well, the Himalayas offer you all of that and so much more. If you’re exploring honeymoon options to someplace in the mountains, then check out our Himalayan honeymoon package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Bagdogra – Gangtok",
+          "description": "Upon your arrival at Bagdogra Airport, our tour representatives will greet you and help you get to Gangtok. Once you get to your hotel, complete the check-in process and spend the rest of the day at leisure."
+        },
+        {
+          "day": 2,
+          "title": "Gangtok",
+          "description": "After having a scrumptious breakfast, head out to explore Gangtok. Known to be Sikkim’s most populous city, it is also the state’s capital. Make a trip to Tsomgo Lake, which is also known as Tsongmo Lake or Changgu Lake. The surface of this glacial lake reflects different colours depending on the season and is highly respected by the people of Sikkim. Get back to your hotel for the night."
+        },
+        {
+          "day": 3,
+          "title": "Gangtok – Darjeeling",
+          "description": "Begin this day by visiting the Ban Jhakri Falls Park and then move to offer your prayers at Do Drul Chorten, a stupa that was built in 1945. The other popular spots you will be visiting are the Directorate of Handicrafts and Handloom, the Namgyal Institute of Tibetology, and the Flower Exhibition Centre. In the evening, leave Gangtok to head towards Darjeeling. Check-in to your hotel and get a good night’s sleep."
+        },
+        {
+          "day": 4,
+          "title": "Darjeeling",
+          "description": "Early in the morning, head towards Tiger Hill to view the sunrise wherein you can witness the snow peaks of Kanchenjunga reflect the most magical hues. On the way back to your hotel, stop by the Ghoom Monastery, Japanese Temple, and Batasia Loop. Have a filling breakfast and then continue to explore the city of Darjeeling. Take in the beauty of the Buddhist stupa known as Peace Pagoda and enjoy a fun cable car ride at the Darjeeling Ropeway. Visit the Tenzing & Gombu Rock, Tibetan Refugee Self-Help Center, and Padmaja Naidu Himalayan Zoological Park. Be sure to feast your eyes on the tea plantations of Darjeeling. Get back to your hotel for the night."
+        },
+        {
+          "day": 5,
+          "title": "Darjeeling – Depart Bagdogra",
+          "description": "In the morning, check out of your hotel and head for the airport in Bagdogra to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Darjeeling-family-trip-package-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Darjeeling-family-trip-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Darjeeling-holiday-trip-package-870x555.jpeg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Dzuluk-trip-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Ban-Jhakri-Falls-Gangtok-Sikkim-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Gangtok-travel-package-870x555.jpg"
+      ],
+      "location": "Bagdogra – Gangtok – Darjeeling",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:06:47.111956+05:30"
+    },
+    {
+      "name": "Jewels of North East Package",
+      "slug": "jewels-of-north-east-package",
+      "source_url": "https://www.gtholidays.in/package/gangtok-pelling-tour-package/",
+      "country": "India",
+      "region": "North East",
+      "destination": "Gangtok – Pelling",
+      "destinations": [
+        "Gangtok",
+        "Pelling"
+      ],
+      "duration": "4 Nights 5 Days",
+      "nights": 4,
+      "days": 5,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Gangtok is an important Buddhist pilgrimage centre and a beautiful hill station with an amazing view of the Kanchenjunga Mountains. If you’d like to explore the amazing cities of Northeast India, check out the Gangtok Pelling travel package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arriving in Gangtok",
+          "description": "Upon arriving at Bagdogra Airport, our tour manager will welcome you and help you transfer to Gangtok. The journey takes around 4 to 5 hours and includes a panoramic view of the adjoining mountains. Check in to your hotel and spend the night in Gangtok."
+        },
+        {
+          "day": 2,
+          "title": "Gangtok Day Tour",
+          "description": "After a hearty breakfast, get ready for a tour of the city. You will cover Tshangu Lake, Hanuman Tok, Sikkim Himalayan Zoological Park, Ganesh Tok, and the Enchey Monastery. Return to your hotel in the evening to spend the night in Gangtok."
+        },
+        {
+          "day": 3,
+          "title": "Gangtok - Pelling",
+          "description": "Some places you will include Banjhakri Falls and Do Drul Chorten before heading to Pelling, a beautiful town at the height of 6800ft covered with thick forests and abundant wildlife. Check into the hotel and spend the rest of the evening enjoying the beautiful views of the surrounding scenery."
+        },
+        {
+          "day": 4,
+          "title": "Pelling",
+          "description": "Some of the places you will drive to Yuksom. On the way, visit Rimbi Waterfalls and the Darap Waterfalls. Some of the attractions in Yuksom include Dubdi Monastery, Kanchenjunga Waterfall, Khecheopalri Lake, Tashiding Monastery, Pemayangtse Monastery, and the Ralang Monastery. Return to Pelling to spend the night."
+        },
+        {
+          "day": 5,
+          "title": "Depart Pelling",
+          "description": "Today, you will depart Pelling and head to Siliguri to the Bagdogra Aiport to catch your flight home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Ravangla-Buddha-Park-Sikkim-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Ravangla-Buddha-Park-Sikkim-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Darjeeling-holiday-trip-package-870x555.jpeg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kalimpong-tour-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Ghoom-Monastery-Darjeeling-870x555.jpg"
+      ],
+      "location": "Gangtok – Pelling",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:06:47.983990+05:30"
+    },
+    {
+      "name": "Unspoiled Hills",
+      "slug": "unspoiled-hills",
+      "source_url": "https://www.gtholidays.in/package/hill-station-holiday-package/",
+      "country": "India",
+      "region": "North East",
+      "destination": "Gangtok – Darjeeling",
+      "destinations": [
+        "Gangtok",
+        "Darjeeling"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Darjeeling is called the Queen of Hills because of its rich flora, fauna, and unspoiled nature. The hills are also famous for their tea plantations, which produce the legendary Darjeeling tea. If you’d like to explore the beautiful town, check out the Hill Station Holiday Package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive In Gangtok",
+          "description": "Upon arriving at the Bagdogra Airport, our tour manager will welcome you and help you transfer to Gangtok. As you travel to Sikkim's capital, enjoy a panoramic view of the Kanchenjunga Mountain range. Check in to the hotel and spend the night in Gangtok."
+        },
+        {
+          "day": 2,
+          "title": "Gangtok Day Tour",
+          "description": "Today, you will explore Gangtok, a beautiful city famous for its natural beauty and amazing view of the Kanchenjunga Mountains. You will visit Baba Mandir, Tsomgo Lake, Hanuman Tok, Sikkim Himalayan Zoological Park, and Ganesh Tok. Spend the night in Gangtok."
+        },
+        {
+          "day": 3,
+          "title": "Gangtok - Darjeeling",
+          "description": "Today, you will continue with your Darjeeling tour, starting with a tour of the Ban Jhakri Falls. You will also cover Droul Chorthen, the Directorate of Handicraft and Handloom, the Flower Exhibition Centre, and the Research Institute of Tibetology. Later in the evening, check out of the hotel and head to Darjeeling to continue with the next leg of your trip. Check in to your hotel and spend the night in Darjeeling."
+        },
+        {
+          "day": 4,
+          "title": "Darjeeling Day Tour",
+          "description": "Today, you will explore Darjeeling, a beautiful hill station in West Bengal famous for its tea plantations. You will visit the Ghoom Monastery, the Japanese Temple, the Batasia Loop, and the Himalayan Mountaineering Institute. Don’t miss riding the ropeway in Darjeeling. Spend the night in Darjeeling."
+        },
+        {
+          "day": 5,
+          "title": "Darjeeling Day 2",
+          "description": "After breakfast, head to Mirik. The town is famous for the Mirik Lake, which is known for its pleasant climate, unparalleled beauty, and neighbouring forests. Return to Darjeeling in the evening."
+        },
+        {
+          "day": 6,
+          "title": "Depart Darjeeling",
+          "description": "Today, after breakfast, head to Bagdogra Airport to catch your return flight."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Himalaya-Mountain-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Himalaya-Mountain-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Himalaya-rope-car-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Himalaya-family-trip-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Ban-Jhakri-Falls-Gangtok-Sikkim-870x555.jpg"
+      ],
+      "location": "Gangtok – Darjeeling",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:06:48.767893+05:30"
+    }
+  ],
+  "errors": []
+}

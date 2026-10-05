@@ -1,0 +1,2170 @@
+{
+  "regions": [
+    {
+      "name": "Asia",
+      "slug": "asia"
+    }
+  ],
+  "countries": [
+    {
+      "region": "asia",
+      "name": "Thailand",
+      "slug": "thailand",
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Thailand-Pattaya-870x555.jpg",
+      "is_active": true
+    }
+  ],
+  "package_types": [
+    {
+      "name": "Daily Tour",
+      "slug": "daily-tour",
+      "description": ""
+    }
+  ],
+  "packages": [
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "6 Days Classic Thailand Tour Itinerary",
+      "slug": "6-days-classic-thailand-tour-itinerary",
+      "duration": "5 Nights 6 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Pattaya - Coral Island - Bangkok",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Thailand-Pattaya-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Thailand-Pattaya-870x555.jpg",
+          "alt_text": "6 Days Classic Thailand Tour Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Nong-Nooch-870x555.jpg",
+          "alt_text": "6 Days Classic Thailand Tour Itinerary",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrival in Pattaya – Alcazar Cabaret Show",
+          "description": "Welcome to Bangkok International Airport! Upon your arrival, our friendly team will greet you and escort you to your hotel in the vibrant city of Pattaya. After checking in, get ready for a dazzling evening at the renowned Alcazar Cabaret Show. Widely celebrated as Thailand's premier transvestite cabaret, Alcazar has earned global acclaim for its spectacular performances. The show has continually evolved, incorporating innovative stage technology to delight our cherished guests. Enjoy a mesmerising night and rest comfortably at your Pattaya hotel.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Pattaya – Coral Island",
+          "description": "Embark on a delightful adventure today as you cruise to the picturesque Coral Island, the grandest among Pattaya's collection of islands. Glide through the azure waters in a speedy boat, marvelling at the breathtaking underwater world through the transparent floor of a classic glass-bottomed boat. Witness an enchanting showcase of sea treasures and vibrant coral formations. Feel the thrill as you take on water activities like Para Sailing, water skiing, and other exciting water sports at your leisure. As the day unfolds, immerse yourself in the beauty of the island before heading back to the cosy comforts of your Pattaya hotel. Overnight stay awaits with memories of an exhilarating day.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Pattaya - Nong Nooch Village",
+          "description": "Begin your day with a delightful breakfast before starting on a journey to Nong Nooch Village. This enchanting destination resembles more of a theme park, boasting daily cultural spectacles, charming restaurants, comfortable accommodations, and vast expanses adorned with uniquely themed gardens. The focal point of Nong Nooch Garden is its botanical park, complemented by captivating daily shows at the Thai Cultural Hall. Immerse yourself in the beauty and diversity of this place. Retreat to your hotel in Pattaya for a restful overnight stay.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Pattaya – Bangkok – City Exploration",
+          "description": "Bid farewell to your Pattaya abode as you set forth on a scenic drive to Bangkok. Dive into a mesmerising city and temple tour, highlighted by a visit to the Golden Buddha temple. Marvel at the ancient golden Buddha, a seated figure standing at an impressive 3 metres and weighing five and a half tons, dating back to the Sukhothai Period. Next on your itinerary is the Marble Temple (Wat Benchamabophit), a contemporary masterpiece of Thai religious architecture. Renowned for its main chapel constructed from exquisite Carara Italian marble, the temple houses a replica of Thailand's most exquisite Buddha image. Check into your hotel in Bangkok for a restful overnight stay. Optional Tour: Chao Phraya River Cruise Dinner (Additional Cost) In the evening, consider enhancing your experience with the optional Chao Phraya River Cruise Dinner. Glide along the Chao Phraya River, taking in the breathtaking riverside panorama. As you savour a buffet-style dinner, historical temples and landmarks unfold on either side. Delight in live music and dance performances by a professional ensemble, making this dinner cruise a truly memorable experience. (Additional cost applies)",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Exploring Bangkok's Wildlife Wonders",
+          "description": "Kick off the day with a delightful breakfast and get ready for an exciting adventure at Safari World and Marine Park. Dive into the enchanting world of Bangkok Safari, where you'll encounter rare and endangered species up close. The park is divided into two main attractions: Safari Park and Marine Park. Safari Park: Immerse yourself in the closest encounters with the majestic inhabitants of the animal kingdom. Don't miss the awe-inspiring feeding show featuring lions and tigers, a spectacle that stands out as a one-of-a-kind experience worldwide. Marine Park: Enter a realm filled with aquatic wonders, including dolphins, seals, and more. Be captivated by shows featuring talented birds, dolphins, seals, and apes, showcasing their intelligence and skills. As the day winds down, you'll have the evening free to unwind at your leisure. Spend a relaxing night at your hotel in Bangkok.",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "day_number": 6,
+          "title": "Farewell to Bangkok",
+          "description": "After a satisfying breakfast, it's time to bid adieu to the vibrant city of Bangkok. You will be transferred to Bangkok International Airport for your journey back home or to your next exciting destination.",
+          "display_order": 6,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Amazing Bangkok City Tour: Thailand, Bangkok",
+      "slug": "amazing-bangkok-city-tour-thailand-bangkok",
+      "duration": "3 Nights 4 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok - Huahin - City Tour",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+          "alt_text": "Amazing Bangkok City Tour: Thailand, Bangkok",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/temples-buddhist-koh-samui-thailand-big-buddha-870x555.jpg",
+          "alt_text": "Amazing Bangkok City Tour: Thailand, Bangkok",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/temple-of-emerald-buddha-870x555.jpg",
+          "alt_text": "Amazing Bangkok City Tour: Thailand, Bangkok",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Amazing Bangkok City Tour: Thailand, Bangkok",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Amazing Bangkok City Tour: Thailand, Bangkok",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Amazing Bangkok City Tour: Thailand, Bangkok",
+          "display_order": 6,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrive in Bangkok and Transfer to Hua Hin",
+          "description": "Upon arriving at Bangkok Airport, meet our tour representatives who will escort you to your hotel in Hua Hin. Check in and take some time to relax. In the afternoon, visit Phetchaburi Palace using a Cable Car and take a leisurely stroll through the Night Market. Spend the night at your hotel in Hua Hin.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Hua Hin City Tour",
+          "description": "Start your day with a delicious breakfast at the hotel. Our tour representatives will guide you on a tour of Hua Hin City. Begin by heading to the island and visiting the Queen’s Project, an animal sanctuary where various animals are rehabilitated for eventual release. Next, continue your journey to the Maruka Thai Yawan Palace, also known as the Palace of Love & Hope, built in 1924. Take a leisurely stroll around the beautiful Teakwood Palace to learn more about its history. Continue your exploration of Hua-Hin by visiting Khao Takiab, also known as Monkey Mountain, which serves as both a monastery and a sanctuary for Thai people. Be cautious of the wild monkeys as you enjoy the breathtaking ocean views. Return to Hua Hin for an overnight stay.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Hua Hin - Bangkok City Tour",
+          "description": "Start your day with a delicious breakfast before heading to Bangkok, Thailand's capital, and largest city. Our tour representatives will guide you on a half-day city tour of Bangkok, where you will visit some of its most famous temple monasteries. Explore Wat Po (The Temple of the Reclining Buddha), Wat Traimit (The Temple of the Solid Gold Buddha, weighing 5 1⁄2 tons of gold), and Wat Benchamabophit (The Marble Temple). Continue to the world-renowned Gems and Jewelry Shop for some Jade stone shopping. The remainder of the day is yours to enjoy at your leisure. Later, return to the hotel for an overnight stay.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Bangkok Departure",
+          "description": "After a quick breakfast, you will head to Indhira Market for some shopping. In the evening, our tour guide will escort you to Bangkok International Airport for your departure.",
+          "display_order": 4,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Amazing Thailand Tour Package Itinerary",
+      "slug": "amazing-thailand-tour-package-itinerary",
+      "duration": "6 Nights 7 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Phuket - Phi Phi Island - Bangkok - Pattaya - Coral Island",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Lagoon_in_Phi-Phi_islands-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Lagoon_in_Phi-Phi_islands-870x555.jpg",
+          "alt_text": "Amazing Thailand Tour Package Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Phuket_Viewpoint-870x555.jpg",
+          "alt_text": "Amazing Thailand Tour Package Itinerary",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrival at Phuket",
+          "description": "When you arrive at Phuket International Airport, someone will be there to meet you and take you to your hotel in Phuket. Once you are at the hotel, you will check in. Phuket is a beautiful place by the Andaman Sea, and it is a popular tropical beach resort. After checking in, you have the rest of the day to relax and do whatever you like. You'll spend the night at the hotel in Phuket. Optional Activity: Phuket FantaSea Show – No Dinner (Extra Cost) The Phuket FantaSea Show, also known as FantaSea of a Kingdom, is like a show you might see in Las Vegas but with a Thai cultural twist. The show represents everything Thai, including love for freedom, fun, courage, and compassion. It takes place in the Palace of the Elephants Theater and tells a mythical story using traditional Thai dance, music, and costumes. There are also colourful special effects, magical illusions, pyrotechnics, and even dancing elephants. The show is suitable for families, and it's a unique and entertaining experience. If you're interested, you can choose to attend this show at an additional cost.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Explore Phi Phi Islands from Phuket",
+          "description": "Begin your day with breakfast. Then, take a ferry to Phi Phi Islands for a tour. Relax on beautiful white beaches, surrounded by impressive cliffs and clear water. Lunch is included. Later in the afternoon, you will return to Phuket and stay overnight at the hotel.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Travel from Phuket to Pattaya via Bangkok",
+          "description": "Start your day with a wonderful breakfast. Head to Phuket International airport and catch a flight to Bangkok. Upon arrival at Bangkok International airport, you'll be transferred to a hotel in Pattaya. Check in and have the rest of the day at leisure. Stay overnight at the hotel in Pattaya.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Pattaya – Coral Island",
+          "description": "Today, after having breakfast, you'll hop on a speedy boat to reach Coral Island, the biggest among Pattaya's group of islands. Explore the underwater world and colourful coral formations through a special boat with a see-through bottom. You can also try out exciting water activities like Para Sailing and water skiing. Lunch will be provided, and the rest of the evening is free for you to relax at the hotel in Pattaya.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Bangkok",
+          "description": "Today, you'll head to Bangkok and check into your hotel. The rest of the day is yours to spend as you like. You can also choose to take an optional Chao Phraya Cruise with dinner (additional cost). This cruise offers delightful Thai cuisine, entertaining performances, and breathtaking views of the river. As you enjoy a buffet-style dinner, you'll cruise along the river, passing by historic temples and landmarks. A live band and talented singers will keep you entertained throughout the evening.",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "day_number": 6,
+          "title": "Bangkok City Tour",
+          "description": "Today, after having breakfast, you'll explore the city and visit some interesting places. The highlight of our tour is the Golden Buddha temple, where you can see a very old and huge gold Buddha statue. It's 3 metres tall and weighs a whopping five and a half tons. This statue comes from the Sukhothai Period. We'll also stop by the Marble Temple (Wat Benchamabophit), which is a modern and famous Thai temple. The main chapel is made of white Italian marble, and inside, you'll find a replica of the most beautiful Buddha image in Thailand. Tonight, you will stay at the hotel in Bangkok. Optional Activity (at an additional cost): Sea Life Bangkok Ocean World & Madame Tussauds If you're interested, you can visit Sea Life Bangkok Ocean World, one of the largest aquariums in Southeast Asia. There's a cool Shark Walk where you can see different shark species swimming below you. Madame Tussauds Bangkok is a wax museum where you can see lifelike statues of famous people from around the world, including celebrities, leaders, activists, sports heroes, and even royalty.",
+          "display_order": 6,
+          "is_active": true
+        },
+        {
+          "day_number": 7,
+          "title": "Leaving Bangkok",
+          "description": "After a tasty breakfast this morning, you'll be taken to Bangkok International Airport. From there, you can catch your flight back home or to your next exciting destination. Safe travels!",
+          "display_order": 7,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Bangkok & James Bond Island Tour | 4 Days Itinerary",
+      "slug": "bangkok-james-bond-island-tour-4-days-itinerary",
+      "duration": "3 Nights 4 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok - Phuket-Fantasea Show - Phuket-Phi-Phi Island Tour - James Bond Island Tour",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/temple-of-emerald-buddha-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/temple-of-emerald-buddha-870x555.jpg",
+          "alt_text": "Bangkok & James Bond Island Tour | 4 Days Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Bangkok & James Bond Island Tour | 4 Days Itinerary",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+          "alt_text": "Bangkok & James Bond Island Tour | 4 Days Itinerary",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/temples-buddhist-koh-samui-thailand-big-buddha-870x555.jpg",
+          "alt_text": "Bangkok & James Bond Island Tour | 4 Days Itinerary",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Bangkok & James Bond Island Tour | 4 Days Itinerary",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Bangkok & James Bond Island Tour | 4 Days Itinerary",
+          "display_order": 6,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrive in Phuket – Phuket FantaSea Show",
+          "description": "Upon arrival at Phuket Airport, our tour representative will meet you and assist with your transfer to the hotel. Complete the check-in formalities, then rest until you are briefed on the next steps. Phuket is derived from the Malay word Bukit, meaning hill. It is Thailand's largest island, nestled in the Andaman Sea. In the evening, you will head to Kamala Beach to visit Phuket FantaSea, a 60-acre theme park with Las Vegas-style shows, shopping avenues, and cultural performances. Return to your hotel in Phuket.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Phuket - Phi-Phi Island Tour",
+          "description": "Start your day with breakfast at the hotel. Head over to Phi-Phi Island via Express Boat. Once on the island, indulge in sightseeing at Maya Bay and have a fantastic time exploring. If you're keen on snorkelling or discovering the underwater world, the tour representative will take you to Coral Bay for swimming and snorkelling to find Nemo at the Snorkeling Point. Later, make sure to soak up the sun and have fun on the Sun Deck. You'll end the day with wonderful memories. Return to the hotel for an overnight stay.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Phuket - James Bond Island Tour",
+          "description": "Start your day with a quick breakfast before heading out for the James Bond Island Tour. James Bond Island is a well-known landmark in Phang Nga Bay, famous for its appearance in the James Bond movie 'The Man with the Golden Gun.' The bay is characterised by impressive limestone cliffs that rise vertically from the emerald-green water, attracting millions of tourists from around the world. After an exciting day, return to the hotel for a comfortable overnight stay.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Phuket Departure",
+          "description": "Have your breakfast at the hotel, and then enjoy the entire day at your own pace. If you feel like exploring, feel free to venture out. In the evening, you will be transferred to Phuket International Airport for your departure flight.",
+          "display_order": 4,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Bangkok Chiang Mai Tour Package",
+      "slug": "bangkok-chiang-mai-tour-package",
+      "duration": "5 Nights 6 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok - Chiangmai - Chiangmai Temple Tour",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Bangkok Chiang Mai Tour Package",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Bangkok Chiang Mai Tour Package",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+          "alt_text": "Bangkok Chiang Mai Tour Package",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-temple-870x555.jpg",
+          "alt_text": "Bangkok Chiang Mai Tour Package",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Phi-Phi-Island-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Bangkok Chiang Mai Tour Package",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Bangkok Chiang Mai Tour Package",
+          "display_order": 6,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrival In Chiang Mai",
+          "description": "Upon arrival at Chiang Mai Airport, our representative will greet you and help you transfer to the hotel. We’ll leave you to refresh, briefly explaining the itinerary and the dos and don’ts of visiting the many temples. Chiang Mai is a beautiful city famous for its unique temples, chedis (stupas), boutique hotels, and night markets. It is also the best place for adventure activities like trekking, river rafting, and visiting the many hill tribes. You are free to explore the city at your leisure before returning to the hotel for an overnight stay.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Chiang Mai Temple Tour",
+          "description": "Your day begins early with a complimentary breakfast buffet at the hotel. Our tour guide will explain in detail the different temple styles and the differences between Thai, Burmese, Lanna, Sri Lankan, and Mon styles. Begin the tour with Wat Phra Singh, one of Chiang Mai’s most revered and oldest temples. You will admire the chedi’s striking Lanna architecture and the Phra Buddha Sihing statue here. Your next stop is Wat Chedi Luang, a 14th-century temple famous for its enormous stupa, which is around 282 feet high and 144 feet wide. The temple, which once held the holy emerald Buddha, one of the most sacred objects in Thailand, was destroyed in an earthquake. You can interact with the monks in the temple and ask questions about Buddha and Buddhism. But do not take their pictures without their permission. The next stop is Wat Suan Dok, a 14th-century temple blending Lanna and Burmese styles. The temple, today, houses relics of Chiang Mai’s royal family. Take a lunch break before moving on to the Chiang Mai Market, the largest and most famous market in Chiang Mai, selling a range of products like shoes, bags, handicrafts, and electronic items.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Chiang Mai",
+          "description": "Begin the day with a scrumptious breakfast buffet at the hotel before proceeding to the Mae Tang Elephant Camp. Some attractions here include elephant shows, elephant rides, ox-cart rides, etc. You will drive through scenic roads and mountains leading up to the camp. Your next stop is the Sankampaeng Area, famous for Thai handicrafts like lacquerware, silverware, and famous Thai umbrellas. Return to the hotel in the evening for an overnight stay at your Chiang Mai hotel.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Chiang Mai to Bangkok",
+          "description": "As usual, begin your day with a breakfast buffet at the hotel. Our tour representatives will transfer you to the Chiang Mai airport to board your flight to Bangkok, Thailand’s capital. Upon arrival, we’ll take you on a half-day city tour to explore the different temple monasteries like Wat Pho, Wat Trimit, and Wat Benchamabophit. The tour will also explore the famous gems and jewellery stores in and around Bangkok. Here, you can buy semi-precious stones like jade. Enjoy the rest of the day at your leisure. Stay overnight at a hotel in Bangkok. Wat Pho is famous for its giant Reclining Buddha statue and the city's largest temples. Wat Traimit is famous for its giant golden statue of Buddha, considered one of the biggest in the world. Wat Benchamabophit, also known as The Marble Temple, was constructed during the 1800s with marble imported all the way from Italy.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Depart Bangkok",
+          "description": "After a scrumptious breakfast, move on to Indra Market to end your tour with some souvenir shopping. Leave Bangkok with beautiful memories of the city and its temples.",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Bangkok Holiday Package",
+      "slug": "bangkok-holiday-package",
+      "duration": "6 Nights 7 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok - Phuket-FantaSea Show - Phuket-Phi-Phi Island Tour - Bangkok-Pattaya - Safari World",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Bangkok Holiday Package",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Fanta-Sea-Show-thailand-tour-package-870x555.jpg",
+          "alt_text": "Bangkok Holiday Package",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Bangkok Holiday Package",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-temple-870x555.jpg",
+          "alt_text": "Bangkok Holiday Package",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Bangkok Holiday Package",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+          "alt_text": "Bangkok Holiday Package",
+          "display_order": 6,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Phuket – FantaSea Show",
+          "description": "As you arrive at the Phuket International Airport, our tour representative will receive you and help you transfer to the hotel. We’ll explain the itinerary and provide instructions about the dos and don’ts of exploring a traditional Buddhist country and rules regarding respecting the monarchy. Phuket is a beautiful island filled with lush greenery and stunning beaches. Not to mention the scrumptious food in the many street stalls. Some islands in and around Phuket include Koh Phi Phi, Koh Kai Noi, Koh Racha, and Koh Lon. You will explore FantaSea Show, a Thai cultural theme park that best represents Thai culture and tradition. Some of the things you can do at the theme park include souvenir shopping, dinner at the Golden Kinnaree Buffet Restaurant, jewellery shopping at the Iyara Grande, riding elephants on Palace Court, and shopping for tribal art at the Tribal Craft Bazaar. End the day by visiting the local markets. Spend the night at the hotel.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Phi-Phi Island Tour",
+          "description": "Begin your day with a scrumptious breakfast with Thai, Indian, and Continental delicacies. For dessert, sample some of their exotic tropical fruits. You will depart Phuket to move on to Phi-Phi Island by ferry. Phi-Phi Island is famous for its beautiful corals and marine life, including leopard sharks and giant manta rays. Tourists also visit the surrounding islands, viz., Koh Mai Pai and Koh Yung. Some attractions in Phi-Phi Island include Maya Bay, Loh Samah Bay, Ko Yao Yai, and Laem Tong Beach. There are plenty of activities on Phi-Phi Island, including snorkelling, swimming with corals and the Finding Nemo snorkelling tour. Spend the night at the hotel, unwinding at one of the many wellness spas.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Phuket Bangkok Pattaya",
+          "description": "After a scrumptious breakfast, head to Phuket Airport to board your flight to Bangkok, Thailand’s capital. At the airport, our tour representative will help you take your coach to Pattaya. Pattaya is famous for its beaches, including the beautiful Jomtien Beach and its crazy nightlife. It’s also renowned for its local markets, where you can shop for souvenirs and gawk at the street food stalls selling exotic meat, including grilled snake and crocodile. Don’t miss shopping at the local night markets to buy keychains, fridge magnets, and traditional Thai handicrafts. The Alcazar Show is another attraction and is famous for being the best transvestite cabaret show. Enjoy the show, admiring the art, costumes, and stage design. Spend the night at the hotel, unwinding after a day of fun and activity.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Pattaya",
+          "description": "Today, you will explore Pattaya, experiencing its history, culture, beaches, and water parks. Some of the unique attractions in Pattaya include: The Sanctuary of Truth – This wooden building is a blend of castle and temple architecture based on Hindu and Buddhist beliefs. Wat Yansangwararam – This large Buddhist temple is a replica of the Mahabodhi Temple in Gaya, India. The temple is famous for its monuments, gardens, lakes, and Chinese pavilions. Some other attractions in Pattaya include swimming, banana riding, and jet ski riding on Coral Island, exploring the different native fishes in Underwater World Pattaya, and visiting the Nong Nooch Tropical Botanical Garden. End your day exploring the different local markets for some souvenir shopping. Spend the night at the hotel.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Bangkok",
+          "description": "Today, you will explore Bangkok, Thailand’s capital city. Your tour representative will take you for a half-day city tour, visiting some of the city’s popular attractions. Some of the places covered in the itinerary include: Wat Pho – This is Bangkok's largest and oldest temple, famous for the Reclining Buddha. The temple is older than Bangkok and existed when Thailand was part of the historic city of Ayutthaya. Wat Traimit – The Temple of the Golden Buddha was built in the 18th century, famous for its enormous golden Buddha statue. During the 1950s, it was discovered that the statue was made using solid gold, weighing over 5.5 tons. It is likely 700 to 800 years old. Wat Benchamabophit – This marble temple is made using Italian Carrara marble. It was designed by Prince Narisara Nuvadtivongs using European and Chinese design influences. Other attractions in Bangkok include The Grand Palace, Chatuchak Weekend Market, and Wat Arun. End your day exploring the different local markets for some souvenir shopping. Spend the night at the hotel.",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "day_number": 6,
+          "title": "Safari World – Bangkok",
+          "description": "Safari World is Asia’s largest open-air zoo and home to hundreds of animals, including tigers, lions, elephants, and zebras. This drive-in park is split into two experiences. The first experience involves observing the animals in their natural habitat. The second section involves visiting the Marine Park or Water Park. Some of the attractions in the later section include marine life shows, aquarium visits, marine life exhibit visits, bird shows, jungle cruises, animal safaris, elephant shows, and adventure shows.",
+          "display_order": 6,
+          "is_active": true
+        },
+        {
+          "day_number": 7,
+          "title": "Depart Bangkok",
+          "description": "After a hearty breakfast, head to Indra Market for some last-minute souvenir shopping. Bid goodbye to Thailand and head on to the Bangkok International Market.",
+          "display_order": 7,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Beautiful Thailand Trip for 5 Days | Itinerary",
+      "slug": "beautiful-thailand-trip-for-5-days-itinerary",
+      "duration": "4 Nights 5 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Pattaya - Coral Island - Bangkok",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Golden-Buddha-Temple-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Golden-Buddha-Temple-870x555.jpg",
+          "alt_text": "Beautiful Thailand Trip for 5 Days | Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/pattaya-bangkok-870x555.jpg",
+          "alt_text": "Beautiful Thailand Trip for 5 Days | Itinerary",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Welcome to Bangkok - Pattaya",
+          "description": "Upon your arrival at the Bangkok International airport, our team will be there to greet you and take you to your hotel in Pattaya. Check in and make yourself comfortable. The remainder of the day is yours to enjoy at your own pace. Spend a relaxing evening at the hotel in Pattaya. Optional Evening Activity: Alcazar Show (Additional Cost) Consider treating yourself to the renowned Alcazar Show, celebrated worldwide as Thailand's best transvestite cabaret show. Over the years, they have continuously enhanced their performance by incorporating innovative stage arts technology. Alcazar seamlessly combines the art of acting, stage design, costumes, and show sequences, leaving an impression on audiences of all ages. If you are up for a captivating and entertaining experience, the Alcazar Show is not to be missed.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Pattaya – Coral Island",
+          "description": "After a delicious breakfast, embark on an adventure to Coral Island, the largest gem in Pattaya's island collection. Glide through the azure waters in a speedy boat, marveling at the picturesque surroundings. Discover the wonders of the sea as you peer through the transparent floor of a classic glass-bottomed boat, revealing a mesmerizing world of marine treasures and vibrant coral formations. Feel the thrill as you engage in thrilling water activities like Para Sailing and water skiing, creating unforgettable memories on the waves. The evening is yours to unwind and savour the tranquillity of Pattaya. Whether you choose to explore the local scene or relax at the hotel, the night is yours to enjoy. Rest well for another exciting day ahead.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Pattaya to Bangkok (Approximately 149 Kms / 2 hrs 30 mins)",
+          "description": "Kickstart the day with a delightful breakfast. Today you will set off on a scenic drive from Pattaya to Bangkok. Upon reaching Bangkok, check into your hotel. The remainder of the day is yours to enjoy at your own pace. Spend a relaxing night at the hotel. Optional Tour: Chao Phraya Cruise Without Dinner (Additional Cost) Consider indulging in the Chao Phraya Cruise, sans dinner, at an extra cost. This option still promises the delightful experience of Thai cuisine, entertaining performances, and breathtaking river views. The Chao Phraya Cruise ensures an unforgettable dinner cruise adventure along the river, where you can absorb the picturesque riverside scenery. Historic temples and landmarks gracefully reveal themselves on both sides as you partake in a buffet-style dinner. A live band and talented singers add to the enjoyment with a diverse and captivating performance. Alternatively, you can choose the option with dinner for a more comprehensive experience.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Explore Bangkok's Beauty",
+          "description": "After a kickstarting breakfast, you will set off on a delightful temple and city tour that promises to unveil the rich cultural treasures of this vibrant city. The highlight of the day is a visit to the Golden Buddha temple, a sanctuary that cradles an ancient golden Buddha. This seated marvel, standing at an impressive 3 metres tall and weighing five and a half tons, dates to the Sukhothai Period, offering a glimpse into Thailand's historical grandeur. Next on the agenda is the Marble Temple, also known as Wat Benchamabophit. This architectural masterpiece represents modern Thai religious artistry, with its main chapel constructed from exquisite white Carrara Italian marble. Inside, you will encounter a replica of Thailand's most beautiful Buddha image, adding to the temple's allure. Prepare to be captivated by the serenity and beauty that encapsulate these sacred sites. Overnight, find comfort at your hotel in Bangkok. Optional: Dive into Oceanic Wonders and Celebrities' World For those seeking an extra dose of excitement, consider exploring Sea Life Bangkok Ocean World (formerly Siam Ocean World), one of Southeast Asia's largest aquariums. Immerse yourself in various themed areas, including the innovative Shark Walk, where, instead of traversing through an acrylic tunnel, you will stroll above a tank inhabited by five species of majestic sharks. Alternatively, indulge in the enchanting world of Madame Tussauds Bangkok, a wax museum that brings celebrities, world leaders, activists, sports icons, legendary artists, and even royalty to life. Revel in the entertainment value and relish the opportunity to rub shoulders with these lifelike wax figures. (Additional cost applies)",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Farewell to Bangkok",
+          "description": "As the sun rises on your final day in Bangkok, bid the city a fond farewell. You will be transferred to Bangkok International Airport, where you will board your flight homeward or towards your next exciting destination.",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Best of Bangkok: Thailand, Bangkok, Pattaya | Itinerary",
+      "slug": "best-of-bangkok-thailand-bangkok-pattaya-itinerary",
+      "duration": "4 Nights 5 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok - Pattaya - Nong Nooch Village",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Phi-Phi-Island-thailand-honeymoon-package-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Phi-Phi-Island-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Best of Bangkok: Thailand, Bangkok, Pattaya | Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+          "alt_text": "Best of Bangkok: Thailand, Bangkok, Pattaya | Itinerary",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Best of Bangkok: Thailand, Bangkok, Pattaya | Itinerary",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Best of Bangkok: Thailand, Bangkok, Pattaya | Itinerary",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-temple-870x555.jpg",
+          "alt_text": "Best of Bangkok: Thailand, Bangkok, Pattaya | Itinerary",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Best of Bangkok: Thailand, Bangkok, Pattaya | Itinerary",
+          "display_order": 6,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrival in Bangkok - Transfer to Pattaya",
+          "description": "Upon your arrival at Bangkok International Airport, our tour representatives will greet you. You will be transferred to Pattaya by coach. This charming city is situated on the east coast of the Gulf of Thailand, boasting beautiful sandy beaches, great shopping, and fantastic tourist attractions. Originally a fishing town, Pattaya has transformed into one of Thailand's top tourist destinations. Once you arrive in Pattaya, head to the hotel and take some time to relax. In the evening, attend the Alcazar show, also known as Tiffany Show. This show is a captivating mix of art, costumes, and stage design. Enjoy the musical performance and return to the hotel for your overnight stay.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Pattaya",
+          "description": "Have breakfast at the hotel. Get ready to discover the coral island with our tour representatives. Experience the rich coral and underwater world through a glass-bottom boat. Afterwards, participate in water sports like sunbathing, riding water scooters, parasailing, snorkeling, and more. Enjoy some quality time on the island before heading back to the city for shopping. In the evening, return to the hotel for an overnight stay.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Pattaya - Nong Nooch Village",
+          "description": "Start your day with a delicious breakfast, and then head to Nong Nooch Village for a day of exploration. The Tropical Garden is home to a variety of orchid species, vibrant flowers, a palm garden, and colorful plants from around the world. Prepare for a delightful time at the Elephant Show, where these gentle giants showcase their skills in football, bike riding, and more. Take a leisurely stroll through the beautifully landscaped gardens, immersing yourself in the pleasant fragrance of millions of flowers. Don't miss the chance to observe trained chimpanzees and elephants in their natural surroundings. Return to the hotel for your overnight stay after a day filled with wonderful experiences.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Pattaya to Bangkok",
+          "description": "Start your day with a delicious breakfast before heading to Bangkok, Thailand's capital and largest city. Our tour representatives will guide you on a half-day city tour of Bangkok. Explore some of the most renowned temple monasteries in the city, including Wat Po (The Temple of the Reclining Buddha), Wat Trimit (The Temple of the Solid Gold Buddha weighing 5 ½ tons of gold), and Wat Benchamabophit (The Marble Temple). Make a visit to the world-famous Gems and Jewelry Shop to purchase Jade stone. The remainder of the day is yours to enjoy at your leisure. Later, return to the hotel for an overnight stay.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Departure from Bangkok",
+          "description": "Start your day with a quick breakfast, and then head to Indhira Market for some shopping. In the evening, our tour guide will transfer you to Bangkok International Airport for your departure.",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Discover Thailand for 7 Days | Itinerary",
+      "slug": "discover-thailand-for-7-days-itinerary",
+      "duration": "6 Nights 7 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Krabi - Phuket - Phi Phi Island - Bangkok",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Phuket-Thailand-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Phuket-Thailand-870x555.jpg",
+          "alt_text": "Discover Thailand for 7 Days | Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Phi-Phi-Islands-870x555.jpg",
+          "alt_text": "Discover Thailand for 7 Days | Itinerary",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Welcome to Krabi!",
+          "description": "As you get off the plane at Krabi International Airport, our friendly team will be there to greet you and take you to your hotel in Krabi. Check-in and settle into your comfortable accommodation. Immerse yourself in the stunning beauty of Thailand's coastline, known for its exceptional charm. Take in the sunshine, feel the sea breeze, and break away from your daily routine. Krabi's coastline boasts unique limestone formations that create breathtaking silhouettes, extending into the captivating Andaman Sea. The rest of the day is yours to enjoy at your own pace. Relax and unwind in the enchanting atmosphere of Krabi. Spend a peaceful night at the hotel, embracing the tranquillity of this coastal paradise.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Krabi – Four Island Adventure",
+          "description": "Kick off the day with a delightful breakfast. Today promises an exhilarating island-hopping escapade to the Four Islands via a speedy boat. Get ready for a thrilling journey to the tropical gems nestled in the Krabi Sea. Explore Tub Island, Chicken Island, Poda Island, and the enchanting Pranang Cave. Dive into a day filled with activities like swimming, snorkelling, sunbathing, exploration, and capturing breathtaking moments through photography. Anticipate abundant sunshine, a diverse array of coral and fish, pristine crystalline waters, and sandy beaches adorned with picturesque coconut palms. As the day unfolds, return to your hotel to unwind. Enjoy a restful overnight stay in Krabi.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Krabi to Phuket (Approximately 158 Kms / 2 hrs 30 mins)",
+          "description": "Start the day with a scenic drive to the enchanting destination of Phuket. Upon arrival, settle into your hotel in this gem of the Andaman Sea, renowned for its pristine beaches and tropical allure. The remainder of the day is yours to enjoy at your leisure. Overnight stay at the delightful Phuket hotel. Optional Activity: Phuket FantaSea Show – No Dinner (Additional Cost Applies) Consider adding a touch of magic to your evening with the Phuket FantaSea Show, a captivating display reminiscent of Las Vegas-style entertainment infused with Thai cultural richness. Held at the majestic Palace of the Elephants Theater, this family-friendly performance weaves a mythical tale through traditional Thai dance, music, and costumes. Be spellbound by the vibrant special effects, magical illusions, pyrotechnics, and even dancing elephants, all portraying the essence of Thai life, from freedom and fun to courage and compassion. An extraordinary showcase featuring hundreds of talented cast members awaits.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Explore the Wonders of Phi Phi Island from Phuket",
+          "description": "Start the day with a thrilling adventure as you set off for a day tour to Phi Phi Island by ferry. Immerse yourself in the charm of classic white beaches, embraced by stunning limestone cliffs and bathed in the glow of clear waters. Let the day unfold with the beauty of nature surrounding you. In the afternoon, return to Phuket and unwind at your hotel for a peaceful overnight stay.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Phuket to Bangkok - Gateway to Urban Excitement",
+          "description": "Say goodbye to the serene vibes of Phuket as you head to Phuket International Airport for your flight to Bangkok. Upon landing at Bangkok International Airport, you'll be greeted and smoothly transferred to your hotel in the heart of Bangkok. Check in, and the remainder of the day is yours to enjoy at your own pace. Relax and soak in the vibrant atmosphere of the city. Spend a comfortable night at your Bangkok hotel. Optional Evening Excursion: Chao Phraya River Cruise Dinner (Additional Cost) For an enchanting evening experience, consider the optional Chao Phraya River Cruise Dinner. Cruise along the majestic Chao Phraya River, indulging in a delightful dinner buffet. As you dine, enjoy the unfolding scenery of historic temples and landmarks on both sides of the river. Let a live band and talented singers entertain you with a captivating performance, making this dinner cruise a truly memorable experience. (Additional cost applies.)",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "day_number": 6,
+          "title": "Explore Bangkok's Rich Heritage",
+          "description": "Get ready for a captivating city tour today, delving into the cultural wonders of Bangkok. The highlight of your day will be a visit to the Golden Buddha temple, where an ancient gold Buddha resides. This seated marvel, standing at an impressive 3 metres tall and weighing five and a half tons, dates back to the Sukhothai Period. Continue your exploration with a visit to the colossal gold-plated Reclining Buddha in Chinatown. Stretching 46 metres in length and towering 15 metres high, this awe-inspiring idol features exquisite inlaid mother of pearl soles. As the day unfolds, the evening is yours to unwind or indulge in some delightful shopping experiences. Your overnight stay at the hotel in Bangkok promises a serene end to a day filled with cultural treasures. Optional Tour: Dive into the Wonders of Sea Life Bangkok Ocean World & Madame Tussauds (Additional Cost) For those seeking extra excitement, consider an optional tour to Sea Life Bangkok Ocean World, Southeast Asia's premier aquarium. Immerse yourself in various themed areas, including the unique Shark Walk, where you walk above a tank filled with five species of majestic sharks. Alternatively, visit Madame Tussauds Bangkok, a renowned wax museum that offers an entertaining experience. Rub shoulders with wax replicas of world celebrities, heads of state, activists, sports heroes, legendary artists, and even royalty.",
+          "display_order": 6,
+          "is_active": true
+        },
+        {
+          "day_number": 7,
+          "title": "Farewell Bangkok",
+          "description": "After a delightful breakfast, it's time to bid farewell to the vibrant city of Bangkok. You will be smoothly transferred to Bangkok International Airport for your journey back home or to your next exciting destination.",
+          "display_order": 7,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Discovering Tranquility in Thailand: Chiang Mai and Bangkok",
+      "slug": "discovering-tranquility-in-thailand-chiang-mai-and-bangkok",
+      "duration": "5 Nights 6 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Chiang Mai - Bangkok",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Discovering Tranquility in Thailand: Chiang Mai and Bangkok",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Phuket-Thailand-870x555.jpg",
+          "alt_text": "Discovering Tranquility in Thailand: Chiang Mai and Bangkok",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrival at Chiang Mai",
+          "description": "As you land at Chiang Mai International Airport, our friendly team will be there to greet you and take you to your hotel in the heart of Chiang Mai. Once you've checked in, the day is yours to enjoy at your own pace. Relax and unwind as you settle into your accommodation for a restful night in Chiang Mai.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Chiang Mai – City Tour",
+          "description": "Begin the day with a delightful breakfast before embarking on a half-day tour of Doi Suthep, a splendid temple. Explore Wat Suan Dok, a temple crafted by King Kuna, and Chiang Man Temple, the oldest in Chiang Mai, constructed by King Meng. Take a scenic drive around the historic city, admiring the City Moat and the Ruined City Gate. Next on the itinerary is a visit to Warorot Market, the largest central market, where you can immerse yourself in the vibrant local atmosphere. After a day filled with cultural and historical wonders, retreat to your hotel in Chiang Mai for a peaceful overnight stay.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Chiang Mai",
+          "description": "Start your day with a delightful breakfast. Today, the entire day is yours to enjoy at your leisure. Consider treating yourself to the Khantoke Dinner experience, which you can arrange independently. Spend the night at your hotel in Chiang Mai. Optional: Khantoke Dinner (Additional Cost) Indulge in the Khantoke Dinner, a unique cultural and culinary experience that showcases the charm of northern Thai traditions. This dinner and show combo let you savour authentic Thai cuisine served in a traditional manner – family-style on large platters at low tables. Relax on floor mats as you enjoy the feast. The entertainment includes captivating performances that display the diverse culture and traditions of Thailand, featuring dance and music from members of various hill tribes. It is an optional experience well worth considering for a memorable evening.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Chiang Mai to Bangkok",
+          "description": "Start your day with a delightful breakfast before heading to Chiang Mai International Airport for your flight to Bangkok. Upon arrival at Bangkok International Airport, a warm welcome awaits you, and you'll be smoothly transferred to your hotel in the heart of Bangkok. Check-in and settle into the vibrant atmosphere of the city. Enjoy a relaxing overnight stay at the hotel.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Bangkok - Discover the City",
+          "description": "Kick off the day with a scrumptious breakfast, followed by an exciting temple and city tour. The highlight of this exploration is a visit to the Golden Buddha temple, housing an ancient gold Buddha that stands 3 metres tall and weighs an impressive five and a half tons, dating back to the Sukhothai Period. Another fascinating stop on the tour is the colossal gold-plated Reclining Buddha in Chinatown, stretching an impressive 46 metres in length and 15 metres in height. Admire its beautiful inlaid mother-of-pearl soles, adding an extra touch of splendour. After the tour, the evening is yours to either relax or indulge in some fantastic shopping experiences. Retire for the night in the comfort of your hotel.",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "day_number": 6,
+          "title": "Departing Bangkok",
+          "description": "Savour your last breakfast in Bangkok before bidding farewell to this dynamic city. You will be transferred to Bangkok International Airport for your journey back home or to your next exciting destination.",
+          "display_order": 6,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Exciting Bangkok Getaway for 4 Days | Itinerary",
+      "slug": "exciting-bangkok-getaway-for-4-days-itinerary",
+      "duration": "3 Nights 4 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Bangkok-Floating-Market-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Bangkok-Floating-Market-870x555.jpg",
+          "alt_text": "Exciting Bangkok Getaway for 4 Days | Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Bangkok-Royal-Palace-870x555.jpg",
+          "alt_text": "Exciting Bangkok Getaway for 4 Days | Itinerary",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrival at Bangkok - Chao Phraya River Cruise",
+          "description": "Upon your arrival at Bangkok International Airport, a warm reception awaits you. You'll be whisked away to your hotel in Bangkok, where you can settle in and make yourself at home. Check-in and get ready for an evening of enchantment. As the night falls, go on a delightful adventure on the Chao Phraya River Cruise. Glide along the river, surrounded by the mesmerising city lights. This cruise promises an unforgettable dining experience with a delectable buffet, offering a feast for your taste buds. As you enjoy your meal, let the soothing tunes of a live band and the captivating performances of professional singers serenade you. The cruise unfolds a panorama of historic temples and landmarks on both sides, creating a magical ambiance. After this exciting experience, return to your hotel and rest for the night.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Explore the Wonders of Bangkok",
+          "description": "Begin your day with a delightful breakfast before embarking on a fascinating temple and city tour. The highlight of this experience is a visit to the awe-inspiring Golden Buddha temple, home to an ancient golden Buddha. This seated masterpiece, standing at an impressive 3 metres tall and weighing a remarkable five and a half tons, dates back to the Sukhothai Period. Another captivating stop on your journey is the Marble Temple, also known as Wat Benchamabophit. This temple stands out as one of the most modern examples of Thai religious architecture. Its main chapel, constructed with exquisite white Carrara Italian marble, is home to a replica of the most beautiful Buddha image in Thailand. After this enriching tour, the rest of the day is yours to enjoy at your leisure. Settle in for a comfortable overnight stay at your hotel in Bangkok.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Exploring Bangkok",
+          "description": "Start your day with a delightful breakfast. Today is all about you! Enjoy a full day at your own pace, with the freedom to explore the vibrant city of Bangkok at your leisure. Stay overnight at the hotel in the heart of Bangkok. Optional Excursions: Sea Life Bangkok Ocean World & Madame Tussauds (Additional Cost) For an extra special experience, consider a visit to Sea Life Bangkok Ocean World, formerly known as Siam Ocean World – Southeast Asia's largest aquarium. Dive into various themed areas, including the unique Shark Walk. Unlike a traditional tunnel, here you'll stroll above a tank where five different shark species gracefully swim. Alternatively, immerse yourself in the captivating world of Madame Tussauds Bangkok, a renowned wax museum. Enjoy the entertainment and the opportunity to mingle with lifelike wax figures of global celebrities, political leaders, activists, sports icons, legendary artists, and even royalty.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Farewell to Bangkok",
+          "description": "After a delightful breakfast, it is time to bid farewell to Bangkok. This morning, a transfer will be arranged to take you to Bangkok International Airport.",
+          "display_order": 4,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Exotic Thailand Itinerary for 9 Days",
+      "slug": "exotic-thailand-itinerary-for-9-days",
+      "duration": "8 Nights 9 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Krabi - Phuket - Phi Phi Island - Bangkok - Pattaya - Coral Island",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/temples-buddhist-koh-samui-thailand-big-buddha-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/temples-buddhist-koh-samui-thailand-big-buddha-870x555.jpg",
+          "alt_text": "Exotic Thailand Itinerary for 9 Days",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Thailand-Phuket-Marriott-Beach-870x555.jpg",
+          "alt_text": "Exotic Thailand Itinerary for 9 Days",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Welcome to Krabi",
+          "description": "As you land at Krabi International Airport, our friendly team will be there to greet you and whisk you away to your hotel in Krabi. Take a moment to settle in as you check into the hotel. Get ready to immerse yourself in the stunning beauty of Thailand's coastline – a true tropical paradise. Bask in the warmth of the sun, embrace the soothing sea breeze, and break free from your everyday routine. Krabi's coastline is adorned with unique limestone formations that create breathtaking silhouettes, stretching far into the Andaman Sea. The remainder of the day is yours to enjoy at your leisure. Relax and unwind at the hotel in Krabi, as you prepare for the adventures that await you in the coming days.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Krabi – Four Island Adventure",
+          "description": "Embark on an exhilarating island-hopping escapade today as we explore the enchanting Four Islands by speedboat. Glide through the turquoise waters of the Krabi Sea, discovering tropical havens that promise an unforgettable experience. Our journey unfolds with visits to Tub Island, Chicken Island, Poda Island, and the captivating Pranang Cave. Dive into the vibrant activities of swimming, snorkelling, sunbathing, exploration, and photography, immersing yourself in the beauty of these paradisiacal locations. Bask in the abundant sunshine, witness a diverse array of coral and marine life, and feel the velvety touch of white powdery sands beneath swaying coconut palms. As the day unfolds, capture moments that will linger in your memory. Return to the hotel as the sun sets, carrying the day's cherished memories with you. Nestle into the comforts of your Krabi accommodation for a peaceful overnight stay.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Krabi to Phuket (Approximately 158 Kms / 2 hrs 30 mins)",
+          "description": "Embark on a scenic drive to the enchanting island of Phuket. Upon reaching Phuket, settle into your hotel and immerse yourself in the allure of this Andaman Sea gem, a sought-after tropical beach haven. The remainder of the day is yours to enjoy at your own pace. Relax and unwind in the picturesque surroundings of Phuket. Spend the night in comfort at your Phuket hotel. Optional Excursion: Phuket FantaSea Show – No Dinner (Additional Cost Applies) For those seeking an extra touch of magic, consider the Phuket FantaSea Show, an exquisite Thai cultural spectacle reminiscent of Las Vegas extravagance. This captivating show encapsulates the essence of Thai spirit, portraying elements such as love for freedom, courage, and compassion in each mesmerizing scene. Hosted in the grand Palace of the Elephants Theater, this family-friendly performance weaves together traditional Thai dance, music, and costumes with vivid special effects, enchanting illusions, pyrotechnics, and even dancing elephants. Hundreds of talented cast members come together to bring this mythical story, titled \"Fantasy of a Kingdom,\" to life. (Note: Additional cost for the show applies.)",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Explore Phi Phi Island from Phuket",
+          "description": "Begin your day with a delightful breakfast. Today, you will set off on a ferry for an enchanting Phi Phi Island tour. Immerse yourself in the allure of pristine white beaches, framed by majestic limestone cliffs and bathed in the radiant glow of crystal-clear waters. As the afternoon unfolds, make your way back to Phuket. Spend the night at your hotel in Phuket, relishing the memories of a day well-spent in this tropical paradise.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Phuket - Bangkok – Pattaya (Approximately 149 kilometres / 2 hours 30 minutes)",
+          "description": "Begin your day by heading to Phuket International Airport to catch a flight to Bangkok. Upon your arrival at Bangkok International Airport, you'll be warmly welcomed and transported to your hotel in Pattaya. Check-in and take some time to relax. The remainder of the day is yours to enjoy at your leisure. Spend a comfortable night at the hotel in Pattaya.",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "day_number": 6,
+          "title": "Pattaya – Coral Island",
+          "description": "Today you will go on an exciting adventure as you travel by speedboat to the picturesque Coral Island, the largest in Pattaya's archipelago. Marvel at the stunning array of sea treasures and coral formations from the comfort of a traditional glass-bottomed boat. For those seeking a thrill, there's the option to indulge in activities such as parasailing, water skiing, and other water sports. The rest of the evening is free for you to unwind. Retreat to your hotel in Pattaya for a relaxing overnight stay.",
+          "display_order": 6,
+          "is_active": true
+        },
+        {
+          "day_number": 7,
+          "title": "Pattaya to Bangkok (Approx. 149 Km / 2 hrs 30 mins)",
+          "description": "On this day, you will set off on a scenic drive to Bangkok, covering approximately 149 kilometres in about 2 hours and 30 minutes. Upon reaching Bangkok, check in to your hotel and unwind. The remainder of the day is yours to enjoy at your leisure. Spend a relaxing night at the hotel. Optional Activity: Chao Phraya River Cruise Dinner (Additional Cost) In the evening, consider treating yourself to an enchanting Chao Phraya River Cruise with Dinner, featuring dance performances and live music (available at an additional cost). Delight in a buffet-style dinner while taking in the picturesque riverside views. Admire historic temples and landmarks on both sides of the river as a live band and talented singers provide entertainment throughout the cruise, making it an unforgettable experience.",
+          "display_order": 7,
+          "is_active": true
+        },
+        {
+          "day_number": 8,
+          "title": "Exploring the Heart of Bangkok",
+          "description": "Start on an interesting temple and city tour, immersing yourself in the rich cultural tapestry of Bangkok. The focal point of this expedition is the awe-inspiring Golden Buddha temple, housing an ancient golden Buddha. This seated masterpiece, standing at an impressive 3 metres and weighing a staggering five and a half tons, traces its origins back to the Sukhothai Period. As you wander through the vibrant streets, make your way to Chinatown, where a colossal gold-plated Reclining Buddha awaits. Stretching an impressive 46 metres in length and soaring 15 metres in height, this iconic idol features exquisite inlaid mother of pearl soles, adding a touch of artistic brilliance. The remainder of the evening is yours to unwind or indulge in some delightful shopping experiences. Retreat to the comfort of your hotel for a restful night. Optional Excursion: Dive into the Depths of Sea Life Bangkok Ocean World & Encounter Celebrities at Madame Tussauds For those seeking extra adventures, consider an optional tour to Sea Life Bangkok Ocean World, formerly known as Siam Ocean World. Uncover the wonders of one of Southeast Asia's largest aquariums, featuring themed areas. Take a stroll along the innovative Shark Walk, providing a unique perspective as you traverse above a tank inhabited by five different shark species. Alternatively, immerse yourself in the world of celebrities at Madame Tussauds Bangkok, a renowned wax museum. Rub shoulders with global icons, heads of state, activists, sports legends, artists, and even royalty. This optional excursion promises entertainment and a chance to mingle with the stars, all available at an additional cost.",
+          "display_order": 8,
+          "is_active": true
+        },
+        {
+          "day_number": 9,
+          "title": "Farewell to Bangkok",
+          "description": "As the sun rises on your final day in Bangkok, prepare to bid the vibrant city farewell. After a morning of unforgettable experiences, you will be chauffeured to Bangkok International Airport for your journey home or onwards to your next destination.",
+          "display_order": 9,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Experience Pattaya and Coral Island",
+      "slug": "experience-pattaya-and-coral-island",
+      "duration": "3 Nights 4 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Pattaya and Coral Island",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Rice-Terraces-Thailand-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Rice-Terraces-Thailand-870x555.jpg",
+          "alt_text": "Experience Pattaya and Coral Island",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Thailand-Pattaya-870x555.jpg",
+          "alt_text": "Experience Pattaya and Coral Island",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrival at Bangkok – Pattaya – Experience the Alcazar Show",
+          "description": "As you land at Bangkok International Airport, our team will warmly greet you and escort you to your hotel in the charming city of Pattaya. Check in at the hotel and take a moment to settle in. Later in the day, get ready for a captivating experience at the Alcazar Cabaret Show. The Alcazar Show has gained international acclaim as Thailand's premier transvestite cabaret. Renowned for its spectacular performances, the show seamlessly blends traditional and modern stage artistry, creating a beautiful experience for our guests. Enjoy the enchanting display of talent and creativity. After the show, retreat to the comfort of your hotel in Pattaya for a restful overnight stay.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Pattaya – Coral Island",
+          "description": "Start the day with a thrilling adventure as you cruise to the picturesque Coral Island, the largest gem in Pattaya's archipelago. Dive into the mesmerising world beneath the waves with a ride on a classic glass-bottomed boat, revealing the beauty of sea treasures and vibrant coral formations. Feel the rush of the wind as you take on Para Sailing, try your hand at water skiing, and indulge in various water sports at your leisure. After a day of excitement, unwind and relax at your hotel in Pattaya.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Pattaya – Safari World & Marine Park - Nong Nooch Village",
+          "description": "Today, kick-start your day with a delicious breakfast before heading to the captivating Safari World and Marine Park. Dive into the wonders of Bangkok Safari World, where you'll be enchanted by two main attractions: the Safari Park and the Marine Park. At Safari World, prepare for an up-close encounter with rare and endangered species from the animal kingdom. Witness the awe-inspiring feeding show featuring lions and tigers, a spectacle unlike any other in the world. The excitement continues at Marine Park, where a diverse array of marine animals, including dolphins and seals, awaits your admiration. Be captivated by the incredible shows featuring trained birds, dolphins, seals, and apes. As the day unfolds, venture to Nong Nooch Village in the evening. This sprawling area feels like a charming theme park, offering daily cultural performances, tempting restaurants, comfortable accommodation, and vast expanses of individually themed gardens. Don't miss the daily shows at the Thai Cultural Hall within Nong Nooch Garden. Conclude your day with a restful night at your hotel in Pattaya.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Farewell to Pattaya!",
+          "description": "As the sun rises on your final morning in Pattaya, after a delicious breakfast, we'll whisk you away to Bangkok International Airport, where you'll catch your flight homeward or to your next exciting destination.",
+          "display_order": 4,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Koh Samui Tour Package Itinerary",
+      "slug": "koh-samui-tour-package-itinerary",
+      "duration": "4 Nights 5 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok - Koh Samui - Koh Samui Island Tour - Bangkok - Safari World",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Fanta-Sea-Show-thailand-tour-package-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Fanta-Sea-Show-thailand-tour-package-870x555.jpg",
+          "alt_text": "Koh Samui Tour Package Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Koh Samui Tour Package Itinerary",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-temple-870x555.jpg",
+          "alt_text": "Koh Samui Tour Package Itinerary",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Koh Samui Tour Package Itinerary",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Koh Samui Tour Package Itinerary",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+          "alt_text": "Koh Samui Tour Package Itinerary",
+          "display_order": 6,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrive In Koh Samui",
+          "description": "Arrive at the Koh Samui International Airport and move to your hotel with our tour guide to help you with the transfer process. The guide will also explain the itinerary and instructions about the dos and don'ts in a traditional Buddhist country like Thailand. Spend the day leisurely exploring the city or visiting the beaches. Spend the night at the Koh Samui hotel.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Koh Samui Tour",
+          "description": "Koh Samui is a beautiful island with stunning beaches, waterfalls, temples, and spectacular viewpoints. We’ll help you explore the island and experience its nightlife throughout the tour. The tour will also include sessions at the many wellness spas in and around Koh Samui. Day 2 begins with a hearty breakfast buffet accompanied by exotic tropical fruits. Some of the places we’ll cover include: Grandpa and Grandma Rocks – The Grandfather and Grandmother Rocks are two of the most famous attractions in Koh Samui. These rocks get their name from their shape, which resembles male and female genitalia. Nathon Town – The place is famous for its old-wooden Chinese shops that sell various goods, including clothes, souvenirs, local bath products, coconut oil-based products, and home décor. Na Muang 2 Waterfalls – Na Muang 2 Waterfalls is a set of two waterfalls. While Na Muang 1 is more accessible and crowded, Na Muang 2 is about a 30-minute uphill walk from the first waterfall. Big Buddha Monument – The Big Buddha statue is within the Wat Phra Yai temple. The Buddha statue was built in 1972 and is especially beautiful during sunset. You can enjoy the rest of the day exploring the different local night markets like Bankrak and Chaweng Walking Market. Spend the night at the hotel.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Koh Samui To Bangkok",
+          "description": "Board your flight to Bangkok, Thailand’s capital city. After you check into your hotel, our tour representative will take you for a half-day tour of the town. You will visit some of the city’s famous tourist spots, like the Wat Pho Temple, Wat Traimit Temple, and the Wat Benchamabophit Temple. Other places you must visit include The Grand Palace, Wat Arun, and Sea Life. In the evening, you can visit the many local markets like Chatuchak, Or Tor Kor, and Wang Lang to buy silk, jade, coconut oil-based products, trinkets, silver jewellery, and Thai snacks. Spend the night at the hotel.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Safari World – Bangkok",
+          "description": "Safari World is Asia’s largest open-air zoo and home to hundreds of animals, including tigers, lions, elephants, and zebras. This drive-in park is split into two experiences. The first experience involves observing the animals in their natural habitat. The second section involves visiting the Marine Park or Water Park. Some of the attractions in the later section include marine life shows, aquarium visits, marine life exhibit visits, bird shows, jungle cruises, animal safaris, elephant shows, and adventure shows. Return to the hotel to prepare for the return journey the following day.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Bangkok Departure:",
+          "description": "Begin your day with a breakfast buffet before visiting Indra Market to shop for souvenirs and traditional Thai handicrafts. Bid adieu to Thailand as you head to the Bangkok International Airport for your return journey.",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Fun-filled Thailand Super Saver Budget | Itinerary",
+      "slug": "fun-filled-thailand-super-saver-budget-itinerary",
+      "duration": "4 Nights 5 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok - Phuket-FantaSea Show - Phi-Phi Island Tour - Safari World",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-honeymoon-package-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Fun-filled Thailand Super Saver Budget | Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-temple-870x555.jpg",
+          "alt_text": "Fun-filled Thailand Super Saver Budget | Itinerary",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Phi-Phi-Island-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Fun-filled Thailand Super Saver Budget | Itinerary",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+          "alt_text": "Fun-filled Thailand Super Saver Budget | Itinerary",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Fun-filled Thailand Super Saver Budget | Itinerary",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Fun-filled Thailand Super Saver Budget | Itinerary",
+          "display_order": 6,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrival in Bangkok - Phuket-FantaSea Show",
+          "description": "Upon your arrival at Phuket Airport, our tour representatives will welcome you and transfer you to the hotel. Phuket is a stunning island with beautiful landscapes and no land boundaries. The name \"Phuket\" comes from the Malay word meaning \"Hill.\" It is the largest island in Thailand, situated in the Andaman Sea. Once you arrive at Phuket Airport, our tour representatives will greet you and take you to a beach resort, where you can relax for the remainder of the day. In the evening, enjoy the FantaSea Show before returning to the hotel for an overnight stay.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Phuket-Phi-Phi Island Tour",
+          "description": "Start your day with breakfast at the hotel. Head to Phi-Phi Island by Express Boat. While on the island, enjoy sightseeing at Maya Bay and have a great time exploring. If you're into snorkelling or the underwater world, the tour representative can drop you off at Coral Bay for swimming and snorkelling to find Nemo. Have lunch and then return to Phuket. Spend the night at your hotel in Phuket.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Phuket-Bangkok",
+          "description": "After your morning breakfast, travel to Bangkok, the capital and largest city of Thailand. Our tour representatives will guide you on a half-day city tour of Bangkok. Visit some of the most famous temple monasteries, including Wat Po (The Temple of the Reclining Buddha), Wat Trimit (The Temple of the Solid Gold Buddha weighing 5 1⁄2 tons of gold), and Wat Benchamabophit (The Marble Temple). Proceed to the world-famous Gems and Jewelry Shop for some purchases of Jade stone. Enjoy the rest of the day at your leisure and later return to the hotel for an overnight stay.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Bangkok - Safari World",
+          "description": "Start your day with a hearty breakfast at the hotel. Our tour representatives will guide you on a Safari World tour. The zoological park is split into two sections. The first part is an open zoo featuring various wild animals, and the second part is the Marine Park, home to marine animals, trained dolphins, seals, apes, and birds. Begin your exploration at Safari Park, where you can marvel at rare and endangered species of the animal kingdom. Take your time to discover the wonders of nature. Return to the private car or coach for a brief relaxation. Don't miss the chance to witness the impressive Tiger and Lion Feeding showroom. Next, enjoy entertaining shows like Bird Show, Spy War, Dolphin Show, Orang Utan Boxing Show, Cowboy Show, and Sea Lion Show. Head back to the hotel for an overnight stay.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Bangkok Departure",
+          "description": "Enjoy a quick breakfast before heading to Indhira Market for some shopping. In the evening, our tour guide will transport you to Bangkok International Airport for your departure.",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Glimpse of Thailand for 5 Days | Itinerary",
+      "slug": "glimpse-of-thailand-for-5-days-itinerary",
+      "duration": "4 Nights 5 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Krabi - Bangkok",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Great-Palace-Thailand-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Great-Palace-Thailand-870x555.jpg",
+          "alt_text": "Glimpse of Thailand for 5 Days | Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Asia-Bangkok-Buddha-870x555.jpg",
+          "alt_text": "Glimpse of Thailand for 5 Days | Itinerary",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Welcome to Krabi",
+          "description": "Upon landing at Bangkok International Airport, catch a flight to Krabi International Airport. Check in to your hotel and immerse yourself in the allure of Thailand's stunning coastline. Take in the sunshine, the sea, and a refreshing break from your daily grind. The coastline is adorned with unique limestone formations, creating captivating silhouettes that stretch out into the Andaman Sea. The remainder of the day is yours to enjoy at your own pace. Spend the night at your hotel in Krabi.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Krabi – Four Island Adventure",
+          "description": "Embark on a thrilling island-hopping escapade to the fabulous four islands with a speedy boat ride today. Traverse the enchanting hotspots nestled in the vibrant Krabi Sea, featuring Tub Island, Chicken Island, Poda Island, and the mesmerising Pranang Cave. Engage in a day filled with swimming, snorkelling, sunbathing, exploration, and capturing picturesque moments through your lens. Immerse yourself in the warm glow of the sun, surrounded by a diverse array of coral and vibrant marine life in the crystal-clear waters. The soft, powdery white sand beaches adorned with exotic coconut palms complete this tropical paradise. As the day winds down, return to the comfort of your hotel in Krabi for a well-deserved rest. Overnight in Krabi, anticipating more delightful adventures to come.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Krabi to Bangkok",
+          "description": "This morning, after a delicious breakfast, you'll be whisked away to Krabi International Airport to catch your flight to Bangkok. Upon landing at Bangkok International Airport, a warm welcome awaits you, and you'll be smoothly transported to your hotel in the heart of Bangkok. Check in and settle into your accommodation. The remainder of the day is yours to enjoy at your own pace. Overnight at your Bangkok hotel. Optional Activity: Chao Phraya River Cruise Dinner (Additional Cost) In the evening, consider treating yourself to a delightful Chao Phraya River Cruise Dinner. This optional experience comes with a captivating mix of dinner, dance, and live music. As you cruise along the Chao Phraya River, soak in the enchanting views of historic temples and landmarks unfolding on both sides. Indulge in a buffet-style dinner, complemented by the melodies of a live band and talented singers, making it a night to remember. (Additional cost applies)",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Bangkok City Tour",
+          "description": "Today you will go on an enriching temple and city tour today. The highlight of this excursion is a visit to the Golden Buddha temple, housing an ancient golden Buddha. The seated statue, standing at an impressive 3 metres and weighing five and a half tons, dates back to the Sukhothai Period. Another captivating stop is at the colossal gold-plated Reclining Buddha in Chinatown. This remarkable idol stretches 46 metres in length and reaches a height of 15 metres, adorned with exquisite inlaid mother-of-pearl soles. The remainder of the evening is yours to unwind or indulge in some delightful shopping. Spend the night at the hotel in Bangkok. Optional Tour: Sea Life Bangkok Ocean World & Madame Tussauds (Additional Cost) For an extra adventure, consider a visit to Sea Life Bangkok Ocean World, formerly known as Siam Ocean World. It stands as one of South-east Asia’s largest aquariums, featuring diverse themed areas. Don't miss the innovative Shark Walk, offering a unique perspective as visitors stroll above a tank where five species of sharks gracefully swim. Madame Tussauds Bangkok, a renowned wax museum, awaits those seeking entertainment and a chance to mingle with wax figures of world celebrities, heads of state, activists, sports icons, legendary artists, and even royalty.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Departure from Bangkok",
+          "description": "This morning, you will be transferred to Bangkok International Airport for your flight back home or to your next exciting destination.",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Mesmerizing Thailand: Phuket, Phi Phi Island & Bangkok Itinerary",
+      "slug": "mesmerizing-thailand-phuket-phi-phi-island-bangkok-itinerary",
+      "duration": "4 Nights 5 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Phuket - Phi Phi Island - Bangkok",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Phuket-View-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Phuket-View-870x555.jpg",
+          "alt_text": "Mesmerizing Thailand: Phuket, Phi Phi Island & Bangkok Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Bangkok-Wat-Pho-Asia-870x555.jpg",
+          "alt_text": "Mesmerizing Thailand: Phuket, Phi Phi Island & Bangkok Itinerary",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Welcome to Phuket",
+          "description": "As you step off the plane at Phuket International Airport, our friendly team will be there to greet you and transfer you to your hotel in Phuket. Get settled into your accommodation, a true gem by the shores of the Andaman Sea and a sought-after tropical beach escape. The remainder of the day is yours to enjoy at your leisure. Your comfortable overnight stay awaits at the hotel in Phuket.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Discover the Beauty of Phi Phi Island",
+          "description": "Start your day with a delightful breakfast before setting off on an exciting journey to Phi Phi Island by ferry. Immerse yourself in the timeless allure of its pristine white beaches, framed by majestic limestone cliffs and bathed in the shimmering glow of crystal-clear waters. Revel in the scenic beauty that surrounds you throughout the day. As the afternoon unfolds, you will return to the tranquillity of Phuket. Unwind and spend a peaceful night at your Phuket hotel.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "From Phuket to the Heart of Bangkok",
+          "description": "Enjoy a leisurely breakfast before making your way to Phuket International Airport to catch your flight to Bangkok. Upon landing at Bangkok International Airport, you will be warmly greeted and transported to your hotel in the heart of Bangkok. Check in and take a moment to settle in. The remainder of the day is yours to explore at your own pace. Relax and enjoy a comfortable overnight stay at your Bangkok hotel.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Bangkok - City Exploration",
+          "description": "Start your day with a delightful breakfast before embarking on a fascinating temple and city tour. The highlight of today's exploration is the visit to the Golden Buddha temple, where you will encounter an ancient golden Buddha. This seated masterpiece, standing at an impressive 3 metres and weighing a staggering five and a half tons, dates back to the Sukhothai Period. Following that, you will have the opportunity to marvel at the Marble Temple, also known as Wat Benchamabophit. This temple stands as a modern gem in Thai religious architecture. Its main chapel, constructed in elegant white Carara Italian marble, is home to a replica of Thailand's most exquisite Buddha image. The Marble Temple is a must-visit for its serene beauty and cultural significance. After a day of exploration, unwind and spend the night at your hotel in Bangkok.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Departing Bangkok",
+          "description": "Indulge in a delicious breakfast to kick-start your final day in Bangkok. Post-breakfast, you will be transferred to Bangkok International Airport, marking the end of your memorable journey. Safe travel!",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Phuket Getaway – Bangkok Tour | Itinerary",
+      "slug": "phuket-getaway-bangkok-tour-itinerary",
+      "duration": "4 Nights 5 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok - Phuket - FantaSea Show - Phi-Phi Island Tour - Bangkok - Pattaya",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Phi-Phi-Island-thailand-honeymoon-package-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Phi-Phi-Island-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Phuket Getaway – Bangkok Tour | Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Phuket Getaway – Bangkok Tour | Itinerary",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+          "alt_text": "Phuket Getaway – Bangkok Tour | Itinerary",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-temple-870x555.jpg",
+          "alt_text": "Phuket Getaway – Bangkok Tour | Itinerary",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Phuket Getaway – Bangkok Tour | Itinerary",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Phuket Getaway – Bangkok Tour | Itinerary",
+          "display_order": 6,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrive in Phuket – Phuket FantaSea Show",
+          "description": "Upon your arrival at the Phuket International Airport, our tour representative will welcome you and assist with your transfer to the hotel. Phuket is a stunning island with breathtaking scenery. It is Thailand’s largest island and is named after the Malay word \"Bukit.\" Phuket offers plenty of tourist attractions, including Chinese-Portuguese architecture, stunning beaches, street food options, diverse cuisine, and diverse activities. In the evening, enjoy cultural performances and Las Vegas-style shows at the Phuket FantaSea. Spend the night at the Phuket beach resort.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Phuket-Phi Phi Island Tour",
+          "description": "Start your day with breakfast at the hotel. Board the Express Boat to Phi Phi Island. Explore the beautiful sights of Maya Bay and have a great time. If you're into snorkelling or the underwater world, the tour representative can take you to Coral Bay for swimming and spotting Nemo at Snorkeling Point. Have lunch and return to Phuket for an overnight stay at the hotel.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Phuket to Bangkok to Pattaya",
+          "description": "Start your day with a quick breakfast and head to Phuket Airport. Catch a flight to Bangkok. Once you land at Bangkok International Airport, our tour representatives will be there to assist you. You'll then be transferred to Pattaya by coach. This charming city is situated on the east coast of the Gulf of Thailand, boasting beautiful sandy beaches, great shopping, and captivating tourist attractions. Originally a fishing town, Pattaya has transformed into one of Thailand's top tourist destinations. Upon reaching Pattaya, relax at the hotel for a bit. In the evening, attend the Alcazar show, also known as the Tiffany Show. This show is a delightful combination of art, costumes, and stage design. Enjoy the musical performance and return to the hotel for an overnight stay.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Pattaya",
+          "description": "Have your breakfast at the hotel. Prepare to explore the coral island with our tour representatives. Experience the vibrant coral and underwater world through a glass-bottom boat. Later, engage in watersports like sunbathing, water scooting, parasailing, snorkelling, and more. Enjoy your time here and return to the city for some shopping. In the evening, head back to the hotel for an overnight stay.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Pattaya to Bangkok - Departure",
+          "description": "After a quick breakfast, visit Indhira Market for shopping. In the evening, our tour guide will take you to Bangkok International Airport for your departure.",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Samui Phuket Holiday Delight",
+      "slug": "samui-phuket-holiday-delight",
+      "duration": "4 Nights 5 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Arrive Koh Samui - Bangkok - Phuket (Fanta - Sea Show)- Phuket - Phi Phi Island - Bangkok Departure",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-temple-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-temple-870x555.jpg",
+          "alt_text": "Samui Phuket Holiday Delight",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-tour-package-870x555.jpg",
+          "alt_text": "Samui Phuket Holiday Delight",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/temples-buddhist-koh-samui-thailand-big-buddha-870x555.jpg",
+          "alt_text": "Samui Phuket Holiday Delight",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Phi-Phi-Island-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Samui Phuket Holiday Delight",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Samui Phuket Holiday Delight",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Fanta-Sea-Show-thailand-tour-package-870x555.jpg",
+          "alt_text": "Samui Phuket Holiday Delight",
+          "display_order": 6,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Samui Phuket Holiday Delight",
+          "display_order": 7,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrive in Koh Samui",
+          "description": "Upon arrival at Koh Samui Island, our tour manager will welcome you and help you to transfer to the hotel. Complete check-in and spend the rest of the day exploring places in and around your resort. You could visit the neighbouring towns of Mae Nam and Choeng Mon to enjoy the pristine beaches or shop at one of the local markets. In the evening, head to the adjacent island of Koh Phangan to explore the natural corals on the island. Ko Phangan is famous for its Full Moon Party, an all-night party held on full moon nights every month. Return to the resort in the evening to spend your night in Koh Samui.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Koh Samui Full Day Tour",
+          "description": "Today, after breakfast, you will explore the island of Koh Samui. This island is famous for its pristine beaches, lush tropical rainforests, and world-class spas. You will cover Koh Samui’s attractions, including Wat Phra Yai, Ladd Koh, and Wat Kunaram. Don’t miss the Hin Ta and Hin Yai or, Grandfather and Grandmother Rocks, and the Tarnim Magic Garden. Spend the night in Koh Samui.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Koh Samui – Phuket",
+          "description": "After breakfast, you will check out of the hotel to catch your flight to Phuket. Upon arrival, check into the hotel and enjoy the island and its views. Thailand’s largest island, Phuket, is known for its vibrant nightlife and white sandy beaches. You will explore some of Phuket’s tourist attractions. Some of the places you will enjoy today (or tomorrow, depending on time) are FantaSea, the Big Buddha, and Green Elephant Sanctuary Park. Spend the night in Phuket.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Phuket to Phi Phi Island",
+          "description": "Some of the top attractions you will cover today include Old Phuket Town, Freedom Beach, Monkey Hill, Kata Beach, Kamala Beach, Wat Chalong, Nai Harn Beach, and Karon Viewpoint. Later, head to Phi Phi Island to visit Maya Bay, Monkey Beach, Bamboo Island, and Viking Caves. Return to your hotel in Phuket for the night.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Phuket - Bangkok",
+          "description": "Check out of your hotel to catch your return flight to Bangkok. Later in the night, you will catch your return flight to India.",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Scenic Thailand Tour: Koh Samui & Bangkok | Itinerary",
+      "slug": "scenic-thailand-tour-koh-samui-bangkok-itinerary",
+      "duration": "5 Nights 6 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Koh Samui - Bangkok",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Chao-Phraya-River-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Chao-Phraya-River-870x555.jpg",
+          "alt_text": "Scenic Thailand Tour: Koh Samui & Bangkok | Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Thailand-Chao_Phraya_River-870x555.jpg",
+          "alt_text": "Scenic Thailand Tour: Koh Samui & Bangkok | Itinerary",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrival at Koh Samui",
+          "description": "Your journey begins with your arrival at Koh Samui airport. A warm greeting awaits you, and you'll be smoothly transported to your hotel in Koh Samui. Take a moment to settle in and check into your accommodation. The evening is yours to enjoy at your leisure. Relax and unwind as you prepare for the exciting days ahead. Overnight stay at your chosen hotel in Koh Samui.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Discover Koh Samui with a City Tour",
+          "description": "Start your day with a delicious breakfast, and then set off on a captivating Koh Samui City Tour. Immerse yourself in the island's rich culture as you visit its main attractions. This full-day exploration promises to unveil the beauty and charm of Koh Samui. After an exciting day of discovery, return to your hotel for a restful overnight stay.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Koh Samui - Ang Thong National Park",
+          "description": "Start your day with a delicious breakfast, and get ready to explore the enchanting Ang Thong, a marine national park nestled in the Gulf of Thailand within Surat Thani Province. This paradise comprises 42 stunning islands. After a day of discovery, retreat to your comfortable accommodation in Koh Samui for a restful night.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Koh Samui - Bangkok",
+          "description": "After a splendid breakfast, bid farewell to your Koh Samui haven as you check out and head to Koh Samui Airport. Board your flight bound for Bangkok International Airport, where a warm welcome awaits. Transfer to your chosen hotel in the vibrant city of Bangkok, where you'll spend the night. Optional Tour: Chao Phraya Cruise – No Dinner (Additional Cost) For an extra touch of magic, consider the optional Chao Phraya Cruise with no dinner (available at an additional cost). Revel in the beauty of Thai cuisine, engaging entertainment, and breathtaking river panoramas. As you embark on this dinner cruise, let the historic temples and landmarks along the riverbanks captivate you. A buffet-style dinner, accompanied by a live band and talented singers, guarantees an unforgettable evening. Alternatively, you can upgrade to the Chao Phraya Cruise with dinner, adding a culinary dimension to your cruise experience. Immerse yourself in the splendour of the riverside scenery while indulging in a delectable feast.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Exploring Bangkok's Rich Heritage",
+          "description": "Embark on a fascinating journey through the heart of Bangkok as you delve into the city's temples and cultural treasures. A major highlight awaits you at the Golden Buddha temple, where an ancient gold Buddha, standing at an impressive 3 metres tall and weighing five and a half tons, resides. This magnificent, seated image, dating back to the Sukhothai Period, is a true marvel. Next on the itinerary is a visit to the Marble Temple, or Wat Benchamabophit, a masterpiece of modern Thai religious architecture. The temple's main chapel, crafted from exquisite white Carrara Italian marble, houses a replica of Thailand's most beautiful Buddha image. Immerse yourself in the serenity and beauty of this iconic site. Overnight, find comfort at your hotel in Bangkok. Optional Excursion: For those seeking extra thrills, consider a visit to Sea Life Bangkok Ocean World (formerly Siam Ocean World), one of Southeast Asia's largest aquariums. Experience the innovative Shark Walk, where, instead of walking through an acrylic tunnel, you stroll above a tank teeming with five species of sharks. Alternatively, venture into the captivating world of Madame Tussauds Bangkok, a wax museum that brings you face-to-face with world celebrities, leaders, sports icons, artists, and even royalty. (Additional cost applies)",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "day_number": 6,
+          "title": "Departing Bangkok",
+          "description": "Begin your day with a delicious breakfast, bidding farewell to the vibrant city of Bangkok. After checking out from your hotel, you will be seamlessly transferred to Bangkok International Airport for your flight home or to your next exciting destination.",
+          "display_order": 6,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Sizzling Thailand – Phuket Tour | Itinerary",
+      "slug": "sizzling-thailand-phuket-tour-itinerary",
+      "duration": "4 Nights 5 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok - Krabi City Tour - Four Island Tour - Phi-Phi Island Tour - Phuket - FantaSea Show",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+          "alt_text": "Sizzling Thailand – Phuket Tour | Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Phi-Phi-Island-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Sizzling Thailand – Phuket Tour | Itinerary",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-temple-870x555.jpg",
+          "alt_text": "Sizzling Thailand – Phuket Tour | Itinerary",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Sizzling Thailand – Phuket Tour | Itinerary",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Sizzling Thailand – Phuket Tour | Itinerary",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Sizzling Thailand – Phuket Tour | Itinerary",
+          "display_order": 6,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Bangkok to Krabi City Tour",
+          "description": "Upon arriving at Bangkok Airport, catch a flight to Krabi. Once you reach Krabi Airport, a transfer will take you to the hotel. Take some time to relax at the hotel. Enjoy your stay in Krabi with ample free time for personal activities. In the afternoon, embark on a city tour of Krabi to see some of the main tourist spots. Afterward, return to the hotel for an overnight stay.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Krabi - Four Island Tour",
+          "description": "Start your day with a hearty breakfast at the hotel. Our tour representatives will guide you on a city tour to explore this beautiful island. If you love the sea and sun, then Krabi is the perfect destination for you. It's a captivating place squeezed into a small province. The main activities here include swimming, photography, sunbathing, snorkelling, and more. Have a fantastic time in the crystal-clear waters, under the sun, on the white powdery sand beaches surrounded by coconut palms. Return to the hotel for an overnight stay.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Krabi to Phi-Phi Island Tour to Phuket",
+          "description": "Start your day with a hearty breakfast at the hotel. Travel to Phi-Phi Island via an Express Boat. Once on the island, relish sightseeing at Maya Bay and have a fantastic time exploring. If you fancy snorkeling or the underwater world, the tour representative will take you to Coral Bay for a swim and an opportunity to find Nemo at Snorkeling Point. Have your lunch and proceed to Phuket. Enjoy your overnight stay at the Phuket Hotel.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Phuket - FantaSea Show",
+          "description": "After having your morning breakfast, get ready to explore Phuket city on your own. The name \"Phuket\" comes from the Malay word meaning \"Hill.\" It's the largest island in Thailand, situated in the Andaman Sea. Upon arrival at Phuket Airport, our tour representatives will welcome you and transfer you to a beach resort for the rest of the day. In the evening, enjoy the FantaSea Show, then return to the hotel for an overnight stay.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Phuket Departure",
+          "description": "Start your day with breakfast at the hotel. Afterward, you have the entire day at your leisure or can venture out. In the evening, we will take you to Phuket International Airport for your flight departure.",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Spectacular Thailand: Phuket, Phi Phi Island, Bangkok | Itinerary",
+      "slug": "spectacular-thailand-phuket-phi-phi-island-bangkok-itinerary",
+      "duration": "4 Nights 5 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Phuket - Phi Phi Island - Bangkok",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-asia-holiday-packages-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-asia-holiday-packages-870x555.jpg",
+          "alt_text": "Spectacular Thailand: Phuket, Phi Phi Island, Bangkok | Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Spectacular Thailand: Phuket, Phi Phi Island, Bangkok | Itinerary",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Welcome to Phuket",
+          "description": "As you land at the vibrant Phuket International Airport, a warm greeting awaits you. Your journey begins with a seamless transfer to your chosen hotel in the heart of Phuket. Immerse yourself in the check-in process, settling into a haven that rests along the stunning Andaman Sea-a true gem and a beloved tropical beach resort. The remainder of the day is yours to embrace at your own pace. Feel the inviting embrace of the sun-soaked beaches or explore the local charm that Phuket has to offer. Your overnight stay at the hotel promises comfort and tranquillity. For those seeking a touch of spectacle, an optional adventure awaits. Consider the mesmerising Phuket FantaSea Show-an enchanting display of Thai culture with a Las Vegas flair. Hosted in the grand Palace of the Elephants Theater, this family-friendly performance weaves together traditional Thai dance, captivating music, and vibrant costumes. Brace yourself for a mythical journey enriched with special effects, magical illusions, pyrotechnics, and the graceful presence of dancing elephants. (Optional Tour: Phuket FantaSea Show – No Dinner, available at an additional cost). Set off on this delightful journey into the heart of Phuket, where each moment unfolds like a beautifully crafted story.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Phuket - Phi Phi Island Excursion",
+          "description": "Start your day with a delightful breakfast, followed by an exciting adventure to Phi Phi Island. Board a ferry and embark on a journey to this stunning destination, where classic white beaches meet impressive limestone cliffs, and crystal-clear waters sparkle in the sunlight. Spend the day basking in the beauty of your surroundings. In the late afternoon, return to Phuket and unwind at your hotel. Enjoy a comfortable overnight stay in Phuket.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Phuket - Bangkok",
+          "description": "After breakfast, head to Phuket International Airport to catch your flight to Bangkok. Upon arrival at Bangkok International Airport, you will be warmly welcomed and transferred to your hotel in the city. Check in and spend the rest of the day at your leisure. Overnight stay at the hotel. (Optional: Chao Phraya River Cruise Dinner at an additional cost) In the evening, consider treating yourself to a magical experience with the Chao Phraya River Cruise Dinner. Glide along the Chao Phraya River, indulging in a sumptuous buffet dinner while enjoying live music and dance performances. Marvel at the historic temples and landmarks lining the riverbanks as you create lasting memories on this beautiful cruise.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Exploring Bangkok – City Tour",
+          "description": "Kickstart the day with a splendid breakfast. Today you will delve into the heart of Bangkok for a captivating temple and city tour. The crowning jewel of our expedition is the visit to the Golden Buddha temple, housing an ancient gold Buddha. This seated masterpiece, standing at an impressive 3 metres tall and weighing a remarkable five and a half tons, dates back to the Sukhothai Period. Our exploration continues to the Marble Temple (Wat Benchamabophit), an epitome of contemporary Thai religious architecture. Renowned for its main chapel constructed from exquisite white Carara Italian marble, this temple proudly displays a replica of Thailand's most beautiful Buddha image. The overnight stay at the hotel in Bangkok promises a tranquil end to an enriching day. Optional: Immerse in Aquatic Wonders & Celebrity Encounters (Additional Cost) For those seeking extra thrills, consider a visit to Sea Life Bangkok Ocean World, formerly known as Siam Ocean World, Southeast Asia's biggest aquarium. Highlights include the innovative Shark Walk, where visitors stroll above a tank inhabited by five species of sharks, providing a unique perspective. Alternatively, delve into the enchanting world of Madame Tussauds Bangkok, a wax museum that promises entertainment and encounters with lifelike figures of world celebrities, heads of state, activists, sports icons, legendary artists, and even royalty.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Departing Bangkok",
+          "description": "As the sun rises on a new day, relish a leisurely breakfast before bidding adieu to the vibrant city of Bangkok. A transfer awaits to escort you to Bangkok International Airport, where you will board your flight back home or to your next exciting destination.",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Singapore with Thailand",
+      "slug": "singapore-with-thailand",
+      "duration": "8 Nights 9 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Singapore - Sentosa Island - Bangkok - Pattaya - Coral Island",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Universal_Studio_Singapore-View-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Universal_Studio_Singapore-View-870x555.jpg",
+          "alt_text": "Singapore with Thailand",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/11/coral-sea-870x555.jpg",
+          "alt_text": "Singapore with Thailand",
+          "display_order": 2,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrive in Singapore – Night Safari",
+          "description": "As soon as you land at Changi Airport, our tour representative will greet you and take you to the hotel. We’ll leave you to check in and rest before proceeding to the first activity – the Night Safari on the Mandai Wildlife Reserve. This open-air zoo is the first of its kind and is home to thousands of animals.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Singapore City Tour",
+          "description": "The second day begins with exploring the different tourist attractions in the city, namely, Gardens By The Bay, a nature park spread over 101 hectares; the National Gallery, a museum showcasing Southeast Asian art collections; the Merlion Park, famous for the Merlion Statue, a half-lion and half-fish statue. Some other places covered in the tour include the Esplanade Theatre, Suntec City, and Marina Bay. You’ll also visit the Indian National Army Monument in downtown Singapore built in 1995 to honour the brave INA soldiers who died fighting the British in India and Burma, and the Singapore Zoo, which is home to over 2,800 animals.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Sentosa Island – Universal Studios",
+          "description": "Check out from the city hotel to transfer to Sentosa Island. You’ll begin your adventure with Universal Studios, Southeast Asia's first and only Universal Studios theme park. The park is famous for its amazing rides, games, and interactive shows based on old Hollywood movies like Jurassic Park, Madagascar and Shrek.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Sentosa Island Tour",
+          "description": "The next day you can enjoy the remaining attractions on Sentosa Island. There are over 25 attractions, ranging from SEA Aquarium and Adventure Cove Waterpark to Madame Tussauds and Palawan Beach. You can also experience the cable car ride from Mount Faber to Sentosa Island or enjoy Skyline Luge and Skyride, an open-air cart drive for a majestic view of the island.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Singapore – Pattaya - Big Buddha Temple - Dolphin World",
+          "description": "On your fifth day, board your flight from Singapore to Bangkok. Our tour representatives will meet you at the airport and transfer you to your hotel in Pattaya. The first destination in Pattaya is the Big Buddha Temple, where Buddha's idol stands at 300 feet. After witnessing this spiritually rich spot, you can head for a dolphin show at Dolphin World, which kids will surely enjoy.",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "day_number": 6,
+          "title": "Coral Island - Night Bazaar",
+          "description": "On Day 6, take a speedboat to explore the scenic Coral Island, the largest island in Pattaya and one of the most visited tourist attractions. You can stroll with your loved one on the island’s golden beaches or engage in parasailing, snorkelling, banana boat riding and other water-based activities. You can end your day by visiting Pattaya’s popular Night Bazaar, a famous street market selling clothes, accessories, and souvenirs.",
+          "display_order": 6,
+          "is_active": true
+        },
+        {
+          "day_number": 7,
+          "title": "Pattaya – Bangkok",
+          "description": "Begin your day by driving from Pattaya to Bangkok. You can enjoy the rest of the day at leisure or go for a cruise on the Chao Phraya River to enjoy dinner, dance, and live music. The Chao Phraya River Cruise offers a memorable view of the riverside scenery, where you can admire the beautiful temples and landmarks. And to finish the day attend a Cabaret Show to experience glitz and glamour.",
+          "display_order": 7,
+          "is_active": true
+        },
+        {
+          "day_number": 8,
+          "title": "Bangkok City Tour",
+          "description": "Experience the power and magnificence of Thai Royalty early in the day by visiting the Grand Palace, where the King of Thailand resides. The Golden Buddha Temple is another highlight of the day, famous for its seated Buddha that weighs five and a half tons and is from the Sukhothai period. Don’t miss Wat Pho, the reclining Buddha temple famous for its 15 metres tall and 46 metres long Buddha. The soles of this Buddha are crafted with mother-of-pearl shells. Drink in the serenity and peace at Wat Arun, the Temple of the Dawn, one of Thailand’s oldest and most famous temples.",
+          "display_order": 8,
+          "is_active": true
+        },
+        {
+          "day_number": 9,
+          "title": "Depart from Bangkok",
+          "description": "Check out from your hotel and head to the airport to board your flight back home.",
+          "display_order": 9,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Stunning Bangkok – Safari World Package | 5 Days Itinerary",
+      "slug": "stunning-bangkok-safari-world-package-5-days-itinerary",
+      "duration": "4 Nights 5 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok - Pattaya - Bangkok - Safari World",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Stunning Bangkok – Safari World Package | 5 Days Itinerary",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+          "alt_text": "Stunning Bangkok – Safari World Package | 5 Days Itinerary",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Stunning Bangkok – Safari World Package | 5 Days Itinerary",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/temple-of-emerald-buddha-870x555.jpg",
+          "alt_text": "Stunning Bangkok – Safari World Package | 5 Days Itinerary",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Stunning Bangkok – Safari World Package | 5 Days Itinerary",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-temple-870x555.jpg",
+          "alt_text": "Stunning Bangkok – Safari World Package | 5 Days Itinerary",
+          "display_order": 6,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrival in Bangkok - Pattaya",
+          "description": "Upon your arrival at Bangkok International Airport, meet our tour representatives and be transported to Pattaya by coach. This charming city is situated on the east coast of the Gulf of Thailand. Pattaya boasts numerous captivating sandy beaches, fantastic shopping, and amazing tourist attractions. Originally a fishing town, it has evolved into one of Thailand's top tourist destinations. Once you arrive in Pattaya, transfer to the hotel and take some time to relax. In the evening, attend the Alcazar show, also known as the Tiffany Show. This show is a beautiful combination of art, costumes, and stage design. Enjoy the musical performance and return to the hotel for your overnight stay.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Pattaya",
+          "description": "Have breakfast at the hotel, then get set to discover the coral island with our tour representatives. Experience the rich coral and underwater world through a glass bottom boat. After that, have some fun with water activities like sunbathing, riding water scooters, parasailing, snorkelling, and more. Take your time to enjoy the place and return to the city for some shopping. In the evening, head back to the hotel for an overnight stay.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Pattaya to Bangkok",
+          "description": "After having your morning breakfast, head to Bangkok, the capital and largest city of Thailand. Our tour representatives will guide you on a half-day city tour of Bangkok. Explore some of the most renowned temple monasteries in the city, including Wat Po (The Temple of the Reclining Buddha), Wat Trimit (The Temple of the Solid Gold Buddha weighing 5 ½ tons of gold), and Wat Benchamabophit (The Marble Temple). Visit the world-famous Gems and Jewelry Shop for the opportunity to purchase Jade stone. The rest of the day is yours to enjoy at your own pace. Later, return to the hotel for an overnight stay.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Bangkok - Safari World",
+          "description": "Start your day with a delicious breakfast at the hotel. Our tour representatives will guide you through an exciting day at Safari World. This zoological park is split into two parts. The first part is an open zoo housing a variety of wild animals. The second part is the Marine Park, where you can encounter marine animals, trained dolphins, seals, apes, and birds. Begin your exploration at Safari Park, where you can observe rare and endangered species at your own pace. Afterward, return to the private car or coach to relax for a while. Don't miss the thrilling Tiger and Lion Feeding showroom. Next, enjoy entertaining shows such as the Bird Show, Spy War, Dolphin Show, Orangutan Boxing Show, Cowboy Show, and Sea Lion Show. Finally, head back to the hotel for an overnight stay.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Bangkok Departure",
+          "description": "Have a quick breakfast before heading to Indhira Market for some shopping. In the evening, our tour guide will escort you to Bangkok International Airport for your departure.",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Thailand Delight: Exploring Bangkok and Pattaya",
+      "slug": "thailand-delight-exploring-bangkok-and-pattaya",
+      "duration": "3 Nights 4 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok - Pattaya",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Fanta-Sea-Show-thailand-tour-package-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Fanta-Sea-Show-thailand-tour-package-870x555.jpg",
+          "alt_text": "Thailand Delight: Exploring Bangkok and Pattaya",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Thailand Delight: Exploring Bangkok and Pattaya",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/temples-buddhist-koh-samui-thailand-big-buddha-870x555.jpg",
+          "alt_text": "Thailand Delight: Exploring Bangkok and Pattaya",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/temple-of-emerald-buddha-870x555.jpg",
+          "alt_text": "Thailand Delight: Exploring Bangkok and Pattaya",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Phi-Phi-Island-thailand-family-trip-package-870x555.jpg",
+          "alt_text": "Thailand Delight: Exploring Bangkok and Pattaya",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Thailand Delight: Exploring Bangkok and Pattaya",
+          "display_order": 6,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrival in Bangkok - Transfer to Pattaya",
+          "description": "Upon arriving at Bangkok International Airport, meet our tour representatives and be transported to Pattaya by coach. This beautiful Thai city is situated on the east coast of the Gulf of Thailand, boasting captivating sandy beaches, excellent shopping, and incredible tourist attractions. Once a fishing town, Pattaya has evolved into one of Thailand's premier tourist destinations. Upon reaching Pattaya, transfer to the hotel and take some time to relax. Explore the Alcazar show, also known as the Tiffany Show, a captivating blend of art, costumes, and stage design. Enjoy the musical performance and return to the hotel for your overnight stay.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Pattaya",
+          "description": "Start your day with breakfast at the hotel. Get ready to explore the coral island with our tour representatives. Experience the vibrant coral and underwater world through a glass-bottom boat. Afterwards, engage in watersports like sunbathing, water scooter, parasailing, snorkelling, and more. Enjoy some quality time in the area and then return to the city for shopping. In the evening, head back to the hotel for an overnight stay.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Pattaya - Bangkok",
+          "description": "After breakfast, travel to Bangkok, the capital and largest city of Thailand. Our tour representatives will guide you on a half-day city tour, visiting some of Bangkok's most famous temple monasteries. Explore Wat Po (The Temple of the Reclining Buddha), Wat Trimit (The Temple of the Solid Gold Buddha weighing 5 1⁄2 tons of gold), and Wat Benchamabophit (The Marble Temple). Continue to the world-famous Gems and Jewelry Shop for some Jade stone shopping. Enjoy the rest of the day at your leisure before returning to the hotel for an overnight stay.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Bangkok Departure",
+          "description": "Have a quick breakfast and head to Indhira Market for shopping. In the evening, our tour guide will transfer you to Bangkok International Airport for your departure.",
+          "display_order": 4,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "country": "thailand",
+      "package_type": "daily-tour",
+      "name": "Thailand Tour Packages",
+      "slug": "thailand-tour-packages",
+      "duration": "4 Nights 5 Days",
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "language": "English",
+      "destination": "Bangkok - Chiangmai - Chiangmai Temple Tour - Safari World",
+      "price": null,
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-temple-870x555.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "groups": [],
+      "images": [
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Samui-temple-870x555.jpg",
+          "alt_text": "Thailand Tour Packages",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Archipelago-Koh-Phi-Island-Beach-Thailand-870x555.jpg",
+          "alt_text": "Thailand Tour Packages",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pu-tai-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Thailand Tour Packages",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Thailand Tour Packages",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Chiangmai-Temple-tour-thailand-tour-package-870x555.jpg",
+          "alt_text": "Thailand Tour Packages",
+          "display_order": 5,
+          "is_active": true
+        },
+        {
+          "image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Phi-Phi-Island-thailand-honeymoon-package-870x555.jpg",
+          "alt_text": "Thailand Tour Packages",
+          "display_order": 6,
+          "is_active": true
+        }
+      ],
+      "itinerary": [
+        {
+          "day_number": 1,
+          "title": "Arrival In Chiang Mai",
+          "description": "Upon arrival at the Chiang Mai International Airport, our tour representative will welcome you and help you transfer to the hotel. We’ll brief you about the tour and explain the etiquette to be followed in the religious places. Chiang Mai is a beautiful city famous for its handicrafts, including silverware, lacquerware, woodwork, and umbrellas. But what makes it even more special is the city’s ancient and unique temples. When in Chiang Mai, don’t miss the beautiful temples, chedis, boutique hotels, and local night markets. It is also an excellent place for adventure lovers with a range of activities, including ziplining, river rafting, camping, trekking, and ATV riding. Spend the day enjoying the city at your leisure and stay overnight at a Chiang Mai hotel.",
+          "display_order": 1,
+          "is_active": true
+        },
+        {
+          "day_number": 2,
+          "title": "Chiang Mai Temple Tour",
+          "description": "Start your day with a hearty breakfast at the buffet. Your first stop for the day is Wat Chedi Luang, a 14th-century temple famous for its enormous Buddhist chedi, built in the Lanna architecture. Some of the other temples included in the Chiang Mai Temple Tour include: Wat Phra Singh – This 14th-century temple has a distinct Lanna architecture but is also influenced by neighbouring Burmese and Sri Lankan architecture. The temple is also famous for its intricate art, including sculptures, doors, windows, and panels. Wat Suan Dok – Also called Wat Buppharam, this 14th-century temple features Lanna-style architecture and houses a 500-year-old bronze statue of Buddha. And if you’re at the right time, don’t miss the annual temple fair held in June every year. After the Chiang Mai Temple Tour, we’ll conclude the day with a visit to the Chiang Mai market, which is famous for Thai handicrafts, including clothes, souvenirs, and jewellery.",
+          "display_order": 2,
+          "is_active": true
+        },
+        {
+          "day_number": 3,
+          "title": "Chiang Mai To Bangkok",
+          "description": "Today, you’ll catch your flight to Bangkok, but not before sampling a scrumptious breakfast buffet featuring Indian, Thai, and Continental delicacies. And, of course, a huge range of exotic tropical fruits. As soon as you land in Bangkok, our tour representatives will help you check in to the hotel. Later, we’ll take you on a half-day tour of the city, covering a range of attractions, viz., the Wat Pho Temple, Wat Traimit Temple, and Wat Benchamabophit. You’ll end the day with some jade and souvenir shopping at Bangkok's many gem and jewellery shops. Spend the night at a Bangkok luxury hotel.",
+          "display_order": 3,
+          "is_active": true
+        },
+        {
+          "day_number": 4,
+          "title": "Safari World – Bangkok",
+          "description": "Today, you will explore Safari World, a 200-acre open-air zoo. This is Asia’s largest open-air zoo, home to various animals and birds, including tigers, lions, and zebras. You mustn’t miss the zoo’s marine park, famous for its life shows, aquarium, and adventure zone. Some of the activities in Safari World include under-the-sea experiences, jungle cruise river tours, jungle walks, and orang-utan shows, sea lion shows, and dolphin shows. Spend the night at your hotel.",
+          "display_order": 4,
+          "is_active": true
+        },
+        {
+          "day_number": 5,
+          "title": "Bangkok Departure",
+          "description": "On the last day of your tour, we’ll take you to Indra Market to complete your shopping. Later, end the day with a return flight to India from the Bangkok International Airport.",
+          "display_order": 5,
+          "is_active": true
+        }
+      ]
+    }
+  ]
+}

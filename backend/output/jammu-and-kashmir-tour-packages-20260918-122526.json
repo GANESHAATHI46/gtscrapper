@@ -1,0 +1,227 @@
+{
+  "source": "GT Holidays",
+  "listing_url": "https://www.gtholidays.in/packages/india/north-india/jammu-and-kashmir-tour-packages/",
+  "page_title": "Jammu and Kashmir Tour Packages",
+  "country": "India",
+  "region": "North India",
+  "destination": "Jammu and Kashmir",
+  "total_packages": 3,
+  "success_count": 3,
+  "failed_count": 0,
+  "scraped_at": "2026-09-18T12:25:26.502394+05:30",
+  "packages": [
+    {
+      "name": "Charming Srinagar Gulmarg Tour",
+      "slug": "charming-srinagar-gulmarg-tour",
+      "source_url": "https://www.gtholidays.in/package/gulmarg-tour-package/",
+      "country": "India",
+      "region": "North India",
+      "destination": "Srinagar-Pahalgam-Gulmarg",
+      "destinations": [
+        "Srinagar-Pahalgam-Gulmarg"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Kashmir is called Heaven on Earth and is famous for its breathtaking landscapes and serene lakes. If you’d like to visit Kashmir, check the Gulmarg travel package from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Srinagar",
+          "description": "Upon arrival at the Srinagar Airport, our tour manager will welcome you and transfer to the hotel. Check into the hotel and spend some time relaxing. Later, you will head out to visit the Mughal Gardens, viz., Nishant Bagh, Shalimar Bagh, Pari Mahal, and Chasm-e-Shahi. Return to the hotel to spend the night in Srinagar."
+        },
+        {
+          "day": 2,
+          "title": "Srinagar, Sonmarg, Srinagar",
+          "description": "After breakfast, head to Sonmarg to explore the Meadow of Gold, famous for its snow-peaked mountains and the meandering Sindh River. Some of the places you will explore include Thajiwas Glacier, Zoji La, Vishansar Lake, Gangabal, Gadsar Lake, and the Amarnath Cave Temple. Return to Srinagar to spend the night in the houseboat."
+        },
+        {
+          "day": 3,
+          "title": "Srinagar - Pahalgam",
+          "description": "After breakfast, check out of the hotel and head to Pahalgam. On the way, you will visit Mattan Lake and the Awantipora Ruins. The Mattan Temple was built in the 8th century and is one of the oldest shrines in Kashmir. Awantipora is famous for the historic temple built by King Awanti Warman. Check into the hotel in Pahalgam and spend the rest of the evening exploring places in the neighbourhood. Pahalgam is a quaint town popularly called Mini Switzerland and is associated with the famous Amarnath Yatra. Spend the night in Pahalgam."
+        },
+        {
+          "day": 4,
+          "title": "Pahalgam - Gulmarg",
+          "description": "After breakfast, check out of the hotel and head to Gulmarg. On the way, you will visit Chandanwari, Betaab Valley, and Aru Valley. The mountains are famous for their snow-covered peaks and dense Deodhar forests. Check into the hotel in Gulmarg and spend the rest of the day relaxing or enjoying neighbouring places. Gulmarg is called Meadow of Flowers, thanks to the thousands of daisies, bluebells, forget-me-nots, and buttercups that bloom in spring. Spend the night in Gulmarg."
+        },
+        {
+          "day": 5,
+          "title": "Gulmarg - Srinagar",
+          "description": "After breakfast, check out of the hotel and head to Srinagar. On the way, you will stop at Kungdoor for a gondola ride, where a cable car will take you to the Kongdari Station. Check into a houseboat in Srinagar and head out to spend the night in a shikhara."
+        },
+        {
+          "day": 6,
+          "title": "Depart Srinagar",
+          "description": "After breakfast, head to the airport as you bid adieu to Kashmir."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Pahalgam-trip-package-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Pahalgam-trip-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Manali-falls-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/srinagar-Dal-Lake-boating-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Hadimba-Devi-Temple-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/gulmarg-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Dal-lake-at-srinagar-870x555.jpg"
+      ],
+      "location": "Srinagar-Pahalgam-Gulmarg",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:25:23.879946+05:30"
+    },
+    {
+      "name": "Combo Kashmir Package",
+      "slug": "combo-kashmir-package",
+      "source_url": "https://www.gtholidays.in/package/kashmir-tour-package/",
+      "country": "India",
+      "region": "North India",
+      "destination": "Katra-Pahalgam-Gulmarg-Srinagar",
+      "destinations": [
+        "Katra-Pahalgam-Gulmarg-Srinagar"
+      ],
+      "duration": "7 Nights 8 Days",
+      "nights": 7,
+      "days": 8,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Kashmir is heaven on earth with its beautiful landscapes, gorgeous valleys, pristine waters, and magnificent mountain ranges. If you’d like to visit this majestic place, check the Kashmir trip package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Jammu",
+          "description": "As you arrive in Jammu, our tour manager will welcome you and drive you to Katra. The journey takes around 1.5 hours and is absolutely stunning. Check into your hotel and spend the rest of the day exploring places in the neighbourhood. Spend the night in Katra."
+        },
+        {
+          "day": 2,
+          "title": "Katra - Vaishno Devi",
+          "description": "After breakfast, visit the Vaishno Devi Temple, a 700-year-old shrine dedicated to Maa Shakti. Return to the hotel in the evening to spend the night in Katra."
+        },
+        {
+          "day": 3,
+          "title": "Katra - Pahalgam",
+          "description": "After breakfast, drive to Pahalgam, a famous hill station famous for its lush green meadows and pristine waters. Check into the hotel and spend the rest of the day enjoying places around the neighbourhood. Spend the night in Pahalgam."
+        },
+        {
+          "day": 4,
+          "title": "Pahalgam - Gulmarg",
+          "description": "Today, you will explore places around Pahalgam, including Mamaleshwar Temple, Chandanwari, Deno Valley, Wadiy e Hajan, and the Shri Amarnath Cave Temple. Later in the day, you will visit Gulmarg. The journey takes around 3 hours. This beautiful destination is famous for its iconic attractions, such as the Gulmarg Gondola, a cable car ride, Strawberry Valley, Afarwat, and Drung Waterfall. Return to your hotel for an overnight stay in Gulmarg."
+        },
+        {
+          "day": 5,
+          "title": "Gulmarg - Srinagar",
+          "description": "After breakfast, head to Srinagar, Kashmir’s capital city, famous for its lakes, picturesque scenery, and gardens. Some places you will cover include Shalimar Bagh Mughal Gardens, Tulip Garden, Pari Mahal, Dal Lake, Hari Parbat, and the Nishat Garden. Enjoy a houseboat experience in Srinagar."
+        },
+        {
+          "day": 6,
+          "title": "Srinagar",
+          "description": "Today, you will cover the places that you missed yesterday. This includes the Floating Gardens, enjoying a boat ride in the Dal Lake, Lal Chowk, and Sinthan Top."
+        },
+        {
+          "day": 7,
+          "title": "Srinagar",
+          "description": "After breakfast, enjoy a beautiful shikara ride, visit the Sri Shankaracharya Temple, or go shopping. Or, you could do nothing and rest on the houseboat enjoying Kashmiri cuisine and some kahwa."
+        },
+        {
+          "day": 8,
+          "title": "Depart Srinagar",
+          "description": "After breakfast, check out of the hotel and return to the airport to catch your flight home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/pangong-lake-in-kashmir-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/pangong-lake-in-kashmir-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Mughal-Gardens-tour-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Khan-Qah-of-Shah-Hadan-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/jammu-mount-travel-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/amritsar-golden-temple-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Pari-Mahal-combo-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Dargah-Hazratbal-870x555.jpg"
+      ],
+      "location": "Katra-Pahalgam-Gulmarg-Srinagar",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:25:25.447871+05:30"
+    },
+    {
+      "name": "Heaven on Earth Package",
+      "slug": "heaven-on-earth-package",
+      "source_url": "https://www.gtholidays.in/package/heaven-on-earth-kashmir-honeymoon-package/",
+      "country": "India",
+      "region": "North India",
+      "destination": "Srinagar – Pahalgam – Gulmarg",
+      "destinations": [
+        "Srinagar",
+        "Pahalgam",
+        "Gulmarg"
+      ],
+      "duration": "4 Nights 5 Days",
+      "nights": 4,
+      "days": 5,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "There are a multitude of reasons why Kashmir is known as ‘Paradise on Earth’, making it one of the most attractive destinations for newlywed couples. Embracing visitors with its snow-covered mountains, clear lakes, spellbindingly beautiful landscapes, and mesmerising beauty, you’re bound to fall in love with this heavenly place. If you wish to visit Kashmir with your partner, then check out our Kashmir honeymoon tour package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Srinagar",
+          "description": "Upon your arrival at Srinagar Airport, our tour representatives will greet you and help you get to your inn or houseboat. Freshen up and enjoy a shikhara ride on Dal Lake, which is the second-largest lake in Jammu and Kashmir. Proceed to explore Char Chinar Island and Nehru Park before getting back to your inn."
+        },
+        {
+          "day": 2,
+          "title": "Srinagar – Gulmarg - Srinagar",
+          "description": "After having breakfast, make your way from Srinagar to the town of Gulmarg. The name of the town literally means ‘meadow of flowers’. On your way, make a stop at the Apple Garden. Reach the hotel, get done with the check-in process, and then leave to explore Gulmarg. You will be taken to the Gulmarg Golf Course, after which you will be riding the Gulmarg Gondola, which is famous for being the largest and highest cable car project in Asia. Later in the day, drive back to Srinagar."
+        },
+        {
+          "day": 3,
+          "title": "Srinagar – Pahalgam - Srinagar",
+          "description": "Relish a delicious breakfast and then journey towards the town of Pahalgam. On your way, visit Awantipora and the saffron fields. After exploring Pahalgam, return to Srinagar."
+        },
+        {
+          "day": 4,
+          "title": "Srinagar",
+          "description": "Dedicate this day to exploring Srinagar. Witness the beauty of spots like Sri Shankaracharya Temple, Nishat Garden, Shalimar Bagh, and Cheshma Shahi Garden. Spend the evening at leisure."
+        },
+        {
+          "day": 5,
+          "title": "Depart Srinagar",
+          "description": "In the morning, depart for the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/gulmarg-snow-skiing-trip-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/gulmarg-snow-skiing-trip-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Gulmarg-Gondola-Cable-Car-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/GULMARG-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Srinagar_Dal_Lake_Sudhakar_Bichali-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/sky-car-gulmarg-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/gulmarg-honeymoon-tour-package-870x555.jpg"
+      ],
+      "location": "Srinagar – Pahalgam – Gulmarg",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-18T12:25:26.501993+05:30"
+    }
+  ],
+  "errors": []
+}

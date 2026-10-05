@@ -1,0 +1,1362 @@
+{
+  "source": "GT Holidays",
+  "listing_url": "https://www.gtholidays.in/packages/international/asia/singapore-tour-packages/",
+  "page_title": "Singapore Tour Packages",
+  "country": null,
+  "region": "Asia",
+  "destination": "Singapore",
+  "total_packages": 20,
+  "success_count": 20,
+  "failed_count": 0,
+  "scraped_at": "2026-09-21T11:59:09.403131+05:30",
+  "packages": [
+    {
+      "name": "Amazing Singapore Tour",
+      "slug": "amazing-singapore-tour",
+      "source_url": "https://www.gtholidays.in/package/universal-studios-singapore-tour-package/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Sunset Tour – Singapore City Tour – Universal Studios",
+      "destinations": [
+        "Singapore",
+        "Sentosa Sunset Tour",
+        "Singapore City Tour",
+        "Universal Studios"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "GT Holidays offers comprehensive Universal Studio – Singapore tour packages to help you enjoy a memorable vacation.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Sentosa Island Tour",
+          "description": "After you land in Singapore, our tour representatives will greet you at the airport and take you to your hotel. Once you have checked in and freshened up, it is time to begin your fabulous Singapore vacation. On your first day, you will be exploring the gorgeous Sentosa Island and the numerous activities present in its surroundings. Interact with the dolphins at Dolphin Island, visit Palawan Beach to see the famous suspension bridge, and enjoy a thrilling cable car ride at the Skyline Luge and Skyride."
+        },
+        {
+          "day": 2,
+          "title": "Gardens by the Bay - National Gallery Singapore - Merlion Park - Singapore Zoo",
+          "description": "The first stop on your second day is Gardens By The Bay, a nature park that covers an area of 101 hectares and has three waterfront gardens. After this, head to the National Gallery Museum, which displays mesmerizing pieces of art from the Southeast Asian community. Next is Merlion Park, which contains the iconic Merlion statue, a half-lion and half-fish statue signifying how Singapore started as a fishing village. The last stop for the day is the Singapore Zoo, home to more than 4200 animals."
+        },
+        {
+          "day": 3,
+          "title": "Universal Studios - Chinatown",
+          "description": "You must visit Universal Studios theme park in Singapore, the first of its kind in Southeast Asia. Don’t forget to ride Battlestar Galactica, the world’s tallest duelling rollercoaster. Kids and adults will surely enjoy revisiting classic movies such as Transformers, The Mummy, and Jurassic Park. Gift your family a memorable day through a tour of the enchanting Universal Studios. In the evening, head to Chinatown to buy souvenirs for yourself and your loved ones and to relish some delicious oriental cuisine."
+        },
+        {
+          "day": 4,
+          "title": "Depart from Singapore",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Singapore-chinese-new-year-festival-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Singapore-chinese-new-year-festival-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/bay-of-garden-singapore-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-aquarium-sentosa-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-marina-bay-sands-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Sunset Tour – Singapore City Tour – Universal Studios",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:43.739722+05:30"
+    },
+    {
+      "name": "Lion City Tour",
+      "slug": "lion-city-tour",
+      "source_url": "https://www.gtholidays.in/package/singapore-family-tour-package/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Night Safari – Star Virgo Cruise – Onboard Star Virgo – Penang – Phuket – Singapore – Sentosa Sunset Tour – Universal Studios",
+      "destinations": [
+        "Singapore",
+        "Night Safari",
+        "Star Virgo Cruise",
+        "Onboard Star Virgo",
+        "Penang",
+        "Phuket",
+        "Sentosa Sunset Tour",
+        "Universal Studios"
+      ],
+      "duration": "6 Nights 7 Days",
+      "nights": 6,
+      "days": 7,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "GT Holidays offers an exhaustive Singapore family tour package itinerary that offers the best Singapore has to offer.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Night Safari",
+          "description": "Once you land in Singapore, our tour representatives will greet you at the airport and take you to your hotel. After you check in and freshen up, you can have lunch at the hotel's dining area and get some restful sleep. Later in the evening, we’ll begin the trip with Night Safari, the world’s first nocturnal zoo and come face-to-face with animals such as Asian Elephants, the Malayan tiger, and fishing cats."
+        },
+        {
+          "day": 2,
+          "title": "Gardens By The Bay - National Gallery Singapore – Chinatown",
+          "description": "Begin the second day of your trip with Gardens By The Bay, a nature park sprawling over 101 hectares with three waterfront gardens. The next destination is the National Gallery, where you can witness a display of Southeast Asian art and culture. The last stop of the day is Chinatown, where travellers can devour delicious oriental cuisine and shop for souvenirs. Board the Star Virgo Cruise at night."
+        },
+        {
+          "day": 3,
+          "title": "Penang",
+          "description": "The cruise reaches Penang early in the day, where you can explore this Malaysian state. Visit the Tropical Spice Garden to witness the beautiful flora and fauna, the Kek Lok Si Temple, and the Pinang Peranakan Mansion. Spend the night at the Star Virgo Cruise."
+        },
+        {
+          "day": 4,
+          "title": "Phuket",
+          "description": "The cruise will reach Phuket on the fourth day of your trip, where you can visit Patong Beach, try snorkelling, and pay your respects at the Wat Chalong temple before getting on the Star Virgo Cruise to be taken back to Singapore."
+        },
+        {
+          "day": 5,
+          "title": "Back to Singapore - Sentosa Island Tour",
+          "description": "The fifth day of your Singapore holiday is about experiencing Sentosa Island's exotic aura. Of the many activities it offers, you can opt to interact with dolphins, take a cable car ride, and visit Palawan Beach."
+        },
+        {
+          "day": 6,
+          "title": "Universal Studios",
+          "description": "Universal Studios in Singapore is the first of its kind in Southeast Asia. If you’re in the mood to get on some thrilling rides and be reminded of the magic of classics like Transformers, The Mummy, and Jurassic Park, this is the right place."
+        },
+        {
+          "day": 7,
+          "title": "Depart from Singapore",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-tour-packages-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/bay-of-garden-singapore-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Singapore-chinese-new-year-festival-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-aquarium-sentosa-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-marina-bay-sands-870x555.jpg"
+      ],
+      "location": "Singapore – Night Safari – Star Virgo Cruise – Onboard Star Virgo – Penang – Phuket – Singapore – Sentosa Sunset Tour – Universal Studios",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:44.640017+05:30"
+    },
+    {
+      "name": "Shoppers Delight- Sentosa Sunset Tour",
+      "slug": "shoppers-delight-sentosa-sunset-tour",
+      "source_url": "https://www.gtholidays.in/package/kuala-lumpur-tour-package/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Night Safari – Singapore City Tour – Sentosa Sunset Tour – Universal Studios – Genting Highlands – Kuala Lumpur – Kuala Lumpur City Tour",
+      "destinations": [
+        "Singapore",
+        "Night Safari",
+        "Singapore City Tour",
+        "Sentosa Sunset Tour",
+        "Universal Studios",
+        "Genting Highlands",
+        "Kuala Lumpur",
+        "Kuala Lumpur City Tour"
+      ],
+      "duration": "6 Nights 7 Days",
+      "nights": 6,
+      "days": 7,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "GT Holidays offers the best Kuala Lumpur tour package itinerary that includes all the important tourist attractions in Kuala Lumpur",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Night Safari",
+          "description": "Once you land in Singapore, our tour representatives will greet you at the airport and take you to the hotel. After you check in and freshen up, you can have lunch at the hotel's dining area and rest. In the evening, leave for the Night Safari, the world’s first nocturnal zoo, where you can see animals such as Asian Elephants, the Malayan tiger, and fishing cats."
+        },
+        {
+          "day": 2,
+          "title": "Singapore City Tour - Sentosa Island Tour",
+          "description": "The second day of your Singapore trip starts with a half-day tour of the city where we will cover Chinatown’s Thian Hock Keng temple and other attractions. We’ll then proceed to Sentosa Island and experience the eclectic activities offered. Tourists can choose to go on cable car rides, interact with adorable dolphins, or stroll through the island's many beaches. The package also includes Underwater World and Song of the Sea light show. Get back to your hotel for an overnight stay."
+        },
+        {
+          "day": 3,
+          "title": "Universal Studios",
+          "description": "Universal Studios is the best place if you’ve always wanted to relive your childhood and enjoy your favorite movies. It is Southeast Asia’s first and only Universal Studio theme park. Enjoy your adrenaline pumping rides and movie-based rides."
+        },
+        {
+          "day": 4,
+          "title": "Genting Highlands",
+          "description": "The cruise will reach Genting Highlands, one of Malaysia's most popular destinations. Pay your respects at the Chin Swee Caves Temple and browse through the Genting Strawberry Leisure Farm. Board the Star Virgo Cruise at night and enjoy the Captain’s Cocktail dinner. Remember to bring some formal attire for dinner and to enjoy some of the entertainment activities on the cruise ship. Spend your night on the Star Virgo."
+        },
+        {
+          "day": 5,
+          "title": "Genting Highlands – Kuala Lumpur",
+          "description": "Start your day with the complimentary breakfast buffet before moving on to visit the Genting SkyWorlds Theme Park, an outdoor theme park for a magical adventure with your family. Move on to Kuala Lumpur to explore Malaysia’s capital city and admire the city’s numerous attractions. Spend your night in Kuala Lumpur and get some much-needed rest for the busy day tomorrow."
+        },
+        {
+          "day": 6,
+          "title": "Kuala Lumpur City Tour",
+          "description": "Once you reach Kuala Lumpur, you will have an entire day to explore Malaysia's capital city, including the Petronas Towers, Batu Caves, and the National Museum."
+        },
+        {
+          "day": 7,
+          "title": "Depart from Kuala Lumpur",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/garden-by-the-bay-singapore-trip-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/garden-by-the-bay-singapore-trip-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/bay-of-garden-singapore-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-aquarium-sentosa-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-marina-bay-sands-870x555.jpg"
+      ],
+      "location": "Singapore – Night Safari – Singapore City Tour – Sentosa Sunset Tour – Universal Studios – Genting Highlands – Kuala Lumpur – Kuala Lumpur City Tour",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:45.555410+05:30"
+    },
+    {
+      "name": "Singapore and Kuala Lumpur with Coach",
+      "slug": "singapore-and-kuala-lumpur-with-coach",
+      "source_url": "https://www.gtholidays.in/package/singapore-and-kuala-lumpur-with-coach/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Island – Kuala Lumpur",
+      "destinations": [
+        "Singapore",
+        "Sentosa Island",
+        "Kuala Lumpur"
+      ],
+      "duration": "6 Nights 7 Days",
+      "nights": 6,
+      "days": 7,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Welcome to Singapore. GT Holidays is committed to providing the best vacation experience with a comprehensive Singapore Kuala Lumpur travel package itinerary.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Gardens by the Bay - National Gallery Singapore - Singapore Zoo",
+          "description": "After you land in Singapore, our tour representatives will greet you at the airport and take you to your hotel. Check-in and refresh for a busy day ahead as we begin the first day of your Singapore vacation. Visit the Gardens by the Bay, a nature park covering 101 hectares. Head to the National Gallery, a museum with art pieces from the Southeast Asian community. The day ends with a visit to Singapore Zoo, with over 4,200 animals."
+        },
+        {
+          "day": 2,
+          "title": "Sentosa Island Tour",
+          "description": "The second day is about exploring the beauty of Sentosa Island. Go on cable car rides, interact with adorable dolphins, or stroll through the island's many beaches."
+        },
+        {
+          "day": 3,
+          "title": "Universal Studios – Chinatown",
+          "description": "Universal Studios in Singapore is the first in Southeast Asia. Feel the excitement of the rides and go down memory lane as you see glimpses from the remnants of movies such as Transformers, The Mummy, and Jurassic Park. In the evening, go ahead and enjoy lots of delicious oriental cuisine in Chinatown and get souvenirs for yourself."
+        },
+        {
+          "day": 4,
+          "title": "Kuala Lumpur – Genting Highlands",
+          "description": "Take a flight from Singapore to Kuala Lumpur. For your first day in Kuala Lumpur, we will take you to Genting Highlands. Visit the Genting SkyWorlds Theme Park with your family, browse through Genting Strawberry Leisure Farm, and pay your respects at the Chin Swee Caves Temple."
+        },
+        {
+          "day": 5,
+          "title": "Malacca - Petronas Twin Towers",
+          "description": "For your second day in Kuala Lumpur, you will witness the UNESCO World Heritage Site, Malacca, filled with historical significance. Finish off the day by visiting the most popular spot in the city, the Petronas Twin Towers."
+        },
+        {
+          "day": 6,
+          "title": "Batu Caves - National Mosque of Malaysia",
+          "description": "Experience the serenity of the Batu Caves, brimming with shrines and temples. Breathe in the sanctity of the National Mosque of Malaysia before getting back to your hotel."
+        },
+        {
+          "day": 7,
+          "title": "Depart from Kuala Lumpur",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-marina-bay-sands-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-marina-bay-sands-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Sentosa-Beach-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Island – Kuala Lumpur",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:46.332649+05:30"
+    },
+    {
+      "name": "Exciting Singapore",
+      "slug": "exciting-singapore",
+      "source_url": "https://www.gtholidays.in/package/exciting-singapore/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Island",
+      "destinations": [
+        "Singapore",
+        "Sentosa Island"
+      ],
+      "duration": "4 Nights 5 Days",
+      "nights": 4,
+      "days": 5,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "GT Holidays offers an exciting Singapore tour package itinerary that includes everything that",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "National Gallery - Merlion Park - St. Andrew's Cathedral",
+          "description": "After you land in Singapore, our tour representatives will greet you at the airport and take you to the hotel. Once you have checked in and freshened up, we’ll meet you at the decided hour to begin your Singapore holiday. National Gallery is the first destination where you can admire the multiple displays of art and culture from the Southeast Asian community. Next is Merlion Park, famous for the iconic Merlion statue, a half-lion and half-fish statue signifying how Singapore started as a fishing village. Finish off your day by breathing in the calm and holy ambience of St. Andrew's Cathedral."
+        },
+        {
+          "day": 2,
+          "title": "Sentosa Island Tour",
+          "description": "Sentosa Island in Singapore is brimming with dozens of activities that deserve an entire day. The S.E.A Aquarium is home to over 100,000 marine animals and even take pictures with dolphins at Dolphin Island, hail an exciting cable car ride at the Skyline Luge and Skyride, and go on beachy adventures at the Siloso Beach."
+        },
+        {
+          "day": 3,
+          "title": "Universal Studios - Singapore Botanic Gardens",
+          "description": "Visit Southeast Asia’s first Universal Studios to ride the Battlestar Galactica, rock climb, and look for fossils at The Lost World. Later in the day, we will take you to Singapore Botanic Gardens, a UNESCO World Heritage site and the National Orchid Garden, home to over 1,000 species of orchids."
+        },
+        {
+          "day": 4,
+          "title": "Gardens by the Bay - Singapore Zoo – Chinatown",
+          "description": "Start the fourth day of your trip with a visit to Gardens By The Bay, a nature park that houses three waterfront gardens. Take your family to the Singapore Zoo, where you can see over 4,200 animals. End your day with a visit to Chinatown to relish some delicious oriental cuisine and buy souvenirs for friends and family."
+        },
+        {
+          "day": 5,
+          "title": "Depart from Singapore",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Sentosa-Beach-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Sentosa-Beach-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Singapore-Universal-Studio-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Island",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:47.128404+05:30"
+    },
+    {
+      "name": "Historic Singapore",
+      "slug": "historic-singapore",
+      "source_url": "https://www.gtholidays.in/package/historic-singapore/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore",
+      "destinations": [
+        "Singapore"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Welcome to Singapore! Check our Singapore group tour package itinerary to understand its unique history and culture.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Singapore - Indian National Army Monument - Singapore Zoo",
+          "description": "After you land in Singapore, our tour representatives will greet you at the airport and take you to the hotel. Once you have checked in and freshened up, we will meet you at the appointed hour to begin your amazing trip. The first stop of your historic trip is the Indian National Army Monument at the Esplanade Park on Connaught Drive in Downtown Singapore. The war memorial was established on 8th July 1945. After this, take your family to the Singapore Zoo, where you meet with over 4200 animals face-to-face."
+        },
+        {
+          "day": 2,
+          "title": "Sentosa Island Tour",
+          "description": "If you want to spend an entire day at one place that will give you the best of both worlds, you must visit Sentosa Islands. Choose from a range of activities available at the spot – from riding a cable car at the Skyline Luge and Skyride to dolphin watching at Dolphin Island."
+        },
+        {
+          "day": 3,
+          "title": "Universal Studios – Chinatown",
+          "description": "The third day of your trip includes plenty of excitement, an adrenaline rush, and endless fun. We’ll take you to Universal Studios, where you can enjoy thrilling rides such as the Battlestar Galactica and reminisce about your childhood through the movies you watched. Later in the evening, head to Chinatown to taste some delicious oriental dishes and shop for souvenirs."
+        },
+        {
+          "day": 4,
+          "title": "Depart from Singapore",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Road-Away-Distance-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Road-Away-Distance-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Sculpture-Dragons-870x555.jpg"
+      ],
+      "location": "Singapore",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:48.044458+05:30"
+    },
+    {
+      "name": "Singapore Delight",
+      "slug": "singapore-delight",
+      "source_url": "https://www.gtholidays.in/package/singapore-delight/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore, Sentosa Island",
+      "destinations": [
+        "Singapore",
+        "Sentosa Island"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "If you are planning to visit Lion City and looking for comprehensive tour packages, check out our Singapore Delight tour package itinerary.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive at Singapore - Gardens by The Bay - National Gallery Singapore - Singapore Zoo",
+          "description": "After you land in Singapore, our tour representative will welcome you at the airport and drive you to the hotel. Once you have checked in and freshened up, you can proceed to experience Night Safari at the Mandai Wildlife Reserve. It is the world’s first nocturnal open-air zoo where you can admire over 2500 animals from over 900 species, including civets, leopards, porcupines, etc."
+        },
+        {
+          "day": 2,
+          "title": "Singapore Half-Day City Tour – Merlion Park, Chinatown & More",
+          "description": "Day 2 begins with a coach tour of the city where you can explore the different tourist attractions in the city, including Merlion Park, Mount Faber, Jewellery Factory, Chocolate Shop, Little India, etc. Chinatown is the best place for bargain shopping, where you can buy souvenirs and other knickknacks for friends and family. Little India is the best place to explore Indian culture and cuisine and buy handicrafts"
+        },
+        {
+          "day": 3,
+          "title": "Sentosa Island Tour",
+          "description": "Sentosa Island is famous for its eclectic architecture and amazing adventure activities. The island offers plenty of activities for tourists of all ages to enjoy. This includes visiting the S.E.A Aquarium, Universal Studio, Madame Tussauds, and zipping on the Mega Zip at the Mega Adventure Park. You can also hop on a cable car at the Skyline Luge and Skyride, play with dolphins at Dolphin Island, or walk around the many beaches on the island."
+        },
+        {
+          "day": 4,
+          "title": "Depart from Singapore",
+          "description": "Check out from your hotel and head to the airport to board your flight back home"
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Singapore-Marina-Bay-Sands-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Singapore-Marina-Bay-Sands-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Singapore-Zoo-870x555.jpg"
+      ],
+      "location": "Singapore, Sentosa Island",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:49.035026+05:30"
+    },
+    {
+      "name": "Singapore Family Fun",
+      "slug": "singapore-family-fun",
+      "source_url": "https://www.gtholidays.in/package/singapore-family-fun/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Island",
+      "destinations": [
+        "Singapore",
+        "Sentosa Island"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Singapore is a fun destination for kids and adults alike. Find our Singapore family fun package itinerary to learn more about the places we cover.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive at Singapore - Night Safari",
+          "description": "After you land in Singapore, our tour representatives will welcome you at Changi Airport and drop you at the hotel, leaving you to check in and freshen up. After you enjoy your meal at the hotel, we’ll meet you in the evening to enjoy Night Safari at the Mandai Wildlife Reserve. Later in the evening, get ready to witness the first nocturnal zoo in the world to experience a mesmerizing Night Safari. This unique open zoo has hundreds of animals, including rare and endangered species like Asian elephants, civets, Malayan tigers, and fishing cats."
+        },
+        {
+          "day": 2,
+          "title": "Sentosa Island Tour And Singapore Half-Day City Tour",
+          "description": "The next day includes a half-day tour of the city, covering all important destinations like Merlion Park, Mount Faber, Jewellery Factory, Chocolate Shop, and Little India. Sentosa Island is the next destination, with hundreds of attractions to keep you engaged for an entire day. From cable car rides at the Skyline Luge and Skyride to swimming with the dolphins at Dolphin Island or relaxing at one of the many serene beaches on the island, there are dozens of things to do and enjoy on Sentosa Island."
+        },
+        {
+          "day": 3,
+          "title": "Universal Studios",
+          "description": "How about going back to your childhood days? Universal Studios is one of the best attractions in Singapore and the first of its kind in Southeast Asia. The studio in Singapore allows adults to relive their childhood, allowing them to ride the Battlestar Galactica and enjoy other rides before heading to Chinatown later in the day to relish oriental cuisine and shop for souvenirs."
+        },
+        {
+          "day": 4,
+          "title": "Gardens by the Bay - National Gallery Singapore - Singapore Zoo",
+          "description": "The third day of your trip is to explore the famous touristy spots in Singapore. Explore Gardens by the Bay, a nature park covering 101 hectares. The next stop is the National Gallery in Singapore, home to intricate art pieces from the Southeast Asian community. The last stop for the day is the Singapore Zoo, with more than 4200 animals."
+        },
+        {
+          "day": 5,
+          "title": "Explore Little India And Other Attractions",
+          "description": "Little India is popular for its street food, souvenir shops, handicrafts, and other attractions. You can explore the country’s art scene, and enjoy the river view by night on Boat Quay."
+        },
+        {
+          "day": 6,
+          "title": "Depart from Singapore",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Jurong-Park-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Jurong-Park-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/garden-by-the-bay-singapore-trip-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Island",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:49.870363+05:30"
+    },
+    {
+      "name": "Singapore Free and Easy",
+      "slug": "singapore-free-and-easy",
+      "source_url": "https://www.gtholidays.in/package/singapore-free-and-easy/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Island",
+      "destinations": [
+        "Singapore",
+        "Sentosa Island"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Welcome to Singapore! Here’s what our Singapore trip package itinerary includes to explore Garden City at its best.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive at Singapore – Night Safari",
+          "description": "After you land in Singapore, our tour representatives will greet you at the airport and take you to the hotel. Once you check in and freshen up, you can begin the first day of your trip with a Night Safari at the Mandai Wildlife Reserve. This is an open-air zoo where guests can observe over 2500 animals from close quarters."
+        },
+        {
+          "day": 2,
+          "title": "Singapore Half-Day City Tour – Half-Day Sentosa",
+          "description": "The second day starts with a half-day city tour where a coach will take you to explore different attractions, including Merlion Park, Gardens by the Bay, Marina Sands, Mount Faber, Chinatown, etc. It also includes the National Gallery, a national museum that displays works of Southeast Asian artists. The second half of the day includes Sentosa Island, where you can explore different attractions, including Madame Tussauds, SEA Aquarium, etc. You will be staying at a luxury hotel in Sentosa. You can also enjoy cable car rides at the Skyline Luge and Skyride."
+        },
+        {
+          "day": 3,
+          "title": "Universal Studios",
+          "description": "The third day begins with exploring Universal Studios, where you can revisit old classics and explore the different adventure rides, games and attractions based on your favorite blockbuster movies like Jurassic Park, Shrek, Transformers, and Madagascar. Get on Battlestar Galactica and enjoy a memorable day with your kids, who will surely love this tourist attraction."
+        },
+        {
+          "day": 4,
+          "title": "Depart from Singapore",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Island-Tower-Building-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Island-Tower-Building-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Road-Away-Distance-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Island",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:50.715695+05:30"
+    },
+    {
+      "name": "Singapore with Kuala Lumpur",
+      "slug": "singapore-with-kuala-lumpur",
+      "source_url": "https://www.gtholidays.in/package/singapore-with-kuala-lumpur/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Island – Kuala Lumpur",
+      "destinations": [
+        "Singapore",
+        "Sentosa Island",
+        "Kuala Lumpur"
+      ],
+      "duration": "6 Nights 7 Days",
+      "nights": 6,
+      "days": 7,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "The GT Holidays Singapore with Kuala Lumpur tour package itinerary is designed to include the best of Singapore and ensure you have a memorable vacation.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Sentosa Island Tour",
+          "description": "Our tour guide will be at Changi Airport to welcome you and take you to the hotel to complete check-in formalities. We’ll leave you alone for some time, allowing you to refresh and prepare for the day ahead. On the first day, you will explore Sentosa Island, which has many activities for tourists. Look at the adorable dolphins at Dolphin Island, ride a cable car at the Skyline Luge and Skyride, and visit the island's many beaches."
+        },
+        {
+          "day": 2,
+          "title": "Gardens by the Bay - National Gallery Singapore - Singapore Zoo",
+          "description": "Let the second day be about visiting some of the famous touristy spots of Singapore. Begin with Gardens By The Bay, a nature park that is home to 1.5 million plants from every continent. Head to the National Gallery Singapore to peruse the stunning art pieces before moving on to the Singapore Zoo, the world’s best rainforest zoo with over 4,200 animals."
+        },
+        {
+          "day": 3,
+          "title": "Universal Studios – Chinatown",
+          "description": "Universal Studios in Singapore is the perfect place to feel like a kid again and enjoy a vibrant theme park filled with rides. In the evening, head to Chinatown to relish some delicious oriental cuisine."
+        },
+        {
+          "day": 4,
+          "title": "Kuala Lumpur – Genting Highlands",
+          "description": "Take a flight from Singapore to Kuala Lumpur, where you will be greeted by our tour representatives, who will help you shift to your hotel. Browse through the Genting Strawberry Leisure Farm, hop on to the Genting SkyWorlds Theme Park, and pay your respects at the Chin Swee Caves Temple."
+        },
+        {
+          "day": 5,
+          "title": "Malacca - Petronas Twin Towers",
+          "description": "Witness the UNESCO World Heritage Site, Malacca, which has historical significance. Finish the day by visiting the most popular spot in the city, the Petronas Twin Towers."
+        },
+        {
+          "day": 6,
+          "title": "Batu Caves - National Mosque of Malaysia",
+          "description": "You will be breathing in the serenity of Batu Caves during the sixth day of your trip. Get mesmerized by the National Mosque of Malaysia before getting back to your hotel."
+        },
+        {
+          "day": 7,
+          "title": "Depart from Kuala Lumpur",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Kuala-Lumpur-Building-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Kuala-Lumpur-Building-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Malaysia-Beach-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Island – Kuala Lumpur",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:51.457943+05:30"
+    },
+    {
+      "name": "Singapore with Langkawi",
+      "slug": "singapore-with-langkawi",
+      "source_url": "https://www.gtholidays.in/package/singapore-with-langkawi/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Island – Langkawi",
+      "destinations": [
+        "Singapore",
+        "Sentosa Island",
+        "Langkawi"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "GT Holidays offers a comprehensive Singapore – Langkawi tour package itinerary to ensure you have a memorable vacation.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Gardens By The Bay - National Gallery Singapore - Singapore Zoo",
+          "description": "Once you land in Singapore, our tour representatives will greet you at the airport and take you to your hotel. After completing check-in and freshening up, you can head out to begin your fantastic holiday. The first day involves hopping from one famous sightseeing spot to another. The first one is Gardens by the Bay, Singapore’s most famous nature garden, which sprawls over 101 hectares, including three waterfront gardens. Next is the National Gallery Museum, Singapore, with art pieces from the Southeast Asian community on display. The last place on your itinerary is Singapore Zoo, the best place for families with kids."
+        },
+        {
+          "day": 2,
+          "title": "Sentosa Island Tour",
+          "description": "The beauty and glamour of Sentosa Island await you on your second day. The island has numerous beaches for you to relax and enjoy. There are plenty of other activities you can indulge in, such as interacting with dolphins at Dolphin Island and taking a cable car ride at the Skyline Luge and Skyride."
+        },
+        {
+          "day": 3,
+          "title": "Universal Studios – Chinatown",
+          "description": "Get ready to be engulfed by a world of fun rides and entertainment at Universal Studios in Singapore, the first of its kind in Southeast Asia. Make sure to ride the Battlestar Galactica while you’re there. Later in the evening, grab some scrumptious oriental cuisine in Chinatown."
+        },
+        {
+          "day": 4,
+          "title": "Reach Langkawi - Langkawi Cable Car - Langkawi Wildlife Park",
+          "description": "Take your flight from Singapore to Langkawi, where you will be greeted by our tour representatives, who will help you shift to your hotel. Head on to one of Malaysia's most famous attractions, the Langkawi Cable Car, where you can ride a gondola-style cable car and ride 650 metres high in the air. Finish the day by exploring the Langkawi Wildlife Park and interacting with the 150 species of animals."
+        },
+        {
+          "day": 5,
+          "title": "Pantai Cenang Beach - Paradise 3D Museum - Telaga Tujuh Waterfalls",
+          "description": "Visit Pantai Cenang Beach to relax and enjoy swimming, sunbathing, and other water sports. After this, visit the Paradise 3D Museum, the world’s largest 3D. Lastly, lay your eyes on the mesmerizing view of the Telaga Tujuh Waterfalls."
+        },
+        {
+          "day": 6,
+          "title": "Depart from Langkawi",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Blue-Sky-Langkawi-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Blue-Sky-Langkawi-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Nature-Mountain-Travel-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Island – Langkawi",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:52.235586+05:30"
+    },
+    {
+      "name": "Singapore with Bali",
+      "slug": "singapore-with-bali",
+      "source_url": "https://www.gtholidays.in/package/singapore-with-bali/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Island – Bali – Kintamani – Tanjung Benoa",
+      "destinations": [
+        "Singapore",
+        "Sentosa Island",
+        "Bali",
+        "Kintamani",
+        "Tanjung Benoa"
+      ],
+      "duration": "6 Nights 7 Days",
+      "nights": 6,
+      "days": 7,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "If you’d like to combine experiencing futuristic urban sophistication with serene tropical bliss, you must check our Singapore and Bali tour package. While Singapore is known for its futuristic architecture, Bali is famous for its cultural heritage, ancient temples, and pristine beaches. Check our itinerary for further details.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive at Singapore - Gardens by the Bay - Marina Bay Sands",
+          "description": "The flora and fauna here are as breathtaking as the futuristic architecture."
+        },
+        {
+          "day": 2,
+          "title": "Singapore Botanic Gardens - Singapore Zoo",
+          "description": "Immerse yourself in the beauty of nature at the Singapore Botanical Gardens, a UNESCO World Heritage Site. Enjoy a guided tour of the lush green surroundings, and remember to pose for pictures. Take your children to see wildlife at the Singapore Zoo, which houses more than 4,200 animals, including African lions, white rhinos, cheetahs, giraffes, and zebras."
+        },
+        {
+          "day": 3,
+          "title": "Universal Studios",
+          "description": "Get ready for a thrilling experience at the only Universal Studios in Southeast Asia. All attractions at this theme park are based on movies and TV shows. The theme park is also filled with exciting rides and entertaining shows. If that doesn’t sound exciting, we don’t know what does."
+        },
+        {
+          "day": 4,
+          "title": "Arrive at Bali - Celuk Village - Mas Village",
+          "description": "Board your flight from Singapore to Bali. Your tour of the island includes a visit to Celuk, the Balinese village famous for its gold and silver craftsmanship. Later, you will head to Mas, a village known for its wood carving. You can shop for intricate statues, furniture, and traditional masks."
+        },
+        {
+          "day": 5,
+          "title": "Batubulan Village- Kintamani Volcano Safari – Ubud Central Market",
+          "description": "Your second day in Bali will begin by visiting the Batubulan Village, famous for its art exhibits. You can also witness a Barong and Kecak Dance performance at Batubulan. The next adventure is the Kintamani Volcano Safari, where you can come face-to-face with the breathtaking view of the hot black lava of Mount Batur and also see the rice terraces, coffee plantations, and ancient temples. End your day at the central market in Ubud to purchase souvenirs and knickknacks."
+        },
+        {
+          "day": 6,
+          "title": "Tanjung Benoa Beach",
+          "description": "How can you leave Bali without enjoying the calm and serene blue waters at its beaches? Head to Tanjung Benoa Beach to leisurely stroll and immerse yourself in sunbathing and beachy activities. To indulge in water sports, pick from the available options - parasailing, banana boat, and jet skiing. Pamper yourself in the afternoon with two hours of a rejuvenating spa treatment. Spend the night at your hotel."
+        },
+        {
+          "day": 7,
+          "title": "Depart from Bali",
+          "description": "Check out from your hotel and head to the airport to board your flight home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/bay-of-garden-singapore-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/bay-of-garden-singapore-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-travel-packages-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Island – Bali – Kintamani – Tanjung Benoa",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:53.089362+05:30"
+    },
+    {
+      "name": "Singapore with Marina Bay Sands",
+      "slug": "singapore-with-marina-bay-sands",
+      "source_url": "https://www.gtholidays.in/package/singapore-with-marina-bay-sands/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Island –  Marina Bay",
+      "destinations": [
+        "Singapore",
+        "Sentosa Island",
+        "Marina Bay"
+      ],
+      "duration": "4 Nights 5 Days",
+      "nights": 4,
+      "days": 5,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Visiting Garden City is incomplete without a trip to Marina Bay Sands. Check our Marina Bay Sands tour package itinerary to check what’s included in the program:",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival at Singapore – Night Safari",
+          "description": "As soon as you arrive in Singapore, our tour guide will be at the airport to welcome you and help you get a transfer to the hotel. The guide will give you details about the entire itinerary, including the activities waiting ahead of you. We’ll then leave you to complete the check-in formalities and rest for some time. The first day includes a Night Safari at the Mandai Wildlife Reserve. The Night Safari is an excellent opportunity to admire hundreds of rare & endangered species like tigers, tapirs, flying squirrels, and rhinoceroses."
+        },
+        {
+          "day": 2,
+          "title": "Sentosa Island Tour",
+          "description": "The second day includes a coach tour of Singapore’s best attractions like Gardens By The Bay, Merlion Park, Chinatown, Little India, Chocolate Shop, etc. We’ll leave you to soak in the beauty of the place and admire the wonderful buildings and modern architecture. The next vacation stop is Sentosa, where you can enjoy the numerous attractions on the island. Sentosa is famous for its cable car rides from Mount Faber to Sentosa, the Madame Tussauds Museum shows like Images of Singapore -Live and Wings of Time. You can also take pictures with cute dolphins at Dolphin Island or relax at one of the numerous beaches on the island."
+        },
+        {
+          "day": 3,
+          "title": "Universal Studios",
+          "description": "The Universal Studios theme park is the first of its kind in Southeast Asia and is famous for its rides, shows, and games based on old Hollywood blockbusters like Jurassic Park and Shrek. You can ride Battlestar Galactica, the tallest duelling rollercoaster in the world, and have a blast revisiting classic movies such as Transformers, The Mummy, and Jurassic Park."
+        },
+        {
+          "day": 4,
+          "title": "Marina Bay Sands",
+          "description": "You will be transferred from the hotel to Marina Bay Sands on the fourth day. Take a bird’s eye view of Singapore’s landscape from Marina Sands SkyPark Observation Deck. Watch the Light and Water Show in the evening and shop at the numerous luxury stores before turning in for the night at your posh accommodation."
+        },
+        {
+          "day": 5,
+          "title": "Depart from Singapore",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Singapore-Marina-Bay-Sands-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Singapore-Marina-Bay-Sands-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Museum-Merlion-Park-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Island –  Marina Bay",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:53.921222+05:30"
+    },
+    {
+      "name": "Singapore with Bintan",
+      "slug": "singapore-with-bintan",
+      "source_url": "https://www.gtholidays.in/package/singapore-with-bintan/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Bintan",
+      "destinations": [
+        "Singapore",
+        "Bintan"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Check our Singapore with Bintan tour package itinerary if Southeast Asia is on your bucket list. We cover all important destinations and the finest resorts in Bintan.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Singapore – Night Safari",
+          "description": "Our tour representative will greet you at Changi Airport to welcome you and transfer you to the hotel. We’ll leave you to freshen up and prepare for the day ahead. In the evening, we’ll visit the Mandai Wildlife Reserve to experience Night Safari, the world’s first nocturnal zoo to watch the animals from close quarters."
+        },
+        {
+          "day": 2,
+          "title": "Singapore City Tour - Gardens by the Bay - National Gallery Singapore - Singapore Zoo",
+          "description": "Let’s get extra touristy on the second day by visiting some of Singapore’s iconic attractions, namely – Gardens by The Bay, a nature park spanning over 101 hectares and home to millions of plants from across the continents, the National Gallery, a national museum home to exquisite art from Southeast Asia, and the Singapore Zoo."
+        },
+        {
+          "day": 3,
+          "title": "Sentosa - Universal Studios – Chinatown",
+          "description": "Let the alluring beauty of Sentosa Island engulf you and engage you with its multiple activities. Get a cable car ride at the Skyline Luge and Skyride, stroll around its many beaches and interact with cute dolphins at Dolphin Island. Universal Studios is a Hollywood-based theme park with amazing rides, games, and shows based on old Hollywood classics like Jurrasic Park, Madagascar, Shrek, and Transformers. You can end the day with a visit to Chinatown to sample some local street food, including Hainanese chicken rice, char kway teow, and roti prata. It’s also the best place for some bargain shopping."
+        },
+        {
+          "day": 4,
+          "title": "Singapore – Bintan - Banyan Tree Temple",
+          "description": "Ride a ferry from Singapore to Bintan, Indonesia’s famous holiday destination. We’ll meet you at the Tanah Merah Ferry Terminal and help you transfer by coach to an exclusive hotel in Bintan. Get a good night’s sleep at your hotel in Bintan. One of the top destinations in Bintan includes the Banyan Tree Temple – a Chinese shrine worshipped for over 200 years."
+        },
+        {
+          "day": 5,
+          "title": "Bintan Full-Day Tour",
+          "description": "Bintan is famous for its world-class resorts, beautiful beaches, Chinese temples, seafood restaurants, and local delicacies. You can enjoy snorkelling, jet-skiing, windsurfing, and other water sports in Bintan."
+        },
+        {
+          "day": 6,
+          "title": "Bintan – Singapore - Depart from Singapore",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Monorail-Singapore-Rail-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Monorail-Singapore-Rail-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Road-Away-Distance-870x555.jpg"
+      ],
+      "location": "Singapore – Bintan",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:58:55.298794+05:30"
+    },
+    {
+      "name": "Singapore with Thailand",
+      "slug": "singapore-with-thailand",
+      "source_url": "https://www.gtholidays.in/package/singapore-with-thailand/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Island – Bangkok – Pattaya – Coral Island",
+      "destinations": [
+        "Singapore",
+        "Sentosa Island",
+        "Bangkok",
+        "Pattaya",
+        "Coral Island"
+      ],
+      "duration": "8 Nights 9 Days",
+      "nights": 8,
+      "days": 9,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "If Singapore and Thailand are a part of your vacation itinerary, browse through our Singapore with Thailand tour package to learn more about the different places we cover.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Singapore – Night Safari",
+          "description": "As soon as you land at Changi Airport, our tour representative will greet you and take you to the hotel. We’ll leave you to check in and rest before proceeding to the first activity – the Night Safari on the Mandai Wildlife Reserve. This open-air zoo is the first of its kind and is home to thousands of animals."
+        },
+        {
+          "day": 2,
+          "title": "Singapore City Tour",
+          "description": "The second day begins with exploring the different tourist attractions in the city, namely, Gardens By The Bay, a nature park spread over 101 hectares; the National Gallery, a museum showcasing Southeast Asian art collections; the Merlion Park, famous for the Merlion Statue, a half-lion and half-fish statue. Some other places covered in the tour include the Esplanade Theatre, Suntec City, and Marina Bay. You’ll also visit the Indian National Army Monument in downtown Singapore built in 1995 to honour the brave INA soldiers who died fighting the British in India and Burma, and the Singapore Zoo, which is home to over 2,800 animals."
+        },
+        {
+          "day": 3,
+          "title": "Sentosa Island – Universal Studios",
+          "description": "Check out from the city hotel to transfer to Sentosa Island. You’ll begin your adventure with Universal Studios, Southeast Asia's first and only Universal Studios theme park. The park is famous for its amazing rides, games, and interactive shows based on old Hollywood movies like Jurassic Park, Madagascar and Shrek."
+        },
+        {
+          "day": 4,
+          "title": "Sentosa Island Tour",
+          "description": "The next day you can enjoy the remaining attractions on Sentosa Island. There are over 25 attractions, ranging from SEA Aquarium and Adventure Cove Waterpark to Madame Tussauds and Palawan Beach. You can also experience the cable car ride from Mount Faber to Sentosa Island or enjoy Skyline Luge and Skyride, an open-air cart drive for a majestic view of the island."
+        },
+        {
+          "day": 5,
+          "title": "Singapore – Pattaya - Big Buddha Temple - Dolphin World",
+          "description": "On your fifth day, board your flight from Singapore to Bangkok. Our tour representatives will meet you at the airport and transfer you to your hotel in Pattaya. The first destination in Pattaya is the Big Buddha Temple, where Buddha's idol stands at 300 feet. After witnessing this spiritually rich spot, you can head for a dolphin show at Dolphin World, which kids will surely enjoy."
+        },
+        {
+          "day": 6,
+          "title": "Coral Island - Night Bazaar",
+          "description": "On Day 6, take a speedboat to explore the scenic Coral Island, the largest island in Pattaya and one of the most visited tourist attractions. You can stroll with your loved one on the island’s golden beaches or engage in parasailing, snorkelling, banana boat riding and other water-based activities. You can end your day by visiting Pattaya’s popular Night Bazaar, a famous street market selling clothes, accessories, and souvenirs."
+        },
+        {
+          "day": 7,
+          "title": "Pattaya – Bangkok",
+          "description": "Begin your day by driving from Pattaya to Bangkok. You can enjoy the rest of the day at leisure or go for a cruise on the Chao Phraya River to enjoy dinner, dance, and live music. The Chao Phraya River Cruise offers a memorable view of the riverside scenery, where you can admire the beautiful temples and landmarks. And to finish the day attend a Cabaret Show to experience glitz and glamour."
+        },
+        {
+          "day": 8,
+          "title": "Bangkok City Tour",
+          "description": "Experience the power and magnificence of Thai Royalty early in the day by visiting the Grand Palace, where the King of Thailand resides. The Golden Buddha Temple is another highlight of the day, famous for its seated Buddha that weighs five and a half tons and is from the Sukhothai period. Don’t miss Wat Pho, the reclining Buddha temple famous for its 15 metres tall and 46 metres long Buddha. The soles of this Buddha are crafted with mother-of-pearl shells. Drink in the serenity and peace at Wat Arun, the Temple of the Dawn, one of Thailand’s oldest and most famous temples."
+        },
+        {
+          "day": 9,
+          "title": "Depart from Bangkok",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Universal_Studio_Singapore-View-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Universal_Studio_Singapore-View-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/coral-sea-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Island – Bangkok – Pattaya – Coral Island",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:59:02.404452+05:30"
+    },
+    {
+      "name": "Sizzling Singapore Tour with Bintan",
+      "slug": "sizzling-singapore-tour-with-bintan",
+      "source_url": "https://www.gtholidays.in/package/singapore-honeymoon-packages/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Bintan – City Tour – Universal Studio",
+      "destinations": [
+        "Singapore",
+        "Bintan",
+        "City Tour",
+        "Universal Studio"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Singapore is a great multicultural country, famous for its shopping avenues, modern buildings, unique cultural sights, and great food. Bintan is a beautiful Indonesian island famous for its beaches and seafood restaurants. If you’d like to explore these destinations, check the Singapore couple package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Singapore - Bintan",
+          "description": "Upon arrival at the Changi International Airport, our tour manager will welcome you to Bintan. The ferry ride takes around 2.5 hours. Upon arrival, check into the resort and spend some time appreciating its beautiful surroundings. Enjoy a candlelight dinner in the evening and a relaxed stay at the luxury resort."
+        },
+        {
+          "day": 2,
+          "title": "Bintan Tour",
+          "description": "Bintan Island offers plenty of exciting activities that you must experience. These include enjoying the seafood, visiting the ancient temples, exploring Trikora Beach, enjoying a pampering spa session, and even signing up for an archery session. Spend the night in Bintan."
+        },
+        {
+          "day": 3,
+          "title": "Bintan - Singapore",
+          "description": "After a sumptuous breakfast, check out your hotel and head to Singapore. You will start with the Singapore Experiential Tour, which includes attractions like S.E.A Aquarium, Universal Studios, Adventure Cove, and other attractions at Resorts World Sentosa. Revel in the adrenaline surge experienced through extreme adventure rides on these theme parks before calling it a day and returning to your hotel. Don’t miss the Songs of the Sea, a multimedia show at Sentosa Island featuring fireworks, water jets, and a musical fountain."
+        },
+        {
+          "day": 4,
+          "title": "Singapore Half-Day City Tour",
+          "description": "After a delicious breakfast, you will head for a tour of Singapore City, covering major attractions like Gardens by the Bay, Marina Bay, the Merlion Statue, China Town, the Singapore Zoo, the Buddha Tooth Relic Temple, and the National Museum of Singapore. Don’t miss shopping at the little street shops in Little India and Chinatown. You can shop for little trinkets, souvenirs, and keepsakes on one of these streets. End the day with a visit to Mt Faber on a cable car. Spend the night at a hotel in Singapore."
+        },
+        {
+          "day": 5,
+          "title": "Singapore – Universal Studio",
+          "description": "After a healthy breakfast, head to Universal Studios to enjoy the cutting-edge rides and attractions focused around your favorite movies and TV shows, including Madagascar, Shrek, and the Mummy series. Return to your hotel to end the day."
+        },
+        {
+          "day": 6,
+          "title": "Depart Singapore",
+          "description": "After breakfast, check out of the hotel and catch your flight home to India."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-aquarium-sentosa-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-aquarium-sentosa-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/garden-by-the-bay-singapore-trip-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Singapore-chinese-new-year-festival-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-marina-bay-sands-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-universal-studio-870x555.jpg"
+      ],
+      "location": "Singapore – Bintan – City Tour – Universal Studio",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:59:03.435100+05:30"
+    },
+    {
+      "name": "Super Saver Singapore with Night Safari",
+      "slug": "super-saver-singapore-with-night-safari",
+      "source_url": "https://www.gtholidays.in/package/sentosa-island-tour-package/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Sunset Tour – Singapore City Tour – Universal Studios",
+      "destinations": [
+        "Singapore",
+        "Sentosa Sunset Tour",
+        "Singapore City Tour",
+        "Universal Studios"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Our Sentosa Island tour package itinerary is designed to ensure you have a memorable vacation with plenty of activities for everyone in the family.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Night Safari",
+          "description": "As you land at Changi Airport, our tour representatives will greet and take you to the hotel. Once you have checked in and freshened up, you can eat a delicious lunch at the hotel's dining area and get some much-needed rest. Later in the evening, get ready for a Night Safari at the world’s first nocturnal zoo. It is a part of the Mandai Wildlife Reserve and home to hundreds of animals, including Asian Elephants, the Malayan tiger, Tasmanian devils, and fishing cats."
+        },
+        {
+          "day": 2,
+          "title": "Sentosa Island Tour",
+          "description": "The second day is for Sentosa Island. Interact with the dolphins at Dolphin Island, visit Palawan Beach to see the famous suspension bridge, and enjoy a thrilling cable car ride at the Skyline Luge and Skyride."
+        },
+        {
+          "day": 3,
+          "title": "Universal Studios",
+          "description": "If you have grown up watching Hollywood movies, Universal Studios is a great place to relive your favorite movies like Transformers, The Mummy, Jurassic Park, etc., and enjoy exhilarating rides like Battlestar Galactica. Trust us when we say your kids will be absolutely thrilled on the visit!"
+        },
+        {
+          "day": 4,
+          "title": "Gardens by the Bay - National Gallery Singapore - Singapore Zoo – Chinatown",
+          "description": "Enjoy the beautiful Singapore architecture on the fourth day, beginning with Gardens By The Bay, a nature park spread over 101 hectares. Post this, head over to the National Gallery Museum, which displays the art and culture of the Southeast Asian community. Animal lovers will thoroughly enjoy visiting the Singapore Zoo, home to more than 4200 animals. Finish your day with a trip to Chinatown to satiate your craving for oriental cuisine."
+        },
+        {
+          "day": 5,
+          "title": "Depart from Singapore",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/bay-of-garden-singapore-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/bay-of-garden-singapore-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Singapore-chinese-new-year-festival-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-aquarium-sentosa-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-marina-bay-sands-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Sunset Tour – Singapore City Tour – Universal Studios",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:59:04.397494+05:30"
+    },
+    {
+      "name": "Sizzling Singapore Holiday Package",
+      "slug": "sizzling-singapore-holiday-package",
+      "source_url": "https://www.gtholidays.in/package/singapore-holiday-package/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Night Safari – Star Virgo Cruise – Onboard Star Virgo – Malacca – Singapore – Sentosa Sunset Tour – Universal Studios",
+      "destinations": [
+        "Singapore",
+        "Night Safari",
+        "Star Virgo Cruise",
+        "Onboard Star Virgo",
+        "Malacca",
+        "Sentosa Sunset Tour",
+        "Universal Studios"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Welcome to Singapore! At GT Holidays, we’ve curated an extensive Singapore holiday package itinerary that promises a memorable vacation.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Night Safari",
+          "description": "After you land in Singapore, our tour representatives will meet you at the airport and help you check in at your hotel. We’ll leave you to freshen up and offer details about where and when to meet to begin the first day of your vacation. In the evening, experience Night Safari at the world’s first nocturnal zoo. It’s a part of the Mandai Wildlife Reserve and home to animals like Asian Elephants, the Malayan tiger, the Malayan tapir, the Nile hippo, and fishing cats."
+        },
+        {
+          "day": 2,
+          "title": "Gardens by the Bay - Singapore Zoo – Chinatown - Star Virgo Cruise",
+          "description": "Head to Gardens By The Bay, Singapore’s most extravagant nature park with over 1.5 million plants spread over 101 hectares. The next stop is Singapore Zoo which provides shelter to more than 4200 animals. Hop on to Chinatown to relish some delicious oriental food and shop for souvenirs. You will board the Star Virgo Cruise at night, transferring you to Kuala Lumpur."
+        },
+        {
+          "day": 3,
+          "title": "Kuala Lumpur – Malacca - Petronas Twin Towers",
+          "description": "As the cruise stops at Kuala Lumpur, you will have a few hours to explore this alluring city. The next stop is Malacca, a UNESCO World Heritage Site with historical significance. From here, we will take you on a full-day city tour covering all popular tourist spots like Petronas Towers, Kuala Lumpur Bird Park, KLCC Park, etc. Board the cruise at night to head back to Singapore."
+        },
+        {
+          "day": 4,
+          "title": "Back to Singapore - Sentosa Island Tour",
+          "description": "After returning to Singapore, the next stop is Sentosa Island, where you can come face-to-face with adorable dolphins, ride cable cars, and stroll across serene beaches."
+        },
+        {
+          "day": 5,
+          "title": "Universal Studios",
+          "description": "Universal Studios could be the best gift if you want to take a trip down memory lane and feel like a kid again. Ride Battlestar Galactica or re-experience the magic of movies like Transformers, The Mummy, and Jurassic Park."
+        },
+        {
+          "day": 6,
+          "title": "Depart from Singapore",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-travel-packages-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/bay-of-garden-singapore-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Singapore-chinese-new-year-festival-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-aquarium-sentosa-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/singapore-marina-bay-sands-870x555.jpg"
+      ],
+      "location": "Singapore – Night Safari – Star Virgo Cruise – Onboard Star Virgo – Malacca – Singapore – Sentosa Sunset Tour – Universal Studios",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:59:07.737427+05:30"
+    },
+    {
+      "name": "Singapore with Resorts World Sentosa",
+      "slug": "singapore-with-resorts-world-sentosa",
+      "source_url": "https://www.gtholidays.in/package/singapore-with-resorts-world-sentosa/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Island",
+      "destinations": [
+        "Singapore",
+        "Sentosa Island"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Sentosa is Singapore’s most popular destination, with activities for everyone. Check our Sentosa Island tour package itinerary to understand the places and activities we cover.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Singapore – Night Safari",
+          "description": "Our tour guide will be at Changi Airport to welcome you and help you to transfer to the hotel. We’ll wait until you check in and rest, then proceed with activities for day 1. Your vacation begins with a visit to the Mandai Wildlife Reserve to experience Night Safari. The Night Safari is the world’s first nocturnal wildlife park and a 13-time winner of the Best Attraction category awarded by the Singapore Tourism Board. This is an open-air zoo that houses over 2,500 animals, some of which are rare and endangered."
+        },
+        {
+          "day": 2,
+          "title": "Half-day City Tour of Singapore",
+          "description": "The second day involves visiting major tourist attractions like Gardens By The Bay, Little India, Chinatown, the National Gallery, Marina Bay Sands, Botanic Gardens, and the Singapore Zoo."
+        },
+        {
+          "day": 3,
+          "title": "Sentosa Island Tour",
+          "description": "On your third day, you will be exploring the gorgeous Sentosa Island and the numerous activities present in its surroundings. Interact with the dolphins at Dolphin Island, visit Palawan Beach to see the famous suspension bridge, and enjoy a thrilling cable car ride at the Skyline Luge and Skyride."
+        },
+        {
+          "day": 4,
+          "title": "Resorts World Sentosa – Universal Studios - Trick Eye Museum",
+          "description": "On day 4, you will be transferred from the hotel to the marvellous Resorts World Sentosa, a lifestyle destination resort complete with theme parks, museums, and luxury resorts. After settling into your accommodation, get ready to experience some much-needed adrenaline rush at Universal Studios. Ride Battlestar Galactica, one of the world’s tallest duelling roller coasters, and enjoy games and rides inspired by classic movies such as Transformers, The Mummy, and Jurassic Park. In the evening, head over to the Trick Eye Museum and be mesmerized by its fascinating display of 3D art."
+        },
+        {
+          "day": 5,
+          "title": "Adventure Cove - S.E.A. Aquarium – Maritime Experiential Museum - Typhoon Theatre",
+          "description": "Begin Day 5 with Adventure Cove, Southeast Asia’s only aquatic water park with thrilling rides, including high-speed water slides and snorkelling. Immerse yourself in the endless beauty of the underwater world at the S.E.A. Aquarium, home to about 100,000 marine animals. Go in for a unique experience at the Typhoon Theatre, famed for being a 360-degree multimedia adventure of maritime entertainment."
+        },
+        {
+          "day": 6,
+          "title": "Depart from Resorts World Sentosa, Singapore",
+          "description": "Check out from your hotel and head to Changi Airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Resort-World-Sentosa-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Resort-World-Sentosa-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Sentosa-Beach-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Island",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:59:08.597795+05:30"
+    },
+    {
+      "name": "Singapore with Sentosa Island",
+      "slug": "singapore-with-sentosa-island",
+      "source_url": "https://www.gtholidays.in/package/singapore-with-sentosa-island/",
+      "country": null,
+      "region": "Asia",
+      "destination": "Singapore – Sentosa Island",
+      "destinations": [
+        "Singapore",
+        "Sentosa Island"
+      ],
+      "duration": "6 Nights 7 Days",
+      "nights": 6,
+      "days": 7,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Sentosa Island is one of Singapore’s most visited tourist destinations. Check our Singapore with Sentosa Island tour package itinerary to learn more about the activities and attractions we cover.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Singapore – Night Safari",
+          "description": "After you land in Singapore, our tour representatives will greet you at the airport and take you to your hotel. After completing check-in formalities, we’ll begin with the first day of your vacation experience with a visit to the Mandai Wildlife Reserve for a Night Safari. This is the world’s only nocturnal open-air zoo and home to thousands of animals."
+        },
+        {
+          "day": 2,
+          "title": "Singapore Half-Day City Tour",
+          "description": "On the second day, we’ll cover all the top tourist destinations in the city. This includes Gardens by The Bay, a nature park sprawling over 101 hectares, and the National Gallery Singapore, which has a collection of work from the community of Southeast Asian artists. The Singapore Zoo, with more than 4200 animals and the Singapore Botanic Gardens are also included in the itinerary. The Merlion Park is famous for the Merlion statue, a half-lion and half-fish statue signifying how Singapore started as a fishing village. The tour also includes Chinatown, a neighbourhood favorite for its century-old Chinese temples, food stalls, street shops selling souvenirs, spices, clothes, purses, accessories, etc."
+        },
+        {
+          "day": 3,
+          "title": "Sentosa Island - Universal Studios - Trick Eye Museum",
+          "description": "If you are fond of rides and movies that remind you of a nostalgic childhood, you must visit Universal Studios. This theme park has dozens of rides, games, and shows based on classic Hollywood movies like Madagascar and Jurrasic Park. For the second and last stop of the day, head over to the Trick Eye Museum to be mesmerized by its fascinating 3D art display."
+        },
+        {
+          "day": 4,
+          "title": "Sentosa Island Tour",
+          "description": "On Day 4, we cover Sentosa Island, Singapore’s most popular tourist spot. You can choose from fine dining restaurants, luxury resorts, theme parks, museums, and other attractions to keep you engaged throughout the day. Relax on Palawan Beach or walk across the famous suspension bridge on Palawan Beach while the kids interact with the dolphins on Dolphin Island. And if you are looking for adventure, don’t miss the thrilling cable car ride at the Skyline Luge and Skyride."
+        },
+        {
+          "day": 5,
+          "title": "S.E.A. Aquarium – Maritime Experiential Museum",
+          "description": "If you would love to explore marine life, you must visit the S.E.A. Aquarium, where you can observe over 100,000 marine animals, some of which are rare and endangered. You can pay for a guided aquarium tour or sign up for an open-water dive. Similarly, the Maritime Experiential Museum is the only museum devoted to Asia’s maritime history. The museum’s multimedia cinema, the Typhoon Theatre, provides a 360-degree view of maritime adventures."
+        },
+        {
+          "day": 6,
+          "title": "Singapore Botanic Gardens - Sunset Dinner Cruise",
+          "description": "On your sixth day, you will be taken to the Singapore Botanic Gardens, a UNESCO World Heritage site. The National Orchid Garden within the Botanic Gardens is home to over 1,000 orchid species. In the evening, you can head out for a calming and peaceful Sunset Sail & City Lights Dinner Cruise, where you can enjoy a 7-course meal followed by a wine-tasting session and admire the city’s beautiful coastline."
+        },
+        {
+          "day": 7,
+          "title": "Depart from Singapore",
+          "description": "Check out from your hotel and head to the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/11/Singapore-Sentosa-Water-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Singapore-Sentosa-Water-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/11/Sentosa-Island-View-870x555.jpg"
+      ],
+      "location": "Singapore – Sentosa Island",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T11:59:09.402741+05:30"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,78 @@
+export interface ItineraryItem {
+  day: number;
+  title: string;
+  description: string;
+}
+
+export interface PackageDetail {
+  name: string;
+  slug: string;
+  source_url: string;
+  country?: string | null;
+  region?: string | null;
+  destination?: string | null;
+  destinations: string[];
+  duration?: string | null;
+  nights?: number | null;
+  days?: number | null;
+  tour_type?: string | null;
+  group_size?: number | string | null;
+  languages: string[];
+  price?: number | null;
+  currency?: string | null;
+  overview?: string | null;
+  itinerary: ItineraryItem[];
+  included: string[];
+  excluded: string[];
+  banner_image?: string | null;
+  images: string[];
+  location?: string | null;
+  source: string;
+  scraped_at: string;
+}
+
+export interface ScrapeError {
+  url: string;
+  error: string;
+}
+
+export interface ScrapeResult {
+  source: string;
+  listing_url: string;
+  page_title?: string | null;
+  country?: string | null;
+  region?: string | null;
+  destination?: string | null;
+  total_packages: number;
+  success_count: number;
+  failed_count: number;
+  scraped_at: string;
+  packages: PackageDetail[];
+  errors: ScrapeError[];
+}
+
+export interface JobStatus {
+  job_id: string;
+  status:
+    | 'queued'
+    | 'analyzing'
+    | 'discovering'
+    | 'scraping'
+    | 'exporting'
+    | 'transforming'
+    | 'completed'
+    | 'completed_with_errors'
+    | 'failed';
+  stage: string;
+  total: number;
+  completed: number;
+  success: number;
+  failed: number;
+  progress_percent: number;
+  current_package?: string | null;
+  output_file?: string | null;
+  django_output_file?: string | null;
+  market?: 'india' | 'international' | null;
+  django_schema?: string | null;
+  error_message?: string | null;
+}

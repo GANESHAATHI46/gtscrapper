@@ -1,0 +1,748 @@
+{
+  "source": "GT Holidays",
+  "listing_url": "https://www.gtholidays.in/packages/india/south-india/kerala-tour-packages/",
+  "page_title": "Kerala Tour Packages",
+  "country": "India",
+  "region": "South India",
+  "destination": "Kerala",
+  "total_packages": 11,
+  "success_count": 11,
+  "failed_count": 0,
+  "scraped_at": "2026-09-21T10:34:08.527408+05:30",
+  "packages": [
+    {
+      "name": "Best of Kerala Tour Package",
+      "slug": "best-of-kerala-tour-package",
+      "source_url": "https://www.gtholidays.in/package/kerala-guruvayur-tour-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Guruvayur- Munnar – Thekkady – Alleppey – Kochi",
+      "destinations": [
+        "Guruvayur- Munnar",
+        "Thekkady",
+        "Alleppey",
+        "Kochi"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Kerala is a beautiful state, and National Geographic Traveler named it one of the ten paradises of the world. It is famous for its sandy beaches, backwaters, and lush greenery. To explore God’s Own Country, check out the Kochi travel package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Guruvayur",
+          "description": "Upon arrival at the Kochi Airport (or the Guruvayur Railway Station, depending on your preference), our tour manager will welcome you and help you transfer to the hotel. You can freshen up and spend some time relaxing at the hotel. Join us for a darshan of Guruvayurappan at the Sree Krishna Temple. Spend the night at the hotel."
+        },
+        {
+          "day": 2,
+          "title": "Guruvayur – Munnar",
+          "description": "After breakfast, you will head to Munnar. The journey takes around 6 hours. Upon arrival at the hotel, you can freshen up and relax before heading out for a sightseeing tour. You will explore the many tea plantations of Munnar and return to the hotel for a relaxing evening by the fire. Spend the night in Munnar."
+        },
+        {
+          "day": 3,
+          "title": "Munnar",
+          "description": "This is your second day in Munnar, where you will explore the beautiful and scenic places in the hill town, including the Eravikulam National Park, Kolukkumalai Tea Estate, Pothamedu View Point, Mattupetty Dam, Kundala Dam, Echo Point, and Top Station. Spend the night in Munnar."
+        },
+        {
+          "day": 4,
+          "title": "Munnar – Thekkady",
+          "description": "After breakfast, continue to Thekkady to visit the Periyar National Park, famous for its Asian elephants, monkeys, nilgais, langurs, and wild boars. You will also visit the Cardamom Hills or Yela Mala, renowned for its cardamom, pepper, and coffee plantations. Your tour includes a boat cruise on Periyar Lake to view the wildlife from close quarters. Spend the night at a luxury hotel in Thekkady."
+        },
+        {
+          "day": 5,
+          "title": "Thekkady to Alleppey",
+          "description": "After a delectable breakfast, head to Alleppey for a houseboat stay. These are traditional rice boats that are now converted into spacious accommodations with comfortable and modern amenities. Enjoy delectable Kerala cuisine cooked fresh in the houseboat. Enjoy the night in the houseboat."
+        },
+        {
+          "day": 6,
+          "title": "Alleppey – Kochi",
+          "description": "After breakfast, head to the beautiful port city of Kochi. Some famous attractions in Kochi include the Mattancherry Palace, Marine Drive, Jew Town, and Cherai Beach. In the evening, enjoy a cruise ride on the Sagararani. Spend the night in the hotel."
+        },
+        {
+          "day": 7,
+          "title": "Kochi",
+          "description": "On the last day, you will head to the Kochi Airport or the Railway Station, depending on your preference."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Kerala-family-tour-packages-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kerala-family-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Guruvayur-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Santa-Cruz-Basilica-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/kerala-family-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/alleppey-honeymoon-packages-870x555.jpg"
+      ],
+      "location": "Guruvayur- Munnar – Thekkady – Alleppey – Kochi",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:33:58.709332+05:30"
+    },
+    {
+      "name": "Enchanting Kerala",
+      "slug": "enchanting-kerala",
+      "source_url": "https://www.gtholidays.in/package/kerala-travel-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Kochi – Munnar – Kumarakom – Alleppey (House Boat)",
+      "destinations": [
+        "Kochi",
+        "Munnar",
+        "Kumarakom",
+        "Alleppey (House Boat)"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Kerala is a pristine jewel of the Western Ghats, attracting tourists for its idyllic beaches, tranquil backwaters, delectable cuisine, and rich culture. If you are planning an unforgettable vacation, check out our Kerala travel package itinerary.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Kochi",
+          "description": "Upon arrival at the Kochi International Airport/Kochi Railway Station, our tour manager will welcome and guide you to the hotel. Complete check-in formalities and spend some time relaxing at the hotel. Later, you will head out for a city tour. Some of the places you will visit include the Dutch Palace, Jewish Synagogue, and Santa Cruz Basilica. Don’t miss Vasco da Gama Square to see the Chinese fishing nets, aka Cheena Vala, introduced by Chinese explorers in the 14th century. Jew Town is also a great place to shop for crockery, antiques, and bronze and brass sculptures. Spend the night in Kochi."
+        },
+        {
+          "day": 2,
+          "title": "Kochi – Munnar",
+          "description": "After breakfast, check out of the hotel and head to Munnar. The journey takes around 4 hours and is often considered the Kashmir of South India. The hill station is famous for its sprawling tea estates, spice plantations, waterfalls, and beautiful valleys. Check into your hotel and spend the rest of the exploring places around the hotel and enjoying places around it."
+        },
+        {
+          "day": 3,
+          "title": "Munnar",
+          "description": "Enjoy a sumptuous breakfast before driving out to explore the tea estates and other places of attractions, including the Pothamedu View Point, Mattupetty Dam, Tea Museum, Kolukkumalai Tea Estate, Kundala Dam, Echo Point, Anamudi, and the Eravikulam National Park. Spend the night at a luxury hotel in Munnar."
+        },
+        {
+          "day": 4,
+          "title": "Munnar – Kumarakom",
+          "description": "After breakfast, check out of the hotel and head to Kumarakom. The journey takes around 4 hours and is exceedingly beautiful. Complete the check in formalities at a resort on the banks of the Vembanad Lake. Later, join the tour manager for a relaxing backwater cruise. Spend the night in Kumarakom."
+        },
+        {
+          "day": 5,
+          "title": "Kumarakom – Alleppey",
+          "description": "After breakfast, head out to Alleppey for a houseboat experience. Check into the houseboat to spend the night enjoying the views of the tranquil backwaters. This is a luxury accommodation with a living area, air-conditioned bedrooms, and viewing decks. The experience also includes sampling freshly made vegetarian and non-vegetarian food made by chefs inside the houseboat. Spend the night in the houseboat."
+        },
+        {
+          "day": 6,
+          "title": "Alleppey – Kochi",
+          "description": "On the last day of your Kerala travel package, head out to Kochi. The journey takes around 1.5 hours. Bid adieu to the city as you board your plane/train to return home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Cochin-honeymoon-packages-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Cochin-honeymoon-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Elephant-ride-tour-and-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Thekkady-in-Kerala-boating-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Devikulam-holiday-trip-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Alleppey-houseboat-holiday-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kumarakom-summer-holiday-packages-870x555.jpg"
+      ],
+      "location": "Kochi – Munnar – Kumarakom – Alleppey (House Boat)",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:33:59.743428+05:30"
+    },
+    {
+      "name": "Enchanting Kerala Delight",
+      "slug": "enchanting-kerala-delight",
+      "source_url": "https://www.gtholidays.in/package/kerala-holiday-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Kochi – Munnar – Thekkady",
+      "destinations": [
+        "Kochi",
+        "Munnar",
+        "Thekkady"
+      ],
+      "duration": "4 Nights 5 Days",
+      "nights": 4,
+      "days": 5,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Kerala is a serene place famous for its coasts, mountains, rich cultural heritage, and delectable cuisine. From the hill stations of Munnar to the coastal trading city of Kochi, there’s so much to see and experience. If God’s Own Country is on your radar, check the Kerala holiday package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Munnar",
+          "description": "Upon arrival at Kochi, our tour manager will help you transfer to Munnar. The journey takes around 5 hours and is famous for its lush scenery. After checking in, spend some time relaxing at the hotel. Later, head out to continue your Munnar sightseeing. You will visit Devikulam, Mattupetty Dam, and Anaimudi Peak. After exploring these places, you will return to your hotel and spend the rest of the evening at leisure."
+        },
+        {
+          "day": 2,
+          "title": "Munnar",
+          "description": "After breakfast, head to Rajamalai Hills to visit the Eravikulam National Park, the first national park in Kerala and a UNESCO World Heritage Site. Later, head to Nyayamakad, famous for its waterfalls, Echo Point, Kundala, and the Malankara Reservoir. Spend the night in Munnar."
+        },
+        {
+          "day": 3,
+          "title": "Thekkady",
+          "description": "After breakfast in the morning, head to Thekkady to visit the Periyar National Park. This famous elephant and tiger reserve also features endemic animals like the nilgai and langur. Check in to your hotel before moving to the national park. Don’t miss Periyar Lake, where you can go on a boat ride to observe water birds from close quarters. Spend the night at a Thekkady lodging."
+        },
+        {
+          "day": 4,
+          "title": "Thekkady",
+          "description": "After a sumptuous breakfast, head to the Mangala Devi Temple to seek blessings from Kannagi Devi. The temple is believed to have been built in the 1st century by Cheran Chenguttavan. You will also visit Kumily and Vandiperiyar. Return to your lodging to spend the night in Thekkady."
+        },
+        {
+          "day": 5,
+          "title": "Kochi",
+          "description": "After a breakfast bouquet, travel to Kochi to catch your train/flight as your Kerala holiday package comes to a memorable end."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Alleppey-houseboat-holiday-packages-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Alleppey-houseboat-holiday-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Devikulam-holiday-trip-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/munnar-family-tour-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Alleppey-houseboat-summer-trip-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Thekkady-in-Kerala-boating-870x555.jpg"
+      ],
+      "location": "Kochi – Munnar – Thekkady",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:34:00.811684+05:30"
+    },
+    {
+      "name": "Escape to Wayanad",
+      "slug": "escape-to-wayanad",
+      "source_url": "https://www.gtholidays.in/package/wayanad-tour-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Calicut – Wayanad",
+      "destinations": [
+        "Calicut",
+        "Wayanad"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Kerala, which is known as ‘God’s own country’ is dripping with beauty in every corner. Whether it’s beaches you’re craving to visit or mountains you’re hoping to lay your eyes on, this state has it all. While on one hand there is Wayanad with its high peaks and lush forests, on the other hand there is Calicut with its ancient buildings and rich history. If you wish to experience the beauty of these regions, do check out our Wayanad tour package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Calicut",
+          "description": "Upon your arrival in Calicut, our tour representatives will greet you at the airport/railway station and help you get to your hotel. Once you complete the check-in formalities, you’re free to spend the rest of the day at your own pace."
+        },
+        {
+          "day": 2,
+          "title": "Wayanad",
+          "description": "After having a delicious breakfast, you will be taken to explore the mesmerising district of Wayanad. Dedicate this day to witnessing spellbindingly beautiful sites such as Pookode Lake, the rain forest of Lakkidi, Kuruva Island, and the Edakkal Caves. The rock engravings you see at Edakkal Caves are known to date back to the Neolithic Age. Your day will also include taking a tour of Panamaram, Mananthavady, and checking out the tributary known as Kabini."
+        },
+        {
+          "day": 3,
+          "title": "Wayanad - Calicut",
+          "description": "Enjoy a filling breakfast at your hotel in Wayanad and then leave for Calicut. Check-in to your hotel, rest for a while, and then get ready for some more adventures. Our tour representatives will take you to some of the most enthralling spots in Calicut, including Kozhikode Beach, Thali Temple, Pazhassi Raja Archaeological Museum, Kappad Beach, and Beypore Beach. Get back to your hotel in Calicut for a good night’s sleep."
+        },
+        {
+          "day": 4,
+          "title": "Depart Calicut",
+          "description": "In the morning, have your breakfast at the hotel and then leave for the airport or railway station to get back to your hometown."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/water-boat-kerala-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/water-boat-kerala-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Wayanad-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Wayanad-honeymoon-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Lakkadi-summer-vacation-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kuruva-island-travel-pakages-870x555.jpg"
+      ],
+      "location": "Calicut – Wayanad",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:34:01.851104+05:30"
+    },
+    {
+      "name": "Fun-Filled Munnar Thekkady Tour",
+      "slug": "fun-filled-munnar-thekkady-tour",
+      "source_url": "https://www.gtholidays.in/package/munnar-thekkady-honeymoon-packages/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Munnar – Thekkady",
+      "destinations": [
+        "Munnar",
+        "Thekkady"
+      ],
+      "duration": "4 Nights 5 Days",
+      "nights": 4,
+      "days": 5,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Travelling with your partner means hoping for a travel destination that offers you the perfect romantic ambience. Perhaps mountains, serenity, and some much-needed peace and quiet are what you’re craving, and in that case, Kerala is the ideal spot for you to explore. If you wish to travel to this state that is known as ‘God’s own country’, then check out our Munnar Thekkady honeymoon tour package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Cochin - Munnar",
+          "description": "Upon your arrival in Cochin, our tour representatives will greet you and take you to Munnar. Visit the Athirappilly Falls on the way. Check-in to your hotel and relax for a while before heading out to explore Munnar. First, you will be taken to the Mattupetty Dam, a concrete gravity dam which was built for the purpose of water conservation. Make your way to Kundala Lake, surrounded by forests and scenic views. Get back to your hotel at night."
+        },
+        {
+          "day": 2,
+          "title": "Munnar",
+          "description": "Wrapped in peace and tranquility, Munnar is famous for its tea plantations, hills, and thrilling outdoor activities. Make your way to Echo Point, which serves as the meeting point of three mountain ranges, namely Mudrapuzha, Nallathanni, and Kundala. Some of the activities you can enjoy here are birdwatching, boating, and nature walks. Explore the Eravikulam National Park, which is situated in the Kannan Devan Hills and where you can spot leopards, tigers, giant squirrels, and sloth bears."
+        },
+        {
+          "day": 3,
+          "title": "Munnar – Thekkady",
+          "description": "Once you finish having a delicious breakfast, leave for Thekkady from Munnar. After completing the check-in formalities, proceed to explore the Periyar National Park. Also known as the Periyar Tiger Reserve, it is home to tigers, elephants, leopards, lion-tailed macaques, and the Indian bison."
+        },
+        {
+          "day": 4,
+          "title": "Thekkady",
+          "description": "After getting done with your breakfast, you have the rest of the day to spend the way you want to."
+        },
+        {
+          "day": 5,
+          "title": "Thekkady - Cochin - Depart Cochin",
+          "description": "Check out of your hotel once you get done with your breakfast. You will be transferred to Cochin from where you can board your flight or train back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Munnar-family-tour-package-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Munnar-family-tour-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/munnar-travel-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Thekkady-in-Kerala-boating-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kuravan-kurathi-statue-ramakkalmedu-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Periyar-national-park-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Munnar-honeymoon-packages-870x555.jpg"
+      ],
+      "location": "Munnar – Thekkady",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:34:02.596505+05:30"
+    },
+    {
+      "name": "Grand Kerala Summer Vacation Package",
+      "slug": "grand-kerala-summer-vacation-package",
+      "source_url": "https://www.gtholidays.in/package/alleppey-edu-tour-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Kochi-Alleppey-Munnar",
+      "destinations": [
+        "Kochi-Alleppey-Munnar"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Located in the southern region of India is the state of Kerala, famed for its backwaters, palm-lined beaches, and unique cuisine. Visiting Kerala enables you to witness a variety of landscapes all at once, including mountains, beaches, and forests. If you wish to explore Kerala in all its glory, then check out our Alleppey educational tour package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Alleppey",
+          "description": "Upon your arrival in Alleppey, our tour representatives will greet you and help you get to your hotel. Get on a houseboat that will take you through a series of canals and lagoons. Sit back, relax, and enjoy some delicious food and the serene views all around you. After having your lunch, walk around Alleppey Beach. Spend the night at your hotel."
+        },
+        {
+          "day": 2,
+          "title": "Kochi - Wonderla",
+          "description": "On the second day of your trip, you will be moving from Alleppey to Kochi. After checking in to your hotel, head out to visit Wonderla, which is a part of the largest chain of amusement parks in India. Get on all the thrilling rides and give your family a day of fun and adventures. Return to your hotel for the night."
+        },
+        {
+          "day": 3,
+          "title": "Kochi - Cherai Beach - Marine Drive - Munnar",
+          "description": "On this day, visit some of the most popular tourist spots in Kochi. Walk around Cherai Beach, which is one of the most well-known beaches in the city. Explore Marine Drive, which offers numerous shopping options and stunning views. Enjoy a peaceful boat ride at this location. If you have time, visit Lulu Mall and engage in some retail therapy. Later in the evening, leave for Munnar and relish a relaxing night at your hotel."
+        },
+        {
+          "day": 4,
+          "title": "Rose Garden - Echo Point - Kundala Dam Lake - Mattupetty Dam - Depart Munnar",
+          "description": "The last day of your trip will be reserved to witness the best sightseeing spots that Munnar has to offer. Start off with Rose Garden, situated 3,500 feet above sea level and home to a wide variety of rises and seasonal tropical fruits. Head over to Echo Point, which is an ideal picnic spot and provides spectacular views of the lush greenery that surrounds the landmark. End the journey by visiting the Kundala Dam Lake and Mattupetty Dam. Later in the day, depart for the airport to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/cochin-travel-package-1-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/cochin-travel-package-1-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/kochi-wonderla-amusement-park-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/alleppey-honeymoon-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Areekkal-Water-Falls-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Krishnanattam-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/ooty-tea-estate-870x555.jpg"
+      ],
+      "location": "Kochi-Alleppey-Munnar",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:34:03.629899+05:30"
+    },
+    {
+      "name": "Kerala Lovers Paradise",
+      "slug": "kerala-lovers-paradise",
+      "source_url": "https://www.gtholidays.in/package/kerala-honeymoon-packages/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Kochi – Munnar – Kumarakom – Alleppey",
+      "destinations": [
+        "Kochi",
+        "Munnar",
+        "Kumarakom",
+        "Alleppey"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Renowned for being ‘God’s own country’, Kerala is beloved for its lush history, natural beauty, delectable cuisine, warm locals, and enthralling adventures, among other things. Whether it’s taking in the serenity of mountains or the calmness of beaches, Kerala is ideal for couples hoping to spend a fabulous honeymoon. If you wish to travel to Kerala with your partner, then check out our Kerala honeymoon tour package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Kochi",
+          "description": "Welcome to the Queen of the Arabian Sea, Kochi. Upon your arrival, our tour manager will help you transfer to the hotel. Complete check-in formalities and head to visit the city’s top tourist attractions. Spend the night in Kochi."
+        },
+        {
+          "day": 2,
+          "title": "Munnar Tour",
+          "description": "Check out of the hotel and head to Munnar. Popular for its verdant tea plantations and wildlife, Munnar is a sight for sore eyes. You will visit Munnar’s famous attractions like the Mattupetty Dam, Eravikulam National Park, Anamudi Peak, Echo Point, Attukal Waterfalls, and tea plantations. Spend the night in Munnar."
+        },
+        {
+          "day": 3,
+          "title": "Munnar",
+          "description": "Spend the morning exploring tourist attractions in Munnar that you may have missed the previous day. Spend the night in Munnar."
+        },
+        {
+          "day": 4,
+          "title": "Munnar to Kumarakom",
+          "description": "Check out of your hotel in Munnar and head to Kumarakom. Some of the places you will visit in and around the village include the Vembanad Lake, Kumarakom Bird Sanctuary, Kumarakom Beach, and the Aruvikuzhy Waterfalls. Spend the night in Kumarakom."
+        },
+        {
+          "day": 5,
+          "title": "Kumarakom to Alleppey",
+          "description": "Begin your day with a hearty Kerala breakfast and head to Alleppey, the Venice of the East. The city is famous for its temples, backwaters, houseboats, and the coir industry. Check into your houseboat and enjoy a tour of the backwaters. Spend the night on the houseboat."
+        },
+        {
+          "day": 6,
+          "title": "Depart Kochi",
+          "description": "Check out of your houseboat to reach Kochi, from where you can board your flight or train back to your hometown."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Beach-couple-3-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Beach-couple-3-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Chinese-Fishing-Nets-Cochin-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Munnar-honeymoon-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/port-at-kerala-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Krishnanattam-870x555.jpg"
+      ],
+      "location": "Kochi – Munnar – Kumarakom – Alleppey",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:34:04.386372+05:30"
+    },
+    {
+      "name": "Kerala Special Holiday Package",
+      "slug": "kerala-special-holiday-package",
+      "source_url": "https://www.gtholidays.in/package/kerala-tour-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Kochi – Munnar – Thekkady",
+      "destinations": [
+        "Kochi",
+        "Munnar",
+        "Thekkady"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": 1,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "With its verdant greenery, unique culture, and rich history, Kerala is truly God’s Own Country. If you’d like to enjoy pristine beaches, tranquil backwaters, abundant wildlife, and delectable cuisine, check out the Kerala travel package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Kochi - Munnar",
+          "description": ""
+        },
+        {
+          "day": 2,
+          "title": "Munnar Full Day Tour",
+          "description": ""
+        },
+        {
+          "day": 3,
+          "title": "Munnar - Thekkady",
+          "description": ""
+        },
+        {
+          "day": 4,
+          "title": "Munnar - Kochi",
+          "description": ""
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/cochin-travel-package-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/cochin-travel-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Periyar-National-Park-holiday-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Echo-Point-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Munnar-honeymoon-packages-870x555.jpg"
+      ],
+      "location": "Kochi – Munnar – Thekkady",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:34:05.429762+05:30"
+    },
+    {
+      "name": "Marvelous Kerala with Alleppey",
+      "slug": "marvelous-kerala-with-alleppey",
+      "source_url": "https://www.gtholidays.in/package/kerala-alleppey-tour-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Cochin – Munnar – Periyar (Thekkady) – Alleppey",
+      "destinations": [
+        "Cochin",
+        "Munnar",
+        "Periyar (Thekkady)",
+        "Alleppey"
+      ],
+      "duration": "5 Nights 6 Days",
+      "nights": 5,
+      "days": 6,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Finding a holiday destination that gifts you with both the sunshine of beaches and curvy mountain roads is truly like hitting the jackpot. Nestled in the southern region of India, Kerala is one such destination. On the one hand, you have the backwaters of Alleppey, and on the other hand, there are the hills of Munnar. If you want to witness the beauty of Kerala, then check out our Kerala Alleppey tour package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Cochin",
+          "description": "Upon your arrival at Cochin Railway Station or Airport, our tour representatives will greet you and help you transfer to your hotel. After completing the check-in formalities, freshen up and head out for a tour of Cochin. You will be taken to some of the most historical spots in the city, such as the Mattancherry Palace, Paradesi Synagogue, Santa Cruz Cathedral Basilica, and the Chinese fishing nets. In the evening, get aboard a Sagararani cruise."
+        },
+        {
+          "day": 2,
+          "title": "Cochin - Munnar",
+          "description": "In the morning, enjoy a delicious breakfast, after which you will be moving to Munnar. On the way, enjoy the views of Munnar’s tea plantations, rolling hills, and cascading waterfalls. Check-in to your hotel and get a good night’s sleep."
+        },
+        {
+          "day": 3,
+          "title": "Munnar Tour",
+          "description": "After having a scrumptious breakfast, you can leave to enjoy the most popular tourist spots in Munnar. Check out the tea plantations, engage in hiking at Echo Point, go for boating at Kundala Lake, and witness the greenery at Mattupetty Dam."
+        },
+        {
+          "day": 4,
+          "title": "Munnar - Thekkady",
+          "description": "Today, you will be transferring from Munnar to Thekkady. On the way, visit the Periyar National Park, which is also named the Periyar Tiger Reserve. Some of the animals you will get to see at this wildlife sanctuary are leopards, tigers, elephants, and lion-tailed macaques. Enjoy a round of boating at Periyar Lake before reaching Thekkady. Check-in to your hotel and get some restful sleep."
+        },
+        {
+          "day": 5,
+          "title": "Thekkady - Alleppey",
+          "description": "Drive to Alleppey in the morning and check-in to your hotel. Take in the serene view of the backwaters throughout the day."
+        },
+        {
+          "day": 6,
+          "title": "Depart Cochin",
+          "description": "Have your breakfast and leave for Cochin. Get to the airport or railway station to board your flight back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Devikulam-holiday-trip-packages-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Devikulam-holiday-trip-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/alleppey-boat-house-holiday-trip-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kerala-family-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/alleppey-holiday-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/munnar-family-tour-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Thekkady-in-Kerala-boating-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Krishnanattam-870x555.jpg"
+      ],
+      "location": "Cochin – Munnar – Periyar (Thekkady) – Alleppey",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:34:06.450994+05:30"
+    },
+    {
+      "name": "Mesmerizing Kerala Backwaters Tour Package",
+      "slug": "mesmerizing-kerala-backwaters-tour-package",
+      "source_url": "https://www.gtholidays.in/package/kerala-backwaters-tour-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Kochi – Alleppey – Kumarakom",
+      "destinations": [
+        "Kochi",
+        "Alleppey",
+        "Kumarakom"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Kerala is a land of wonders, enchanting visitors with its backwaters, local cuisine, friendly people, scenic views, and natural landscapes. Whether you wish to stay in a houseboat or explore the cultural heritage of Kochi, there are a myriad of activities to participate in while in Kerala. If you have always wanted to visit ‘God’s own country’, then check out our Kerala backwaters tour package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Kochi",
+          "description": "Upon your arrival in Kochi, our representatives will greet you at the airport and help you get to your hotel. Once the check-in formalities are complete, you can relax for a bit before heading out for a day of sightseeing. Start off with the Mattancherry Palace, which is also known as the Dutch Palace. Built in 1557 by the Portuguese, it was constructed as a present to Raja Vera Kerala Varma, who was the then ruler of the Kochi dynasty. The next stop to make is the Hill Palace Museum, which was once the official residence of the rulers of Kochi in the 17th century. Make your way to the Paradesi Synagogue and St. Francis Church before witnessing the Chinese fishing nets. Get back to your hotel for the night."
+        },
+        {
+          "day": 2,
+          "title": "Kochi - Alleppey",
+          "description": "After having a delicious breakfast, check out from your hotel to leave for Alleppey. Also known as Alappuzha, it is popular for its beaches, backwaters, lagoons, and canals. Check in to your hotel at Alleppey and head out for lunch. Take a stroll around Alleppey Beach later in the day and return to your hotel for a good night’s sleep."
+        },
+        {
+          "day": 3,
+          "title": "Alleppey - Kumarakom",
+          "description": "Once you finish having your breakfast, check out from your hotel, after which you will be driven to the city of Kumarakom. Get ready to board a houseboat upon reaching Kumarakom, the check-in time for which is 12:30 PM. Enjoy the view of Vembanad Lake as the houseboat makes its journey forward. Spend the night in the houseboat."
+        },
+        {
+          "day": 4,
+          "title": "Depart Kochi",
+          "description": "Get done with your breakfast and then check out from your houseboat at 9:30 AM. From here, you will be driven to the airport or railway station in Kochi so you can board your flight/train back home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Alleppey-houseboat-summer-trip-packages-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Alleppey-houseboat-summer-trip-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kumarakom-summer-holiday-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Cochin-honeymoon-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Devikulam-tour-and-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Alleppey-houseboat-holiday-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Alleppey-tour-packages-870x555.jpg"
+      ],
+      "location": "Kochi – Alleppey – Kumarakom",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:34:07.515612+05:30"
+    },
+    {
+      "name": "Wonders of Kerala",
+      "slug": "wonders-of-kerala",
+      "source_url": "https://www.gtholidays.in/package/kerala-kovalam-tour-package/",
+      "country": "India",
+      "region": "South India",
+      "destination": "Trivandrum – Kovalam – Allepey – Thekkady – Munnar – Kochi",
+      "destinations": [
+        "Trivandrum",
+        "Kovalam",
+        "Allepey",
+        "Thekkady",
+        "Munnar",
+        "Kochi"
+      ],
+      "duration": "7 Nights 8 Days",
+      "nights": 7,
+      "days": 8,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "God’s Own Country, Kerala, has abundant natural beauty, including pristine beaches, dense forests, and abundant wildlife. It is equally famous for its rich cultural heritage and delectable cuisine. If you’d like to explore the place, check the Kerala Kovalam trip package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Trivandrum",
+          "description": "Upon arrival in Thiruvananthapuram, our tour representatives will help you transfer to the hotel. Complete check-in formalities and explore local attractions like the Sree Padmanabhaswamy Temple, Trivandrum Zoo, Sri Chitra Art Gallery, Napier Museum, and the Padmanabhaswamy Palace. Spend the night at a luxury hotel in Trivandrum."
+        },
+        {
+          "day": 2,
+          "title": "Kovalam",
+          "description": "After breakfast, head to explore the beautiful beaches in the city, including Kovalam, Varkala, and Shangumugham. After a busy day, spend the night at a resort."
+        },
+        {
+          "day": 3,
+          "title": "Alleppey",
+          "description": "Enjoy a sumptuous breakfast before leaving the hotel and heading to Alleppey. The journey takes around 4 hours by road and is famous for its scenic views. Here, you will enjoy a luxury houseboat experience in the backwaters of Alleppey. Spend the entire day exploring daily lives of people living along the banks of the Alleppey rivers. You will also enjoy sumptuous food cooked on the boat by experienced chefs. Spend the night on the houseboat in Alleppey."
+        },
+        {
+          "day": 4,
+          "title": "Thekkady",
+          "description": "After breakfast, spend some time enjoying the views around the houseboat. Check out of the houseboat to head to Thekkady, which is famous for the Periyar Wildlife Sanctuary. Check in to your hotel and move on to explore local attractions. Some of the local attractions in Thekkady include Periyar Wildlife Sanctuary, Elephant Junction, and the Green Park Spices Plantation."
+        },
+        {
+          "day": 5,
+          "title": "Munnar",
+          "description": "After breakfast, head to Thekkady by car. Munnar is a beautiful hill station on the Western Ghats famous for its sprawling tea plantations, waterfalls, and unique flora and fauna. Some of the iconic attractions in the hill town include Eravikulam National Park, Pothamedu View Point, Mattupetty Dam, Kolukkumalai Tea Estate, Top Station, and Echo Point. You will also cover the Nyayamakad Waterfall, Rajamala Hills, Kundala Dam, and the Malankara Reservoir. Return to the hotel to spend the night in Munnar."
+        },
+        {
+          "day": 6,
+          "title": "Munnar",
+          "description": "After breakfast, you will head to cover areas you missed yesterday. Enjoy the scenic views of the hill town and return to your hotel. Spend the night at the hotel."
+        },
+        {
+          "day": 7,
+          "title": "Kochi",
+          "description": "After a sumptuous breakfast, head to Kochi. The journey takes around 4 hours. Kochi is famously called the Queen of the Arabian Sea because of the centuries of spice trade in its harbours. Check in to a hotel and head to the city for a tour. You will visit the Dutch Palace, the Jewish Synagogue, the Chinese Fishing Nets, the St. Francis Church, and Cherai Beach. Then, return to the luxury hotel to spend the night."
+        },
+        {
+          "day": 8,
+          "title": "Kochi",
+          "description": "This is the last day of your trip. After breakfast, you will check out of the hotel and head to the Kochi Airport or Railway Station."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/alleppey-honeymoon-packages-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/alleppey-honeymoon-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Varkala-tour-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Cochin-honeymoon-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Thekkady-in-Kerala-boating-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Devikulam-holiday-trip-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Kovalam-summer-vacation-packages-870x555.jpg"
+      ],
+      "location": "Trivandrum – Kovalam – Allepey – Thekkady – Munnar – Kochi",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:34:08.526852+05:30"
+    }
+  ],
+  "errors": []
+}

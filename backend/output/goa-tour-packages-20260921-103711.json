@@ -1,0 +1,134 @@
+{
+  "source": "GT Holidays",
+  "listing_url": "https://www.gtholidays.in/packages/india/west-india/goa-tour-packages/",
+  "page_title": "Goa Tour Packages",
+  "country": "India",
+  "region": "West India",
+  "destination": "Goa",
+  "total_packages": 2,
+  "success_count": 2,
+  "failed_count": 0,
+  "scraped_at": "2026-09-21T10:37:11.438368+05:30",
+  "packages": [
+    {
+      "name": "Enchanting Goa Special Tour",
+      "slug": "enchanting-goa-special-tour",
+      "source_url": "https://www.gtholidays.in/package/goa-tour-package/",
+      "country": "India",
+      "region": "West India",
+      "destination": "Goa – North Goa – South Goa",
+      "destinations": [
+        "Goa",
+        "North Goa",
+        "South Goa"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Goa was once the party capital of India with its beaches, delectable food, carnivals, water sports, and a laid-back attitude. If you’d like to explore the different beaches and other attractions, check the Goa travel package itinerary from GT Holidays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Goa",
+          "description": "Upon your arrival in Goa, our tour manager will welcome you and guide you to the hotel. Complete check-in formalities and spend the rest of the day exploring places around the hotel. Spend the night in Goa."
+        },
+        {
+          "day": 2,
+          "title": "Explore North Goa",
+          "description": "After breakfast, you will head out for a sightseeing tour of North Goa. Some of the towns you will visit include Candolim, Mapusa, Panjim, Mardol, Vagator, and Anjuna. You will visit Fort Aguada in Candolim, Vagator Beach in Vagator, the Basilica of Bom Jesus in Old Goa, and the Mangueshi Temple in Mardol. Don’t miss Dona Paula, Miramar, and Margoa. Spend the night in North Goa."
+        },
+        {
+          "day": 3,
+          "title": "Explore South Goa",
+          "description": "After breakfast, explore Mormagoa, Sonauli, and Vasco da Gama. Some of the places you will visit include the Bondla Wildlife Sanctuary in Ponda, the Dudhsagar Falls, the Cotigao Wildlife Sanctuary, Colva Beach, Palolem Beach, and Se Cathedral. Return to the hotel for a relaxing evening."
+        },
+        {
+          "day": 4,
+          "title": "Depart Goa",
+          "description": "Check out of the hotel as you bid adieu to Goa and catch your return flight home."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/Goa-family-trip-package-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Goa-family-trip-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/goa-zanzibar-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/goa-travel-packages-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/goa-sightseeing-tour-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Incrediable-Dudhsagar-Falls-Goa-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/goa-Margo-870x555.jpg",
+        "https://gtholidays-in-files.s3.ap-south-1.amazonaws.com/wp-content/uploads/2019/07/16131727/goa-holiday-package-870x555.webp"
+      ],
+      "location": "Goa – North Goa – South Goa",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:37:11.144633+05:30"
+    },
+    {
+      "name": "Golden Sands Honeymoon Package",
+      "slug": "golden-sands-honeymoon-package",
+      "source_url": "https://www.gtholidays.in/package/goa-honeymoon-package/",
+      "country": "India",
+      "region": "West India",
+      "destination": "Goa",
+      "destinations": [
+        "Goa"
+      ],
+      "duration": "3 Nights 4 Days",
+      "nights": 3,
+      "days": 4,
+      "tour_type": "Daily Tour",
+      "group_size": null,
+      "languages": [
+        "English"
+      ],
+      "price": null,
+      "currency": "INR",
+      "overview": "Whenever the name of Goa crops up, we get a mental image of beaches, internationally acclaimed architecture, thrilling pubs, lush greenery, and delicious cuisine. These are some of the reasons why Goa serves as the perfect destination for a honeymoon. If you wish to explore Goa with your partner, then check out our Goa honeymoon tour package.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Goa",
+          "description": "Upon your arrival in Goa, our tour representatives will greet you and help you get to your hotel. Once the check-in formalities are complete, freshen up and relax for a while. You can spend the rest of the day exploring some of the popular tourist attractions nearby. Get back to your hotel for a good night’s sleep."
+        },
+        {
+          "day": 2,
+          "title": "South Goa",
+          "description": "Enjoy a scrumptious breakfast before heading out to experience the beauty of South Goa. You will be taken to Shree Mangueshi Temple and the various churches in Old Goa. The last stop of the day will be Dona Paula, where you can engage in sunbathing, kayaking, scuba diving, and jet skiing."
+        },
+        {
+          "day": 3,
+          "title": "North Goa",
+          "description": "Once you get done with your breakfast, get ready to go around North Goa and stroll around its many beaches. Relish dolphin watching and then visit Aguada Fort, which is a 17th century well-preserved Portuguese fort. Get back to your hotel for the night."
+        },
+        {
+          "day": 4,
+          "title": "Depart Goa",
+          "description": "Have a filling breakfast and spend the rest of the day at leisure. Check out from your hotel in the afternoon and head to the airport or railway station to get back to your hometown."
+        }
+      ],
+      "included": [],
+      "excluded": [],
+      "banner_image": "https://www.gtholidays.in/wp-content/uploads/2019/07/south-goa-tour-package-870x555.jpg",
+      "images": [
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/south-goa-tour-package-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Mangeshi-Temple-goa-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/Basilica-of-Bom-Jesus-Old-Goa-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/GOA-Colva-Beach-870x555.jpg",
+        "https://www.gtholidays.in/wp-content/uploads/2019/07/goa-educational-packages-870x555.jpg",
+        "https://gtholidays-in-files.s3.ap-south-1.amazonaws.com/wp-content/uploads/2019/07/22161436/andaman-honeymoon-870x555.webp"
+      ],
+      "location": "Goa",
+      "source": "GT Holidays",
+      "scraped_at": "2026-09-21T10:37:11.438181+05:30"
+    }
+  ],
+  "errors": []
+}
