@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 interface URLInputProps {
-  onSubmit: (url: string) => void;
+  onSubmit: (url: string, downloadImages?: boolean) => void;
   isLoading: boolean;
 }
 
@@ -18,11 +18,12 @@ const UI_SHORTCUTS = [
 
 export const URLInput: React.FC<URLInputProps> = ({ onSubmit, isLoading }) => {
   const [url, setUrl] = useState('');
+  const [downloadImages, setDownloadImages] = useState(true);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (url.trim()) {
-      onSubmit(url.trim());
+      onSubmit(url.trim(), downloadImages);
     }
   };
 
@@ -83,6 +84,19 @@ export const URLInput: React.FC<URLInputProps> = ({ onSubmit, isLoading }) => {
               </>
             )}
           </button>
+        </div>
+
+        <div style={{ marginTop: '10px', display: 'flex', alignItems: 'center' }}>
+          <label style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', cursor: 'pointer', fontSize: '13px', color: 'var(--text-secondary)' }}>
+            <input
+              type="checkbox"
+              checked={downloadImages}
+              onChange={(e) => setDownloadImages(e.target.checked)}
+              disabled={isLoading}
+              style={{ accentColor: 'var(--accent-cyan)', cursor: 'pointer', width: '15px', height: '15px' }}
+            />
+            <span>Download banner & gallery images to local storage</span>
+          </label>
         </div>
       </form>
 

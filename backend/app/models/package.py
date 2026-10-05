@@ -31,6 +31,23 @@ class PackageDetail(BaseModel):
     location: Optional[str] = None
     source: str = "GT Holidays"
     scraped_at: str
+    
+    # Backward-compatible image download metadata
+    banner_image_local: Optional[str] = None
+    images_local: List[Optional[str]] = Field(default_factory=list)
+    image_download_status: str = "pending"  # pending, completed, partial, failed, skipped
+    image_download_summary: Optional["ImageDownloadSummary"] = None
+    image_errors: List["ImageErrorDetail"] = Field(default_factory=list)
+
+class ImageDownloadSummary(BaseModel):
+    total: int = 0
+    downloaded: int = 0
+    failed: int = 0
+    skipped: int = 0
+
+class ImageErrorDetail(BaseModel):
+    url: str
+    error: str
 
 class ScrapeError(BaseModel):
     url: str
@@ -58,9 +75,12 @@ class ScrapeResult(BaseModel):
     scraped_at: str
     packages: List[PackageDetail] = Field(default_factory=list)
     errors: List[ScrapeError] = Field(default_factory=list)
+    image_download_status: Optional[str] = None  # completed, partial, failed, skipped
+    image_download_summary: Optional[ImageDownloadSummary] = None
 
 class ScrapeRequest(BaseModel):
     url: str
+    download_images: bool = True
 
 class ScrapeJobResponse(BaseModel):
     job_id: str
@@ -68,7 +88,7 @@ class ScrapeJobResponse(BaseModel):
 
 class JobStatusResponse(BaseModel):
     job_id: str
-    status: str  # queued, analyzing, discovering, scraping, exporting, transforming, completed, completed_with_errors, failed
+    status: str  # queued, analyzing, discovering, scraping, downloading_images, exporting, transforming, completed, completed_with_errors, failed
     stage: str
     total: int = 0
     completed: int = 0
@@ -80,4 +100,7 @@ class JobStatusResponse(BaseModel):
     django_output_file: Optional[str] = None  # Django-compatible JSON filepath
     market: Optional[str] = None  # india, international
     django_schema: Optional[str] = None  # /bulk-import/india/, /bulk-import/international/
+    image_download_status: Optional[str] = None  # pending, in_progress, completed, partial, failed, skipped
+    image_download_summary: Optional[ImageDownloadSummary] = None
     error_message: Optional[str] = None
+

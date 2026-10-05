@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from app.api.routes import router
 from app.config import settings
 
@@ -8,6 +9,10 @@ app = FastAPI(
     version=settings.version,
     description="Generic GT Holidays Tour Package Scraper API",
 )
+
+# Mount local storage directory for previewing / downloading images
+if settings.storage_root.exists():
+    app.mount("/storage", StaticFiles(directory=str(settings.storage_root)), name="storage")
 
 # CORS configuration allowing frontend clients
 app.add_middleware(

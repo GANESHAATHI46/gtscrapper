@@ -30,7 +30,7 @@ async def start_scrape(req: ScrapeRequest, background_tasks: BackgroundTasks):
             detail="Invalid URL. Please submit a valid public GT Holidays URL (https://www.gtholidays.in/...).",
         )
 
-    job_id = scraper_service.create_job(url)
+    job_id = scraper_service.create_job(url, download_images=req.download_images)
     # Run scrape in background task
     background_tasks.add_task(scraper_service.run_scrape_job, job_id)
 

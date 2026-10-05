@@ -19,6 +19,15 @@ export const ProgressTracker: React.FC<ProgressTrackerProps> = ({ status }) => {
       }
       return `Scraping packages (${status.completed} / ${status.total})...`;
     }
+    if (status.status === 'downloading_images') {
+      const imgSum = status.image_download_summary;
+      if (imgSum && imgSum.total > 0) {
+        return `Downloading package images: ${imgSum.downloaded + imgSum.skipped} of ${imgSum.total} processed...`;
+      }
+      return status.current_package
+        ? `Downloading package images: ${status.current_package}...`
+        : 'Downloading package banner and gallery images to local storage...';
+    }
     if (status.status === 'exporting') {
       return 'Exporting raw GT Holidays JSON...';
     }
@@ -29,7 +38,7 @@ export const ProgressTracker: React.FC<ProgressTrackerProps> = ({ status }) => {
       return 'Scrape & Django data transformation completed successfully!';
     }
     if (status.status === 'completed_with_errors') {
-      return `Completed with ${status.failed} failed packages.`;
+      return status.stage || `Completed with ${status.failed} failed packages.`;
     }
     if (status.status === 'failed') {
       return status.error_message || 'Scraping process encountered an error.';
@@ -87,6 +96,28 @@ export const ProgressTracker: React.FC<ProgressTrackerProps> = ({ status }) => {
           <span className="stat-value">{status.failed}</span>
         </div>
       </div>
+
+      {status.image_download_summary && status.image_download_summary.total > 0 && (
+        <div className="progress-stats-grid" style={{ marginTop: '12px' }}>
+          <div className="stat-box">
+            <span className="stat-label">Total Images</span>
+            <span className="stat-value">{status.image_download_summary.total}</span>
+          </div>
+          <div className="stat-box success">
+            <span className="stat-label">Images Saved</span>
+            <span className="stat-value">{status.image_download_summary.downloaded}</span>
+          </div>
+          <div className="stat-box">
+            <span className="stat-label">Images Cached</span>
+            <span className="stat-value">{status.image_download_summary.skipped}</span>
+          </div>
+          <div className={`stat-box ${status.image_download_summary.failed > 0 ? 'error' : ''}`}>
+            <span className="stat-label">Images Failed</span>
+            <span className="stat-value">{status.image_download_summary.failed}</span>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
+

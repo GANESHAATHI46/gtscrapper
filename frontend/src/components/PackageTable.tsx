@@ -101,6 +101,11 @@ export const PackageTable: React.FC<PackageTableProps> = ({ packages, onSelectPa
                   <span className="images-count">
                     📸 {pkg.images.length}
                   </span>
+                  {(pkg.banner_image_local || (pkg.images_local && pkg.images_local.some(Boolean))) && (
+                    <span style={{ display: 'block', fontSize: '10px', color: 'var(--accent-emerald)', fontWeight: 600, marginTop: '2px' }}>
+                      ✓ Saved
+                    </span>
+                  )}
                 </td>
                 <td className="cell-status">
                   <span className="status-pill-success">Ready</span>

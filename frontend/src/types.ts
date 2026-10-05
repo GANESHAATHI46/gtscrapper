@@ -25,7 +25,16 @@ export interface PackageDetail {
   included: string[];
   excluded: string[];
   banner_image?: string | null;
+  banner_image_local?: string | null;
   images: string[];
+  images_local?: (string | null)[];
+  image_download_status?: 'pending' | 'completed' | 'partial' | 'failed' | 'skipped';
+  image_download_summary?: {
+    total: number;
+    downloaded: number;
+    failed: number;
+    skipped: number;
+  } | null;
   location?: string | null;
   source: string;
   scraped_at: string;
@@ -49,6 +58,13 @@ export interface ScrapeResult {
   scraped_at: string;
   packages: PackageDetail[];
   errors: ScrapeError[];
+  image_download_status?: string | null;
+  image_download_summary?: {
+    total: number;
+    downloaded: number;
+    failed: number;
+    skipped: number;
+  } | null;
 }
 
 export interface JobStatus {
@@ -58,6 +74,7 @@ export interface JobStatus {
     | 'analyzing'
     | 'discovering'
     | 'scraping'
+    | 'downloading_images'
     | 'exporting'
     | 'transforming'
     | 'completed'
@@ -74,5 +91,13 @@ export interface JobStatus {
   django_output_file?: string | null;
   market?: 'india' | 'international' | null;
   django_schema?: string | null;
+  image_download_status?: 'pending' | 'in_progress' | 'completed' | 'partial' | 'failed' | 'skipped' | null;
+  image_download_summary?: {
+    total: number;
+    downloaded: number;
+    failed: number;
+    skipped: number;
+  } | null;
   error_message?: string | null;
 }
+

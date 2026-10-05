@@ -354,7 +354,8 @@ body {
 }
 .status-indicator-dot.scraping,
 .status-indicator-dot.discovering,
-.status-indicator-dot.analyzing {
+.status-indicator-dot.analyzing,
+.status-indicator-dot.downloading_images {
   background: var(--accent-cyan);
   box-shadow: 0 0 10px var(--accent-cyan);
 }

@@ -12,20 +12,23 @@ from app.models.package import (
     PackageDetail,
     ScrapeError,
     ListingMetadata,
+    ImageDownloadSummary,
 )
 from app.scraper.client import ScraperClient, BotProtectionException
 from app.scraper.metadata import extract_page_metadata
 from app.scraper.listing import discover_package_urls
 from app.scraper.package import scrape_package
+from app.services.image_downloader import ImageDownloaderService
 from app.exporters.json_exporter import export_to_json, export_django_to_json
 from app.transformers import detect_market, transform_india, transform_international
 
 logger = logging.getLogger(__name__)
 
 class JobState:
-    def __init__(self, job_id: str, url: str):
+    def __init__(self, job_id: str, url: str, download_images: bool = True):
         self.job_id = job_id
         self.url = url
+        self.download_images = download_images
         self.status = "queued"
         self.stage = "initialization"
         self.total = 0
@@ -38,6 +41,8 @@ class JobState:
         self.django_output_file: Optional[str] = None  # Django-compatible JSON
         self.market: Optional[str] = None  # india, international
         self.django_schema: Optional[str] = None  # /bulk-import/india/, /bulk-import/international/
+        self.image_download_status: str = "pending"
+        self.image_download_summary: ImageDownloadSummary = ImageDownloadSummary()
         self.error_message: Optional[str] = None
         self.result: Optional[ScrapeResult] = None
         self.django_payload: Optional[Dict[str, Any]] = None
@@ -47,9 +52,10 @@ class ScraperService:
         self.jobs: Dict[str, JobState] = {}
         self._lock = asyncio.Lock()
 
-    def create_job(self, url: str) -> str:
+    def create_job(self, url: str, download_images: Optional[bool] = None) -> str:
         job_id = str(uuid.uuid4())
-        self.jobs[job_id] = JobState(job_id=job_id, url=url)
+        should_download = download_images if download_images is not None else settings.enable_image_download
+        self.jobs[job_id] = JobState(job_id=job_id, url=url, download_images=should_download)
         return job_id
 
     def get_job_status(self, job_id: str) -> Optional[JobStatusResponse]:
@@ -70,6 +76,8 @@ class ScraperService:
             django_output_file=job.django_output_file,
             market=job.market,
             django_schema=job.django_schema,
+            image_download_status=job.image_download_status,
+            image_download_summary=job.image_download_summary,
             error_message=job.error_message,
         )
 
@@ -161,7 +169,42 @@ class ScraperService:
             tasks = [scrape_single(url) for url in package_urls]
             await asyncio.gather(*tasks)
 
-            # 4. Exporting Raw JSON Stage
+            # 4. Image Downloading Stage
+            if job.download_images and scraped_packages:
+                job.status = "downloading_images"
+                job.stage = "downloading_package_images"
+                job.progress_percent = 80
+                job.image_download_status = "in_progress"
+
+                image_downloader = ImageDownloaderService()
+                try:
+                    def on_image_progress(done: int, total: int, pkg: PackageDetail):
+                        job.current_package = f"Images: {pkg.name}"
+                        if total > 0:
+                            job.progress_percent = min(91, 80 + int((done / total) * 11))
+
+                    summary = await image_downloader.download_all_packages(
+                        scraped_packages,
+                        progress_callback=on_image_progress,
+                    )
+                    job.image_download_summary = summary
+                    if summary.total == 0:
+                        job.image_download_status = "skipped"
+                    elif summary.failed == 0:
+                        job.image_download_status = "completed"
+                    elif summary.downloaded > 0 or summary.skipped > 0:
+                        job.image_download_status = "partial"
+                    else:
+                        job.image_download_status = "failed"
+                except Exception as img_err:
+                    logger.warning("Image download error in job %s: %s", job_id, img_err)
+                    job.image_download_status = "failed"
+                finally:
+                    await image_downloader.close()
+            else:
+                job.image_download_status = "skipped"
+
+            # 5. Exporting Raw JSON Stage
             job.status = "exporting"
             job.stage = "generating_raw_output"
             job.progress_percent = 92
@@ -180,6 +223,8 @@ class ScraperService:
                 scraped_at=scraped_at,
                 packages=scraped_packages,
                 errors=errors,
+                image_download_status=job.image_download_status,
+                image_download_summary=job.image_download_summary,
             )
 
             # Save versioned raw output file
@@ -187,7 +232,7 @@ class ScraperService:
             job.output_file = str(output_filepath)
             job.result = result
 
-            # 5. Transforming to Django-Compatible Structure
+            # 6. Transforming to Django-Compatible Structure
             job.status = "transforming"
             job.stage = "preparing_django_data"
             job.progress_percent = 96
@@ -213,11 +258,17 @@ class ScraperService:
                 )
                 job.django_output_file = str(django_filepath)
 
-                # 6. Completed Stage
+                # 7. Completed Stage
                 job.progress_percent = 100
-                if job.failed > 0:
+                has_image_failures = (job.image_download_summary.failed > 0)
+                if job.failed > 0 or has_image_failures:
                     job.status = "completed_with_errors"
-                    job.stage = f"Completed with {job.failed} failed packages (both Raw & Django JSON exported)"
+                    err_parts = []
+                    if job.failed > 0:
+                        err_parts.append(f"{job.failed} failed packages")
+                    if has_image_failures:
+                        err_parts.append(f"{job.image_download_summary.failed} failed image downloads")
+                    job.stage = f"Completed with {', '.join(err_parts)} (both Raw & Django JSON exported)"
                 else:
                     job.status = "completed"
                     job.stage = f"Scrape and {market.upper()} Django transformation completed successfully"
@@ -239,3 +290,4 @@ class ScraperService:
             await client.close()
 
 scraper_service = ScraperService()
+

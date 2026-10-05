@@ -33,6 +33,22 @@ class Settings(BaseModel):
     # Directories
     base_dir: Path = Path(__file__).resolve().parent.parent
     output_dir: Path = base_dir / "output"
+    
+    # Image Downloader Configuration
+    enable_image_download: bool = True
+    image_concurrency: int = 5
+    image_request_timeout: float = 25.0
+    image_max_retries: int = 3
+    image_retry_backoff_factor: float = 1.5
+    image_max_size_bytes: int = 25 * 1024 * 1024  # 25 MB max per image
+    image_allowed_domains: tuple[str, ...] = (
+        "gtholidays.in",
+        "www.gtholidays.in",
+        "wp-content",
+    )
+    storage_root: Path = Path(os.getenv("IMAGE_STORAGE_DIR", str(Path(__file__).resolve().parent.parent / "storage" / "gt_holidays")))
 
 settings = Settings()
 settings.output_dir.mkdir(parents=True, exist_ok=True)
+settings.storage_root.mkdir(parents=True, exist_ok=True)
+

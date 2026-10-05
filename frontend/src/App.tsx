@@ -96,7 +96,7 @@ export const App: React.FC = () => {
     }
   };
 
-  const handleStartScrape = async (targetUrl: string) => {
+  const handleStartScrape = async (targetUrl: string, downloadImages: boolean = true) => {
     setErrorMessage(null);
     setResult(null);
     setDjangoPayload(null);
@@ -107,7 +107,7 @@ export const App: React.FC = () => {
       const res = await fetch('/api/scrape', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ url: targetUrl }),
+        body: JSON.stringify({ url: targetUrl, download_images: downloadImages }),
       });
 
       if (!res.ok) {

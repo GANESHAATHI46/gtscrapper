@@ -184,15 +184,45 @@ export const PackageDetailModal: React.FC<PackageDetailModalProps> = ({ pkg, onC
 
           {activeTab === 'images' && (
             <div className="images-tab-content">
+              {pkg.image_download_status && (
+                <div style={{ marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px', fontSize: '13px' }}>
+                  <span style={{ fontWeight: 600, color: 'var(--text-secondary)' }}>Download Status:</span>
+                  <span style={{ textTransform: 'capitalize', color: pkg.image_download_status === 'completed' ? 'var(--accent-emerald)' : 'var(--accent-cyan)' }}>
+                    {pkg.image_download_status}
+                  </span>
+                  {pkg.banner_image_local && (
+                    <span style={{ color: 'var(--text-muted)', fontSize: '12px' }}>
+                      (Storage: <code>storage/gt_holidays/{pkg.banner_image_local}</code>)
+                    </span>
+                  )}
+                </div>
+              )}
               {pkg.images.length === 0 ? (
                 <div className="empty-tab-msg">No images found for this package.</div>
               ) : (
                 <div className="gallery-grid">
-                  {pkg.images.map((img, i) => (
-                    <div key={i} className="gallery-item">
-                      <img src={img} alt={`${pkg.name} preview ${i + 1}`} loading="lazy" />
-                    </div>
-                  ))}
+                  {pkg.images.map((img, i) => {
+                    const localPath = pkg.images_local && pkg.images_local[i];
+                    return (
+                      <div key={i} className="gallery-item" style={{ position: 'relative' }}>
+                        <img
+                          src={localPath ? `/storage/${localPath}` : img}
+                          alt={`${pkg.name} preview ${i + 1}`}
+                          loading="lazy"
+                          onError={(e) => {
+                            if (localPath && e.currentTarget.src !== img) {
+                              e.currentTarget.src = img;
+                            }
+                          }}
+                        />
+                        {localPath && (
+                          <div style={{ position: 'absolute', bottom: '6px', left: '6px', background: 'rgba(0,0,0,0.7)', padding: '2px 6px', borderRadius: '4px', fontSize: '10px', color: '#10b981' }}>
+                            ✓ Local
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
               )}
             </div>
