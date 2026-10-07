@@ -144,7 +144,7 @@ export const PackageDetailModal: React.FC<PackageDetailModalProps> = ({ pkg, onC
               <div className="source-section">
                 <h4>Original Source</h4>
                 <a href={pkg.source_url} target="_blank" rel="noreferrer" className="source-link">
-                  Open Original Page on GT Holidays ↗
+                  View Original Source Listing ↗
                 </a>
               </div>
             </div>
@@ -192,7 +192,7 @@ export const PackageDetailModal: React.FC<PackageDetailModalProps> = ({ pkg, onC
                   </span>
                   {pkg.banner_image_local && (
                     <span style={{ color: 'var(--text-muted)', fontSize: '12px' }}>
-                      (Storage: <code>storage/gt_holidays/{pkg.banner_image_local}</code>)
+                      (Storage: <code>storage/tour_packages/{pkg.banner_image_local}</code>)
                     </span>
                   )}
                 </div>

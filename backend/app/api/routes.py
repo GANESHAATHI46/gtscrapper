@@ -11,6 +11,7 @@ from app.models.package import (
 )
 from app.scraper.utils import is_valid_url
 from app.services.scraper_service import scraper_service
+from app.exporters.json_exporter import serialize_public_result
 
 router = APIRouter(prefix="/api")
 
@@ -18,7 +19,7 @@ router = APIRouter(prefix="/api")
 async def health_check():
     return {
         "status": "healthy",
-        "service": "GT Holidays Generic Package Scraper & Django Formatter",
+        "service": "Tour Package Scraper & Django Formatter",
     }
 
 @router.post("/scrape", response_model=ScrapeJobResponse)
@@ -27,7 +28,7 @@ async def start_scrape(req: ScrapeRequest, background_tasks: BackgroundTasks):
     if not is_valid_url(url):
         raise HTTPException(
             status_code=400,
-            detail="Invalid URL. Please submit a valid public GT Holidays URL (https://www.gtholidays.in/...).",
+            detail="Invalid URL. Please submit a valid supported tour package listing URL.",
         )
 
     job_id = scraper_service.create_job(url, download_images=req.download_images)
@@ -51,8 +52,16 @@ async def get_job_json(job_id: str):
     if not job.result:
         raise HTTPException(
             status_code=400,
-            detail=f"Job is currently '{job.status}'. Raw result is not yet available.",
+            detail=f"Job is currently '{job.status}'. Tour package result is not yet available.",
         )
+    return serialize_public_result(job.result)
+
+@router.get("/jobs/{job_id}/internal-audit")
+async def get_job_internal_audit(job_id: str):
+    """Internal audit endpoint preserving source URLs and extraction metadata."""
+    job = scraper_service.jobs.get(job_id)
+    if not job or not job.result:
+        raise HTTPException(status_code=404, detail="Job or result not found")
     return job.result.model_dump(mode="json")
 
 @router.get("/jobs/{job_id}/download")
@@ -61,7 +70,7 @@ async def download_job_json(job_id: str):
     if not job:
         raise HTTPException(status_code=404, detail="Job ID not found")
     if not job.output_file or not Path(job.output_file).is_file():
-        raise HTTPException(status_code=400, detail="Raw output file not ready for download")
+        raise HTTPException(status_code=400, detail="Tour package output file not ready for download")
 
     filepath = Path(job.output_file)
     return FileResponse(
@@ -97,6 +106,54 @@ async def download_job_django_json(job_id: str):
         path=filepath,
         media_type="application/json",
         filename=filepath.name,
+    )
+
+@router.post("/jobs/{job_id}/download-images")
+async def trigger_download_images(job_id: str, background_tasks: BackgroundTasks):
+    """Triggers on-demand downloading of package images for a completed scrape job."""
+    job = scraper_service.jobs.get(job_id)
+    if not job:
+        raise HTTPException(status_code=404, detail="Job ID not found")
+    if not job.result or not job.result.packages:
+        raise HTTPException(
+            status_code=400,
+            detail="Tour package scrape results are not yet available for downloading images.",
+        )
+    if job.image_download_status == "in_progress":
+        return {
+            "status": "in_progress",
+            "message": "Image download is already in progress.",
+        }
+
+    background_tasks.add_task(scraper_service.download_job_images, job_id)
+    return {
+        "status": "started",
+        "message": "Package image download initiated successfully.",
+    }
+
+@router.get("/jobs/{job_id}/download-images-zip")
+async def download_job_images_zip(job_id: str):
+    """Downloads a zip archive containing all downloaded package images."""
+    job = scraper_service.jobs.get(job_id)
+    if not job:
+        raise HTTPException(status_code=404, detail="Job ID not found")
+    if not job.result or not job.result.packages:
+        raise HTTPException(
+            status_code=400,
+            detail="Tour package data not available.",
+        )
+
+    zip_path = scraper_service.create_images_zip(job_id)
+    if not zip_path or not zip_path.is_file():
+        raise HTTPException(
+            status_code=400,
+            detail="No local images downloaded yet. Please click 'Fetch & Download Images' first.",
+        )
+
+    return FileResponse(
+        path=zip_path,
+        media_type="application/zip",
+        filename=zip_path.name,
     )
 
 # Backward-compatible aliases for endpoints

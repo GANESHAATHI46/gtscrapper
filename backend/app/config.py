@@ -8,7 +8,7 @@ from pydantic import BaseModel
 load_dotenv()
 
 class Settings(BaseModel):
-    app_name: str = "GT Holidays Generic Package Scraper"
+    app_name: str = "Tour Package Scraper"
     version: str = "1.0.0"
     
     # Network & Concurrency
@@ -34,8 +34,8 @@ class Settings(BaseModel):
     base_dir: Path = Path(__file__).resolve().parent.parent
     output_dir: Path = base_dir / "output"
     
-    # Image Downloader Configuration
-    enable_image_download: bool = True
+    # Image Downloader Configuration (On-Demand via Download Section)
+    enable_image_download: bool = False
     image_concurrency: int = 5
     image_request_timeout: float = 25.0
     image_max_retries: int = 3
@@ -46,7 +46,7 @@ class Settings(BaseModel):
         "www.gtholidays.in",
         "wp-content",
     )
-    storage_root: Path = Path(os.getenv("IMAGE_STORAGE_DIR", str(Path(__file__).resolve().parent.parent / "storage" / "gt_holidays")))
+    storage_root: Path = Path(os.getenv("IMAGE_STORAGE_DIR", str(Path(__file__).resolve().parent.parent / "storage" / "tour_packages")))
 
 settings = Settings()
 settings.output_dir.mkdir(parents=True, exist_ok=True)

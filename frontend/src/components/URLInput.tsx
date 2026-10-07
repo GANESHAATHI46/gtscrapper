@@ -18,7 +18,7 @@ const UI_SHORTCUTS = [
 
 export const URLInput: React.FC<URLInputProps> = ({ onSubmit, isLoading }) => {
   const [url, setUrl] = useState('');
-  const [downloadImages, setDownloadImages] = useState(true);
+  const [downloadImages, setDownloadImages] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -32,9 +32,9 @@ export const URLInput: React.FC<URLInputProps> = ({ onSubmit, isLoading }) => {
       <form onSubmit={handleSubmit} className="url-form">
         <div className="input-header">
           <label htmlFor="listing-url" className="input-label">
-            Paste Any GT Holidays Listing URL
+            Paste Any Tour Package Listing URL
           </label>
-          <span className="input-hint">Domestic (India) or International Category</span>
+          <span className="input-hint">Domestic or International Category</span>
         </div>
 
         <div className="input-group">
@@ -95,7 +95,7 @@ export const URLInput: React.FC<URLInputProps> = ({ onSubmit, isLoading }) => {
               disabled={isLoading}
               style={{ accentColor: 'var(--accent-cyan)', cursor: 'pointer', width: '15px', height: '15px' }}
             />
-            <span>Download banner & gallery images to local storage</span>
+            <span>Pre-download images during scrape (Disabled by default — on-demand download available in Download Section)</span>
           </label>
         </div>
       </form>

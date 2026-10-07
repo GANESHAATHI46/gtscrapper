@@ -29,7 +29,7 @@ export const ProgressTracker: React.FC<ProgressTrackerProps> = ({ status }) => {
         : 'Downloading package banner and gallery images to local storage...';
     }
     if (status.status === 'exporting') {
-      return 'Exporting raw GT Holidays JSON...';
+      return 'Exporting tour packages JSON...';
     }
     if (status.status === 'transforming') {
       return `Detecting market & transforming to Django-compatible JSON (${status.market?.toUpperCase() || 'Auto'})...`;

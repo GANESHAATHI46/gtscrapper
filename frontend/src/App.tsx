@@ -28,13 +28,17 @@ export const App: React.FC = () => {
       .catch(() => setBackendHealthy(false));
   }, []);
 
-  // Polling loop for job status
-  useEffect(() => {
-    if (!jobId) return;
+  const [imageActionMsg, setImageActionMsg] = useState<string | null>(null);
+
+  const startPolling = (id: string) => {
+    if (pollingRef.current) {
+      clearInterval(pollingRef.current);
+      pollingRef.current = null;
+    }
 
     const checkStatus = async () => {
       try {
-        const res = await fetch(`/api/jobs/${jobId}`);
+        const res = await fetch(`/api/jobs/${id}`);
         if (!res.ok) {
           throw new Error('Failed to fetch job status');
         }
@@ -43,12 +47,16 @@ export const App: React.FC = () => {
 
         // Fetch data once completed
         if (['completed', 'completed_with_errors'].includes(data.status)) {
+          if (data.image_download_status === 'in_progress') {
+            // Keep polling while images are actively downloading in background
+            return;
+          }
           if (pollingRef.current) {
             clearInterval(pollingRef.current);
             pollingRef.current = null;
           }
-          fetchResult(jobId);
-          fetchDjangoPayload(jobId);
+          fetchResult(id);
+          fetchDjangoPayload(id);
         } else if (data.status === 'failed') {
           if (pollingRef.current) {
             clearInterval(pollingRef.current);
@@ -63,6 +71,12 @@ export const App: React.FC = () => {
 
     checkStatus();
     pollingRef.current = window.setInterval(checkStatus, 1200);
+  };
+
+  // Polling loop for job status
+  useEffect(() => {
+    if (!jobId) return;
+    startPolling(jobId);
 
     return () => {
       if (pollingRef.current) {
@@ -96,8 +110,9 @@ export const App: React.FC = () => {
     }
   };
 
-  const handleStartScrape = async (targetUrl: string, downloadImages: boolean = true) => {
+  const handleStartScrape = async (targetUrl: string, downloadImages: boolean = false) => {
     setErrorMessage(null);
+    setImageActionMsg(null);
     setResult(null);
     setDjangoPayload(null);
     setStatus(null);
@@ -122,6 +137,28 @@ export const App: React.FC = () => {
     }
   };
 
+  const handleTriggerDownloadImages = async () => {
+    if (!jobId || isDownloadingImages) return;
+    setImageActionMsg(null);
+    try {
+      const res = await fetch(`/api/jobs/${jobId}/download-images`, { method: 'POST' });
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.detail || 'Failed to trigger image download');
+      }
+      setImageActionMsg('Image download initiated. Fetching banners & galleries in background...');
+      setStatus((prev) => (prev ? { ...prev, image_download_status: 'in_progress' } : null));
+      startPolling(jobId);
+    } catch (err: any) {
+      setImageActionMsg(`Error: ${err.message || 'Failed to initiate image download'}`);
+    }
+  };
+
+  const handleDownloadImagesZip = () => {
+    if (!jobId) return;
+    window.location.href = `/api/jobs/${jobId}/download-images-zip`;
+  };
+
   const handleDownloadRaw = () => {
     if (!jobId) return;
     window.location.href = `/api/jobs/${jobId}/download`;
@@ -137,9 +174,24 @@ export const App: React.FC = () => {
     setShowJsonModal(true);
   };
 
+  const isDownloadingImages = status?.image_download_status === 'in_progress';
+  const totalImageUrls = (result?.packages || []).reduce((acc, pkg) => {
+    const bannerCount = pkg.banner_image ? 1 : 0;
+    const galleryCount = pkg.images ? pkg.images.length : 0;
+    return acc + bannerCount + galleryCount;
+  }, 0);
+
+  const totalDownloadedImages = (result?.packages || []).reduce((acc, pkg) => {
+    const bannerCount = pkg.banner_image_local ? 1 : 0;
+    const galleryCount = pkg.images_local ? pkg.images_local.filter(Boolean).length : 0;
+    return acc + bannerCount + galleryCount;
+  }, 0);
+
+  const hasDownloadedImages = totalDownloadedImages > 0 || status?.image_download_status === 'completed';
+
   const isLoading =
     !!status &&
-    ['queued', 'analyzing', 'discovering', 'scraping', 'exporting', 'transforming'].includes(
+    ['queued', 'analyzing', 'discovering', 'scraping', 'downloading_images', 'exporting', 'transforming'].includes(
       status.status
     );
 
@@ -149,8 +201,8 @@ export const App: React.FC = () => {
       <header className="app-header">
         <div className="header-left">
           <div className="brand-logo">
-            <span className="brand-badge">GT</span>
-            <span className="brand-title">GT Holidays Package Scraper</span>
+            <span className="brand-badge">TP</span>
+            <span className="brand-title">Tour Package Scraper</span>
           </div>
           <span className="version-pill">Django Export Edition v2.0</span>
         </div>
@@ -232,55 +284,153 @@ export const App: React.FC = () => {
               </div>
             </div>
 
-            {/* Django-Compatible Output Card */}
-            <div className="django-output-card">
-              <div className="django-card-header">
-                <div className="django-header-left">
-                  <span className="django-card-icon">📦</span>
-                  <div className="django-title-group">
-                    <h3 className="django-card-title">Generated Output Files</h3>
-                    <p className="django-card-subtitle">
-                      Both Raw GT Holidays JSON and validated Django Bulk-Import JSON are saved in <code>backend/output/</code>
+            {/* Dedicated Downloads & Export Hub Section */}
+            <div className="download-hub-card">
+              <div className="download-hub-header">
+                <div className="hub-header-left">
+                  <span className="hub-card-icon">📥</span>
+                  <div className="hub-title-group">
+                    <h3 className="hub-card-title">Downloads & Export Hub</h3>
+                    <p className="hub-card-subtitle">
+                      Download scraped tour packages, Django bulk-import JSON, and package images on demand.
                     </p>
                   </div>
                 </div>
 
-                <div className="django-schema-badge">
-                  <span className="schema-label">Target Django Schema:</span>
-                  <code className="schema-code">{status?.django_schema || '/bulk-import/india/'}</code>
+                <div className="hub-header-right">
+                  <div className="django-schema-badge">
+                    <span className="schema-label">Target Django Schema:</span>
+                    <code className="schema-code">{status?.django_schema || '/bulk-import/india/'}</code>
+                  </div>
                 </div>
               </div>
 
-              <div className="django-actions-grid">
-                <div className="output-action-group raw">
-                  <div className="action-group-info">
-                    <span className="file-badge raw">RAW JSON</span>
-                    <span className="file-name">Original GT Holidays Complete Data</span>
+              {imageActionMsg && (
+                <div className={`hub-action-alert ${imageActionMsg.startsWith('Error') ? 'error' : 'info'}`}>
+                  <span>{imageActionMsg}</span>
+                  <button className="alert-close" onClick={() => setImageActionMsg(null)}>✕</button>
+                </div>
+              )}
+
+              <div className="download-tiles-grid">
+                {/* Tile 1: Tour Packages JSON */}
+                <div className="download-tile raw-tile">
+                  <div className="tile-top">
+                    <div className="tile-badge-row">
+                      <span className="file-badge raw">TOUR JSON</span>
+                      <span className="tile-count-badge">{result.packages.length} Packages</span>
+                    </div>
+                    <h4 className="tile-title">Tour Packages Dataset</h4>
+                    <p className="tile-desc">
+                      Standard JSON format with complete itineraries, pricing, hotel options, inclusions, exclusions, and media links.
+                    </p>
                   </div>
-                  <div className="action-buttons">
-                    <button className="btn-action preview" onClick={() => openJsonPreview('raw')}>
-                      👁️ Preview Raw JSON
-                    </button>
-                    <button className="btn-action download" onClick={handleDownloadRaw}>
-                      ⬇️ Download Raw JSON
-                    </button>
+                  <div className="tile-bottom">
+                    <div className="tile-meta">
+                      <span>Format: <code>.json</code></span>
+                      <span>Directory: <code>output/</code></span>
+                    </div>
+                    <div className="tile-actions">
+                      <button className="btn-action preview" onClick={() => openJsonPreview('raw')}>
+                        👁️ Preview
+                      </button>
+                      <button className="btn-action download" onClick={handleDownloadRaw}>
+                        ⬇️ Download JSON
+                      </button>
+                    </div>
                   </div>
                 </div>
 
-                <div className="output-action-group django">
-                  <div className="action-group-info">
-                    <span className="file-badge django">DJANGO JSON</span>
-                    <span className="file-name">
-                      Focus Tourism Compatible ({status?.market?.toUpperCase() || 'INDIA'})
-                    </span>
+                {/* Tile 2: Django Bulk-Import JSON */}
+                <div className="download-tile django-tile">
+                  <div className="tile-top">
+                    <div className="tile-badge-row">
+                      <span className="file-badge django">DJANGO JSON</span>
+                      <span className="tile-market-badge">{status?.market?.toUpperCase() || 'INDIA'}</span>
+                    </div>
+                    <h4 className="tile-title">Django Bulk-Import Ready</h4>
+                    <p className="tile-desc">
+                      Pre-formatted and validated JSON ready for direct ingestion via <code>{status?.django_schema || '/bulk-import/india/'}</code>.
+                    </p>
                   </div>
-                  <div className="action-buttons">
-                    <button className="btn-action preview django-btn" onClick={() => openJsonPreview('django')}>
-                      👁️ Preview Django JSON
-                    </button>
-                    <button className="btn-action download django-download" onClick={handleDownloadDjango}>
-                      ⬇️ Download Django JSON
-                    </button>
+                  <div className="tile-bottom">
+                    <div className="tile-meta">
+                      <span>Schema: <code>{status?.django_schema || '/bulk-import/india/'}</code></span>
+                      <span>Directory: <code>output/</code></span>
+                    </div>
+                    <div className="tile-actions">
+                      <button className="btn-action preview django-btn" onClick={() => openJsonPreview('django')}>
+                        👁️ Preview
+                      </button>
+                      <button className="btn-action download django-download" onClick={handleDownloadDjango}>
+                        ⬇️ Download Django JSON
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Tile 3: Package Images Media */}
+                <div className="download-tile images-tile">
+                  <div className="tile-top">
+                    <div className="tile-badge-row">
+                      <span className="file-badge images">IMAGES MEDIA</span>
+                      <span className={`tile-status-badge ${isDownloadingImages ? 'in-progress' : hasDownloadedImages ? 'completed' : 'ondemand'}`}>
+                        {isDownloadingImages ? '⏳ Downloading...' : hasDownloadedImages ? '✓ Ready' : '⚡ On Demand'}
+                      </span>
+                    </div>
+                    <h4 className="tile-title">Package Images & Banners</h4>
+                    <p className="tile-desc">
+                      {isDownloadingImages ? (
+                        <>Downloading banners & gallery photos in background... {status?.current_package || ''}</>
+                      ) : hasDownloadedImages ? (
+                        <>{totalDownloadedImages} images saved locally in <code>storage/tour_packages/</code>. Download the complete ZIP archive below.</>
+                      ) : (
+                        <>{totalImageUrls} image URLs discovered across {result.packages.length} packages. Not automatically downloaded to save disk and bandwidth.</>
+                      )}
+                    </p>
+                  </div>
+                  <div className="tile-bottom">
+                    <div className="tile-meta">
+                      <span>Discovered: <strong>{totalImageUrls}</strong> URLs</span>
+                      {hasDownloadedImages && <span>Downloaded: <strong>{totalDownloadedImages}</strong> files</span>}
+                    </div>
+                    <div className="tile-actions images-actions">
+                      {!hasDownloadedImages && !isDownloadingImages && (
+                        <button
+                          className="btn-action image-fetch-btn"
+                          onClick={handleTriggerDownloadImages}
+                          disabled={isDownloadingImages}
+                        >
+                          📥 Fetch & Download Images
+                        </button>
+                      )}
+
+                      {isDownloadingImages && (
+                        <button className="btn-action image-loading-btn" disabled>
+                          <span className="spinner"></span>
+                          <span>Downloading Images...</span>
+                        </button>
+                      )}
+
+                      {hasDownloadedImages && !isDownloadingImages && (
+                        <>
+                          <button
+                            className="btn-action image-zip-btn"
+                            onClick={handleDownloadImagesZip}
+                            title="Download all downloaded package images as a ZIP file"
+                          >
+                            📦 Download Images (.zip)
+                          </button>
+                          <button
+                            className="btn-action image-resync-btn"
+                            onClick={handleTriggerDownloadImages}
+                            title="Re-download any missing or updated images"
+                          >
+                            🔄 Re-sync
+                          </button>
+                        </>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>

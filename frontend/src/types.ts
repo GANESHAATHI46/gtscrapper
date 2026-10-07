@@ -98,6 +98,7 @@ export interface JobStatus {
     failed: number;
     skipped: number;
   } | null;
+  images_zip_file?: string | null;
   error_message?: string | null;
 }
 

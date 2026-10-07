@@ -49,7 +49,7 @@ async def test_live_scrape_multiple_destinations():
         # 3. JSON Validity
         with open(output_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-            assert data["source"] == "GT Holidays"
+            assert "source" not in data or "GT Holidays" not in str(data.get("source"))
             assert data["total_packages"] == discovered_count
             assert len(data["packages"]) == result.success_count
             

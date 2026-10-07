@@ -15,17 +15,15 @@ from app.models.package import (
     ImageDownloadSummary,
 )
 from app.scraper.client import ScraperClient, BotProtectionException
-from app.scraper.metadata import extract_page_metadata
-from app.scraper.listing import discover_package_urls
-from app.scraper.package import scrape_package
+from app.scraper.adapter import default_source_adapter
 from app.services.image_downloader import ImageDownloaderService
-from app.exporters.json_exporter import export_to_json, export_django_to_json
+from app.exporters.json_exporter import export_to_json, export_django_to_json, export_images_to_zip
 from app.transformers import detect_market, transform_india, transform_international
 
 logger = logging.getLogger(__name__)
 
 class JobState:
-    def __init__(self, job_id: str, url: str, download_images: bool = True):
+    def __init__(self, job_id: str, url: str, download_images: bool = False):
         self.job_id = job_id
         self.url = url
         self.download_images = download_images
@@ -37,12 +35,14 @@ class JobState:
         self.failed = 0
         self.progress_percent = 0
         self.current_package: Optional[str] = None
-        self.output_file: Optional[str] = None  # Raw GT Holidays JSON
-        self.django_output_file: Optional[str] = None  # Django-compatible JSON
+        self.output_file: Optional[str] = None  # Tour Packages JSON filepath
+        self.django_output_file: Optional[str] = None  # Django-compatible JSON filepath
         self.market: Optional[str] = None  # india, international
         self.django_schema: Optional[str] = None  # /bulk-import/india/, /bulk-import/international/
         self.image_download_status: str = "pending"
         self.image_download_summary: ImageDownloadSummary = ImageDownloadSummary()
+        self.images_zip_file: Optional[str] = None
+
         self.error_message: Optional[str] = None
         self.result: Optional[ScrapeResult] = None
         self.django_payload: Optional[Dict[str, Any]] = None
@@ -78,6 +78,7 @@ class ScraperService:
             django_schema=job.django_schema,
             image_download_status=job.image_download_status,
             image_download_summary=job.image_download_summary,
+            images_zip_file=job.images_zip_file,
             error_message=job.error_message,
         )
 
@@ -106,7 +107,7 @@ class ScraperService:
             job.progress_percent = 5
             
             try:
-                listing_html = await client.fetch_html(job.url)
+                listing_html = await default_source_adapter.fetch_listing_html(client, job.url)
             except BotProtectionException as e:
                 job.status = "failed"
                 job.stage = "bot_protection_detected"
@@ -121,14 +122,14 @@ class ScraperService:
             # Extract dynamic listing metadata
             job.stage = "resolving_metadata"
             job.progress_percent = 15
-            metadata = extract_page_metadata(listing_html, job.url)
+            metadata = default_source_adapter.extract_page_metadata(listing_html, job.url)
 
             # 2. Discovering Stage
             job.status = "discovering"
             job.stage = "discovering_packages"
             job.progress_percent = 25
 
-            package_urls = discover_package_urls(listing_html, job.url)
+            package_urls = default_source_adapter.discover_package_urls(listing_html, job.url)
             total_packages = len(package_urls)
             job.total = total_packages
 
@@ -150,7 +151,7 @@ class ScraperService:
             async def scrape_single(url: str):
                 async with semaphore:
                     job.current_package = url
-                    pkg, err = await scrape_package(client, url, metadata)
+                    pkg, err = await default_source_adapter.scrape_package(client, url, metadata)
                     
                     job.completed += 1
                     if pkg:
@@ -163,8 +164,8 @@ class ScraperService:
                             errors.append(err)
 
                     if job.total > 0:
-                        progress = 30 + int((job.completed / job.total) * 60)
-                        job.progress_percent = min(90, progress)
+                        progress = 30 + int((job.completed / job.total) * 50)
+                        job.progress_percent = min(80, progress)
 
             tasks = [scrape_single(url) for url in package_urls]
             await asyncio.gather(*tasks)
@@ -204,14 +205,14 @@ class ScraperService:
             else:
                 job.image_download_status = "skipped"
 
-            # 5. Exporting Raw JSON Stage
+            # 5. Exporting Tour Packages JSON Stage
             job.status = "exporting"
             job.stage = "generating_raw_output"
             job.progress_percent = 92
 
             scraped_at = datetime.now().astimezone().isoformat()
             result = ScrapeResult(
-                source="GT Holidays",
+                source=default_source_adapter.display_name,
                 listing_url=job.url,
                 page_title=metadata.page_title,
                 country=metadata.country,
@@ -225,9 +226,15 @@ class ScraperService:
                 errors=errors,
                 image_download_status=job.image_download_status,
                 image_download_summary=job.image_download_summary,
+                internal_audit={
+                    "source_adapter": default_source_adapter.adapter_id,
+                    "source_url": job.url,
+                    "scraped_at": scraped_at,
+                    "package_count": len(scraped_packages),
+                },
             )
 
-            # Save versioned raw output file
+            # Save versioned output file (generic public format)
             output_filepath, timestamp_str = export_to_json(result)
             job.output_file = str(output_filepath)
             job.result = result
@@ -288,6 +295,75 @@ class ScraperService:
             job.error_message = str(e)
         finally:
             await client.close()
+
+    async def download_job_images(self, job_id: str):
+        job = self.jobs.get(job_id)
+        if not job or not job.result or not job.result.packages:
+            return
+
+        job.image_download_status = "in_progress"
+        image_downloader = ImageDownloaderService()
+        try:
+            def on_image_progress(done: int, total: int, pkg: PackageDetail):
+                job.current_package = f"Downloading image for {pkg.name}"
+
+            summary = await image_downloader.download_all_packages(
+                job.result.packages,
+                progress_callback=on_image_progress,
+            )
+            job.image_download_summary = summary
+            if summary.total == 0:
+                job.image_download_status = "skipped"
+            elif summary.failed == 0:
+                job.image_download_status = "completed"
+            elif summary.downloaded > 0 or summary.skipped > 0:
+                job.image_download_status = "partial"
+            else:
+                job.image_download_status = "failed"
+
+            # Update result object
+            job.result.image_download_status = job.image_download_status
+            job.result.image_download_summary = summary
+
+            # Re-export generic Tour Packages JSON so local paths are saved to output file
+            output_filepath, timestamp_str = export_to_json(job.result)
+            job.output_file = str(output_filepath)
+
+            # Re-transform and re-export Django payload with any local image path updates
+            market = job.market or detect_market(job.result)
+            if market == "india":
+                django_payload = transform_india(job.result)
+            else:
+                django_payload = transform_international(job.result)
+            job.django_payload = django_payload
+            django_filepath = export_django_to_json(
+                django_payload,
+                dest_name=job.result.destination,
+                timestamp_str=timestamp_str,
+            )
+            job.django_output_file = str(django_filepath)
+
+            # Pre-generate zip archive
+            zip_path = export_images_to_zip(job.result, timestamp_str=timestamp_str)
+            if zip_path:
+                job.images_zip_file = str(zip_path)
+
+        except Exception as img_err:
+            logger.warning("On-demand image download error in job %s: %s", job_id, img_err)
+            job.image_download_status = "failed"
+        finally:
+            await image_downloader.close()
+
+    def create_images_zip(self, job_id: str) -> Optional[Path]:
+        job = self.jobs.get(job_id)
+        if not job or not job.result:
+            return None
+        if job.images_zip_file and Path(job.images_zip_file).is_file():
+            return Path(job.images_zip_file)
+        zip_path = export_images_to_zip(job.result)
+        if zip_path:
+            job.images_zip_file = str(zip_path)
+        return zip_path
 
 scraper_service = ScraperService()
 

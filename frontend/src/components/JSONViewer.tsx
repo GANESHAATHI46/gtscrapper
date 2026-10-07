@@ -64,7 +64,7 @@ export const JSONViewer: React.FC<JSONViewerProps> = ({
                 className={`json-tab-btn ${activeTab === 'raw' ? 'active' : ''}`}
                 onClick={() => setActiveTab('raw')}
               >
-                📄 Raw GT Holidays JSON
+                📄 Tour Packages JSON
               </button>
             </div>
           </div>

@@ -1,4 +1,4 @@
-from typing import Optional, Union, List
+from typing import Optional, Union, List, Dict, Any
 from pydantic import BaseModel, Field, HttpUrl
 
 class ItineraryItem(BaseModel):
@@ -38,6 +38,9 @@ class PackageDetail(BaseModel):
     image_download_status: str = "pending"  # pending, completed, partial, failed, skipped
     image_download_summary: Optional["ImageDownloadSummary"] = None
     image_errors: List["ImageErrorDetail"] = Field(default_factory=list)
+    
+    # Internal-only metadata for auditability and debugging (not exposed in generic public exports)
+    internal_metadata: Optional[Dict[str, Any]] = None
 
 class ImageDownloadSummary(BaseModel):
     total: int = 0
@@ -77,10 +80,12 @@ class ScrapeResult(BaseModel):
     errors: List[ScrapeError] = Field(default_factory=list)
     image_download_status: Optional[str] = None  # completed, partial, failed, skipped
     image_download_summary: Optional[ImageDownloadSummary] = None
+    internal_audit: Optional[Dict[str, Any]] = None
+
 
 class ScrapeRequest(BaseModel):
     url: str
-    download_images: bool = True
+    download_images: bool = False
 
 class ScrapeJobResponse(BaseModel):
     job_id: str
@@ -102,5 +107,6 @@ class JobStatusResponse(BaseModel):
     django_schema: Optional[str] = None  # /bulk-import/india/, /bulk-import/international/
     image_download_status: Optional[str] = None  # pending, in_progress, completed, partial, failed, skipped
     image_download_summary: Optional[ImageDownloadSummary] = None
+    images_zip_file: Optional[str] = None
     error_message: Optional[str] = None
 

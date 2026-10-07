@@ -441,3 +441,180 @@ def test_django_transformers_with_local_images():
     intl_pkg = intl_payload["packages"][0]
     assert intl_pkg["banner_image"] == "https://www.gtholidays.in/wp-content/bangkok.jpg"
     assert intl_pkg["images"][0]["image"] == "https://www.gtholidays.in/wp-content/pattaya.jpg"
+
+# 13. Generic Public Export Serialization (Source Metadata Kept Internal)
+def test_generic_public_export_serialization(tmp_path: Path):
+    from app.exporters.json_exporter import (
+        serialize_public_package,
+        serialize_public_result,
+        export_to_json,
+    )
+
+    pkg = PackageDetail(
+        name="Scenic Manali Tour",
+        slug="scenic-manali-tour",
+        source_url="https://www.gtholidays.in/package/scenic-manali/",
+        country="India",
+        region="North India",
+        destination="Manali",
+        price=18000.0,
+        currency="INR",
+        banner_image="https://www.gtholidays.in/wp-content/manali.jpg",
+        banner_image_local="scenic-manali-tour/banner.jpg",
+        images=["https://www.gtholidays.in/wp-content/manali1.jpg"],
+        images_local=["scenic-manali-tour/image_001.jpg"],
+        image_download_status="completed",
+        image_download_summary=ImageDownloadSummary(total=2, downloaded=2, failed=0, skipped=0),
+        scraped_at="2026-10-05T12:00:00Z",
+        internal_metadata={
+            "source_adapter": "gt_holidays",
+            "source_url": "https://www.gtholidays.in/package/scenic-manali/",
+        },
+    )
+
+    public_pkg = serialize_public_package(pkg)
+
+    # 1. Public JSON must NOT expose source-specific metadata
+    assert "source_url" not in public_pkg
+    assert "source" not in public_pkg
+    assert "internal_metadata" not in public_pkg
+
+    # 2. Package information is preserved
+    assert public_pkg["name"] == "Scenic Manali Tour"
+    assert public_pkg["slug"] == "scenic-manali-tour"
+    assert public_pkg["price"] == 18000.0
+    assert public_pkg["banner_image"] == "https://www.gtholidays.in/wp-content/manali.jpg"
+    assert public_pkg["banner_image_local"] == "scenic-manali-tour/banner.jpg"
+    assert public_pkg["images_local"] == ["scenic-manali-tour/image_001.jpg"]
+
+    # 3. Original source URL remains recoverable internally
+    assert pkg.source_url == "https://www.gtholidays.in/package/scenic-manali/"
+    assert pkg.internal_metadata["source_url"] == "https://www.gtholidays.in/package/scenic-manali/"
+
+    # 4. Result public serialization check
+    res = ScrapeResult(
+        source="GT Holidays",
+        listing_url="https://www.gtholidays.in/packages/india/north-india/manali-tour-packages/",
+        destination="Manali",
+        total_packages=1,
+        success_count=1,
+        failed_count=0,
+        scraped_at="2026-10-05T12:00:00Z",
+        packages=[pkg],
+    )
+    public_res = serialize_public_result(res)
+    assert "source" not in public_res
+    assert "listing_url" not in public_res
+    assert "internal_audit" not in public_res
+    assert len(public_res["packages"]) == 1
+
+    # 5. File export check (no 'gt-holidays' in filename)
+    settings.output_dir = tmp_path
+    filepath, _ = export_to_json(res, timestamp_str="20261005-150000")
+    assert "gt-holidays" not in filepath.name
+    assert "manali-tour-packages-20261005-150000.json" == filepath.name
+
+    with open(filepath, "r", encoding="utf-8") as f:
+        file_data = json.load(f)
+    assert "source" not in file_data
+    assert "source_url" not in file_data["packages"][0]
+
+# 14. Generic Storage Root Layout
+def test_generic_storage_root_layout():
+    assert "gt_holidays" not in str(settings.storage_root).lower()
+    assert "tour_packages" in str(settings.storage_root).lower()
+
+# 15. Source Adapter Abstraction
+def test_source_adapter_abstraction():
+    from app.scraper.adapter import default_source_adapter
+    assert default_source_adapter.adapter_id == "gt_holidays"
+    assert "gtholidays.in" in default_source_adapter.allowed_domains
+
+# 16. ZIP Archiving of Downloaded Images
+def test_export_images_to_zip(tmp_path: Path):
+    from app.exporters.json_exporter import export_images_to_zip
+    import zipfile
+
+    settings.output_dir = tmp_path / "output"
+    settings.storage_root = tmp_path / "storage"
+    settings.output_dir.mkdir(parents=True, exist_ok=True)
+    settings.storage_root.mkdir(parents=True, exist_ok=True)
+
+    # Create dummy local images
+    pkg_dir = settings.storage_root / "manali-package"
+    pkg_dir.mkdir(parents=True, exist_ok=True)
+    (pkg_dir / "banner.jpg").write_bytes(b"\xff\xd8\xff\xe0dummy_banner")
+    (pkg_dir / "image_001.jpg").write_bytes(b"\xff\xd8\xff\xe0dummy_gallery")
+
+    pkg = PackageDetail(
+        name="Manali Package",
+        slug="manali-package",
+        source_url="https://www.gtholidays.in/manali",
+        banner_image_local="manali-package/banner.jpg",
+        images_local=["manali-package/image_001.jpg"],
+        scraped_at="2026-10-05T16:00:00Z",
+    )
+
+    result = ScrapeResult(
+        source="Test Source",
+        listing_url="https://www.gtholidays.in/manali",
+        destination="Manali",
+        scraped_at="2026-10-05T16:00:00Z",
+        packages=[pkg],
+    )
+
+    zip_file = export_images_to_zip(result, timestamp_str="20261005-160000")
+    assert zip_file is not None
+    assert zip_file.is_file()
+    assert zip_file.name == "manali-tour-packages-images-20261005-160000.zip"
+
+    with zipfile.ZipFile(zip_file, "r") as zf:
+        names = zf.namelist()
+        assert "manali-package/banner.jpg" in names
+        assert "manali-package/image_001.jpg" in names
+
+# 17. On-Demand Image Download Endpoints
+@pytest.mark.asyncio
+async def test_on_demand_download_images_endpoints(tmp_path: Path):
+    from httpx import AsyncClient, ASGITransport
+    from app.main import app
+    from app.services.scraper_service import scraper_service
+
+    settings.storage_root = tmp_path / "storage"
+    settings.output_dir = tmp_path / "output"
+    settings.storage_root.mkdir(parents=True, exist_ok=True)
+    settings.output_dir.mkdir(parents=True, exist_ok=True)
+
+    job_id = scraper_service.create_job("https://www.gtholidays.in/test-listing", download_images=False)
+    job = scraper_service.jobs[job_id]
+    job.status = "completed"
+    job.result = ScrapeResult(
+        source="Test",
+        listing_url="https://www.gtholidays.in/test-listing",
+        destination="Goa",
+        scraped_at="2026-10-05T16:00:00Z",
+        packages=[
+            PackageDetail(
+                name="Goa Tour",
+                slug="goa-tour",
+                source_url="https://www.gtholidays.in/goa-tour",
+                banner_image=None,
+                images=[],
+                scraped_at="2026-10-05T16:00:00Z",
+            )
+        ],
+    )
+
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+        # Trigger on-demand download
+        res = await client.post(f"/api/jobs/{job_id}/download-images")
+        assert res.status_code == 200
+        assert res.json()["status"] in ("started", "in_progress")
+
+        # Check job status endpoint returns images_zip_file field
+        status_res = await client.get(f"/api/jobs/{job_id}")
+        assert status_res.status_code == 200
+        data = status_res.json()
+        assert "image_download_status" in data
+        assert "images_zip_file" in data
+

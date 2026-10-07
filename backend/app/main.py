@@ -7,7 +7,7 @@ from app.config import settings
 app = FastAPI(
     title=settings.app_name,
     version=settings.version,
-    description="Generic GT Holidays Tour Package Scraper API",
+    description="Tour Package Scraper API",
 )
 
 # Mount local storage directory for previewing / downloading images
@@ -28,7 +28,7 @@ app.include_router(router)
 @app.get("/")
 async def root():
     return {
-        "message": "GT Holidays Generic Package Scraper API is running.",
+        "message": "Tour Package Scraper API is running.",
         "docs": "/docs",
         "health": "/api/health",
     }

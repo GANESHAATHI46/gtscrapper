@@ -1265,6 +1265,285 @@ body {
   border: 1px solid rgba(99, 102, 241, 0.4);
 }
 
+/* Downloads & Export Hub Section */
+.download-hub-card {
+  margin-top: 18px;
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.95), rgba(15, 23, 42, 0.98));
+  border: 1px solid rgba(99, 102, 241, 0.25);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(12px);
+}
+
+.download-hub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hub-header-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.hub-card-icon {
+  font-size: 24px;
+  background: rgba(99, 102, 241, 0.2);
+  border: 1px solid rgba(99, 102, 241, 0.4);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.hub-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hub-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.3px;
+}
+
+.hub-card-subtitle {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.hub-action-alert {
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+.hub-action-alert.info {
+  background: rgba(6, 182, 212, 0.15);
+  border: 1px solid rgba(6, 182, 212, 0.4);
+  color: #67e8f9;
+}
+.hub-action-alert.error {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  color: #fca5a5;
+}
+.hub-action-alert .alert-close {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.download-tiles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.download-tile {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  transition: all 0.2s ease;
+}
+
+.download-tile:hover {
+  background: rgba(0, 0, 0, 0.38);
+  border-color: rgba(255, 255, 255, 0.16);
+  transform: translateY(-2px);
+}
+
+.download-tile.raw-tile:hover {
+  border-color: rgba(56, 189, 248, 0.4);
+}
+
+.download-tile.django-tile {
+  border-color: rgba(99, 102, 241, 0.35);
+  background: rgba(99, 102, 241, 0.04);
+}
+.download-tile.django-tile:hover {
+  border-color: rgba(99, 102, 241, 0.6);
+  background: rgba(99, 102, 241, 0.08);
+}
+
+.download-tile.images-tile {
+  border-color: rgba(16, 185, 129, 0.35);
+  background: rgba(16, 185, 129, 0.04);
+}
+.download-tile.images-tile:hover {
+  border-color: rgba(16, 185, 129, 0.6);
+  background: rgba(16, 185, 129, 0.08);
+}
+
+.tile-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tile-badge-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.file-badge.images {
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.4);
+}
+
+.tile-count-badge {
+  font-size: 11px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-secondary);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.tile-market-badge {
+  font-size: 11px;
+  font-weight: 700;
+  background: rgba(99, 102, 241, 0.25);
+  color: #a5b4fc;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.tile-status-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.tile-status-badge.ondemand {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+.tile-status-badge.in-progress {
+  background: rgba(6, 182, 212, 0.2);
+  color: #38bdf8;
+  border: 1px solid rgba(6, 182, 212, 0.4);
+}
+.tile-status-badge.completed {
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.4);
+}
+
+.tile-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.tile-desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  min-height: 52px;
+}
+
+.tile-desc code {
+  font-family: 'JetBrains Mono', monospace;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: #38bdf8;
+  font-size: 11px;
+}
+
+.tile-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.tile-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.tile-meta code {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-secondary);
+}
+
+.tile-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.image-fetch-btn {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: #fff;
+  border: 1px solid rgba(16, 185, 129, 0.5);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+.image-fetch-btn:hover:not(:disabled) {
+  filter: brightness(1.15);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+}
+
+.image-zip-btn {
+  background: linear-gradient(135deg, #06b6d4, #0284c7);
+  color: #fff;
+  border: 1px solid rgba(6, 182, 212, 0.5);
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
+}
+.image-zip-btn:hover:not(:disabled) {
+  filter: brightness(1.15);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(6, 182, 212, 0.4);
+}
+
+.image-resync-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--text-secondary);
+  flex: 0 0 auto;
+}
+.image-resync-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.image-loading-btn {
+  background: rgba(6, 182, 212, 0.15);
+  border: 1px solid rgba(6, 182, 212, 0.35);
+  color: #38bdf8;
+  cursor: not-allowed;
+}
+
 .django-output-card {
   margin-top: 18px;
   margin-bottom: 24px;
